@@ -36,13 +36,13 @@ Light app on a warm stone canvas, with an oxblood brand colour and a steel-blue 
 | `surface` | `#FFFFFF` | Cards, tables |
 | `surface2` | `#ECE8E3` | Table headers, inactive pills |
 | `line` | `#DCD6CF` | Borders, dividers |
-| `ink` | `#1E1A1B` | Body text (15.9:1 on stone) |
+| `ink` | `#1E1A1B` | Body text (15.3:1 on stone) |
 | `ink2` | `#4A4245` | Secondary text (8.6:1 on stone) |
-| `muted` | `#655C5F` | Captions (5.9:1 on stone, 6.6:1 on white) |
+| `muted` | `#655C5F` | Captions (5.7:1 on stone, 6.5:1 on white) |
 | `steel` | `#36587A` | Secondary series, CFPB backdrop line |
-| `approve` / `approveSoft` | `#1D6B47` / `#DDF0E5` | Approve (5.6:1 on its soft tint) |
-| `refer` / `referSoft` | `#8A5A00` / `#FBEBCB` | Refer (5.1:1 on its soft tint) |
-| `decline` / `declineSoft` | `#B02A1E` / `#F9E0DC` | Decline (5.4:1 on its soft tint) |
+| `approve` / `approveSoft` | `#1D6B47` / `#DDF0E5` | Approve (5.4:1 on its soft tint) |
+| `refer` / `referSoft` | `#8A5A00` / `#FBEBCB` | Refer (5.0:1 on its soft tint) |
+| `decline` / `declineSoft` | `#B02A1E` / `#F9E0DC` | Decline (5.2:1 on its soft tint) |
 
 All text pairs meet WCAG AA (4.5:1); ratios were checked with the WCAG formula. The amber is darkened to `#8A5A00` because the brighter `#C98A12` fails on its tint.
 
