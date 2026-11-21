@@ -4,86 +4,169 @@ Score every new-merchant application — approve, refer, or decline — with an 
 
 Owner: Javier Soliz · Last reviewed: November 2026
 
+**Guide:** https://sfc-gh-jsoliz.github.io/sfguide-merchant-risk/ · **Try it (no account):** https://sfc-gh-jsoliz.github.io/sfguide-merchant-risk/try/
+
+![Portfolio screen: KPI tiles above the threshold rail, one tick per application across approve, refer and decline bands](docs/images/01-portfolio.png)
+
 ## What it shows
 
-A Streamlit in Snowflake app for a payments processor / acquirer underwriting & risk-operations team. It generates a one-page underwriting note over a synthetic application/decision book — approval rate, average 0–100 risk score, decline rate, and reserve % by merchant category and credit tier — using only governed data, then a second pass fact-checks the draft against the allowed numbers and badges it **Verified** or **Needs review**. Each note is cross-referenced against an external payment-industry complaint backdrop (the free CFPB Consumer Complaint Database), attached by month and non-additive.
+A Streamlit app for the underwriting and risk-operations team at a payments processor or merchant acquirer. It reads a synthetic book of 720 new-merchant applications (July 2024 to June 2026) and gives the team five screens:
 
-- A **gallery** of underwriting notes, each badged Verified / Needs review.
-- A **sidebar** that generates a new note from the application book.
-- A grounded draft written under DATA RULES (copy figures exactly, no estimates, no hedging), then verified.
+| Screen | What it does | Snowflake capability |
+|---|---|---|
+| **Portfolio** | KPI tiles with trends, every application on the 0–100 threshold rail, decision mix by month, decline reasons, and a CFPB payment-complaint backdrop joined by month | Snowpark session over the `MERCHANT_RISK_BOOK` view |
+| **Applications** | A filterable, sortable review queue; select a merchant to see each factor's contribution to its score, its decision reason and reserve | `MERCHANT_RISK_SCORE_FACTORS` view |
+| **Segments** | Category × credit tier heatmap, score distribution, and the change in decline rate between the first and last six months | Same views |
+| **Underwriting notes** | A one-page note written only from a fact pack of allowed numbers, then fact-checked by a second pass and badged **Verified** or **Needs review** | Cortex `AI_COMPLETE` (twice), saved to `MERCHANT_RISK_REPORTS` |
+| **Ask the agent** | Plain-English questions; the agent writes SQL over the semantic view and answers from the result, showing the table and SQL | Cortex Agent (`MERCHANT_RISK_AGENT`, via `DATA_AGENT_RUN`) with Cortex Analyst over `MERCHANT_RISK_SV` |
 
-## How it works
+The CFPB backdrop is an external, non-additive industry signal, joined to the book **by month only**. It is not this processor's own complaints. By default it is a synthetic CFPB-style series; `sql/cfpb_live_backdrop.sql` swaps in the free CFPB Complaint Database.
 
-- The Streamlit app builds a **fact pack** (aggregated rows for the chosen segments and month) and calls Cortex **`AI_COMPLETE`** twice: once to write the note under strict DATA RULES, once to verify every claim against the fact pack.
-- Setup also creates a Cortex **Agent** (`MERCHANT_RISK_AGENT`) and a Cortex **Analyst** semantic view (`MERCHANT_RISK_SV`) you can explore conversationally in Snowsight. These are provided for exploration and are **not** called by the Streamlit app.
-- The app cross-references the real free **CFPB Consumer Complaint Database** (payment products only) as an external, non-additive industry backdrop — joined to the application book **by month only**. It is an industry signal, not this processor's own complaints. In sample mode the backdrop is synthetic so no listing is required.
+## How the score works
+
+Each application's risk score is the sum of five factors, clamped to 0–100 (the original pack's formula):
+
+| Factor | Contribution |
+|---|---|
+| Category base risk | 28 (grocery) to 62 (electronics) |
+| Chargeback history | + chargeback bps ÷ 10 |
+| Credit tier | + 8 per step from A-Prime to D-HighRisk |
+| Years trading | − 1.2 per year, capped at 15 years |
+| Switching from a prior processor | − 5 |
+
+Under 40 approves, 40 to 69.9 refers to an underwriter, and 70 or more declines with the first matching reason (high chargeback history, thin operating history, high-risk category, composite). Approved merchants carry a reserve of score ÷ 20 %, referred merchants score ÷ 10 %, declines none.
 
 ## Prerequisites
 
-- Snowflake Enterprise Edition or higher, in a region where Cortex AISQL and Cortex Agents are available.
-- A Snowflake account with Cortex AI functions available in your region (`AI_COMPLETE`; defaults to `claude-sonnet-4-5` — change the `MODEL` parameter if your account differs).
-- A role that can `CREATE DATABASE` and `CREATE WAREHOUSE` (setup provisions both in an isolated namespace).
-- Streamlit in Snowflake enabled.
-- Sample mode (`setup_synthetic.sql`) is fully synthetic — no Marketplace listing needed. Deploy mode (`setup.sql`) uses the **free, public** CFPB Complaint Database listing.
+- A Snowflake account (Enterprise Edition or higher recommended) in a region where Cortex AI functions and Cortex Agents are available, with access to `claude-sonnet-4-5` for `AI_COMPLETE`. Change `MODEL` in `app/ai.py` if your account uses another model.
+- `ACCOUNTADMIN`, or a role that can create a role, a warehouse and a database and grant `SNOWFLAKE.CORTEX_USER`. Everything else runs as the least-privilege `MERCHANT_RISK_ROLE` that setup creates.
+- For running the app locally: Python 3.11 or 3.12 and the packages in `app/requirements.txt`. Tested with Streamlit 1.50.0 (the version Streamlit in Snowflake's warehouse runtime offers), Altair 5.5 and pandas 2.3.
+- Live mode locally needs key-pair authentication on your Snowflake user. Nothing in the app collects credentials.
 
-## Setup
+## Quick start: Sample mode (no account)
 
-1. **Sample (no listing):** run [`app/setup_synthetic.sql`](app/setup_synthetic.sql). It provisions the isolated database, schema, and warehouse and builds everything on a synthetic application/decision book **and** a synthetic CFPB backdrop. The app shows a synthetic-data banner.
-2. **Deploy (real CFPB data):** in Snowsight → Marketplace, get the free **CFPB Complaint Database** (`CFPB_COMPLAINT`), then run [`app/setup.sql`](app/setup.sql). It keeps the synthetic book and swaps the CFPB backdrop to a view over the real `CFPB_COMPLAINT.DERIVED.CFPB_COMPLAINT_MAPPED` (payment products only). The app shows a *"Live backdrop"* banner.
-3. **Deploy the app:** create a stage and the Streamlit app **inside `SNOWPACK_MERCHANT_RISK.CORE`** (e.g. `CREATE STAGE SNOWPACK_MERCHANT_RISK.CORE.APP_STAGE`, upload [`app/streamlit_app.py`](app/streamlit_app.py), then `CREATE STREAMLIT SNOWPACK_MERCHANT_RISK.CORE.MERCHANT_RISK_APP`), or paste it into a new Streamlit in Snowsight with `SNOWPACK_MERCHANT_RISK.CORE` as its location. Keeping the stage and app in this schema means [`app/teardown.sql`](app/teardown.sql) removes them with the database.
-4. **Explore the agent:** Snowsight → AI & ML → Agents → **Merchant Risk Agent**.
+Open the [hosted example](https://sfc-gh-jsoliz.github.io/sfguide-merchant-risk/try/), or run the Streamlit app on the bundled synthetic data:
 
-Both scripts build the identical objects, so the app, semantic view, and agent are unchanged between modes.
+```bash
+git clone https://github.com/sfc-gh-jsoliz/sfguide-merchant-risk.git
+cd sfguide-merchant-risk
+pip install -r app/requirements.txt
+streamlit run app/streamlit_app.py
+```
 
-## Customize with Cortex Code
+The sidebar shows **Sample data**. AI answers in Sample mode were captured from Live runs, replayed after a 4–8 second staged wait, and labeled **Sample AI response**.
 
-Point [Cortex Code](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-code) at this pack and adapt it to your own underwriting program. A few prompts to start from:
+## Live mode
 
-- "Rewrite the underwriting-note DATA RULES in `streamlit_app.py` so the draft always states the decline rate and reserve % for the focus category before the overall takeaway."
-- "Change the 0–100 risk score formula in `setup_synthetic.sql` to weight chargeback history and months-trading more heavily, and regenerate the synthetic decision book."
-- "Adjust the reserve % logic so high-risk credit tiers get a higher reserve, then update the semantic view and the verifier so the new numbers are still fact-checked."
-- "Swap the CFPB payment-complaint backdrop for a different product category and update the by-month join and the note's industry-backdrop wording."
+1. **Create the objects.** Open `sql/setup.sql` in a Snowsight worksheet and run it top to bottom (about 17 s). It needs no edits.
+2. **Run the app locally** with key-pair auth (register a public key on your user first):
+
+   ```bash
+   export SNOWFLAKE_ACCOUNT=<org-account>
+   export SNOWFLAKE_USER=<YOUR_USER>
+   export SNOWFLAKE_PRIVATE_KEY_PATH=~/.snowflake/keys/<your_key>.p8
+   streamlit run app/streamlit_app.py
+   ```
+
+   With those variables set the app starts in **Live**; you can still switch to Sample. If Live is picked without a connection, the app shows these steps instead of sample data, and a failed Live query shows its error rather than falling back.
+3. **Or deploy it in Snowflake** (Streamlit in Snowflake). Upload the contents of `app/` (keeping the `views/`, `sample/`, `static/` and `.streamlit/` folders) to `@SNOWPACK_MERCHANT_RISK.CORE.APP_STAGE`, then run as `MERCHANT_RISK_ROLE`:
+
+   ```sql
+   CREATE OR REPLACE STREAMLIT SNOWPACK_MERCHANT_RISK.CORE.MERCHANT_RISK_APP
+     FROM @SNOWPACK_MERCHANT_RISK.CORE.APP_STAGE MAIN_FILE = 'streamlit_app.py'
+     QUERY_WAREHOUSE = SNOWPACK_MERCHANT_RISK_WH
+     RUNTIME_NAME = 'SYSTEM$WAREHOUSE_RUNTIME'
+     TITLE = 'Merchant Risk & Underwriting';
+   ```
+
+   In Snowflake the app uses its own session and needs no key.
+4. **Optional: the real CFPB backdrop.** In Snowsight → Marketplace, get the free **CFPB Complaint Database** listing (mount it as `CFPB_COMPLAINT`), then run `sql/cfpb_live_backdrop.sql`. Re-run `sql/setup.sql` to go back to the synthetic backdrop.
+5. **Explore the agent in Snowsight** too: AI & ML → Agents → **Merchant Risk Agent**, or the semantic view with Cortex Analyst.
 
 ## Objects created
 
+All in database `SNOWPACK_MERCHANT_RISK`, schema `CORE`, owned by `MERCHANT_RISK_ROLE`.
+
 | Object | Type | Purpose |
 |---|---|---|
-| `SNOWPACK_MERCHANT_RISK` | Database | Isolated namespace for this pack |
-| `SNOWPACK_MERCHANT_RISK.CORE` | Schema | Holds all pack objects |
-| `SNOWPACK_MERCHANT_RISK_WH` | Warehouse | XSMALL, auto-suspend 60s, dedicated compute |
-| `MERCHANT_RISK_CATEGORY` | Table | Merchant-category dimension (MCC-aligned) with base risk weight |
-| `MERCHANT_RISK_APPLICATION` | Table | Synthetic new-merchant underwriting applications |
-| `MERCHANT_RISK_DECISION` | Table | Synthetic decisions (approve / refer / decline, risk score, reserve %) |
-| `MERCHANT_RISK_CFPB_BENCHMARK` | Table (sample) / View (deploy) | Monthly CFPB complaint backdrop for payment products |
-| `MERCHANT_RISK_BENCHMARK` | View | Portfolio by category / credit tier / decision / month + CFPB backdrop |
-| `MERCHANT_RISK_DATA_SOURCE_INFO` | View | Marker indicating synthetic vs real backdrop mode |
-| `MERCHANT_RISK_SV` | Semantic view | Cortex Analyst model over the benchmark (explore in Snowsight) |
-| `MERCHANT_RISK_REPORTS` | Table | Persisted underwriting notes with verification status |
-| `MERCHANT_RISK_AGENT` | Cortex Agent | Conversational Cortex Analyst agent over the semantic view |
-| `streamlit_app.py` | Streamlit app | Generates and verifies underwriting notes |
+| `MERCHANT_RISK_ROLE` | Role | Least-privilege pack role, granted to the user who runs setup |
+| `SNOWPACK_MERCHANT_RISK_WH` | Warehouse | XSMALL, auto-suspend 60 s |
+| `MERCHANT_RISK_CATEGORY` | Table | Merchant-category dimension (MCC-aligned) with base risk |
+| `MERCHANT_RISK_APPLICATION` | Table | 720 synthetic applications |
+| `MERCHANT_RISK_CFPB_BENCHMARK` | Table (view after `cfpb_live_backdrop.sql`) | Monthly CFPB payment-complaint backdrop |
+| `MERCHANT_RISK_SCORE_FACTORS` | View | Per-application factor contributions and score |
+| `MERCHANT_RISK_DECISION` | Table | Decision, score, decline reason and reserve per application |
+| `MERCHANT_RISK_BOOK` | View | One row per application with decision and factors (read by the app) |
+| `MERCHANT_RISK_BENCHMARK` | View | Category × tier × decision × month aggregate with the CFPB backdrop |
+| `MERCHANT_RISK_DATA_SOURCE_INFO` | View | Says whether the backdrop is synthetic or the real CFPB listing |
+| `MERCHANT_RISK_SV` | Semantic view | Cortex Analyst model over the benchmark |
+| `MERCHANT_RISK_AGENT` | Cortex Agent | Analyst-backed agent over the semantic view |
+| `MERCHANT_RISK_REPORTS` | Table | Saved underwriting notes, verdicts, flags, fact packs, model and latency |
+| `APP_STAGE` | Stage | Source files for the Streamlit in Snowflake app |
+| `MERCHANT_RISK_APP` | Streamlit | Only if you deploy it (step 3) |
 
 ## Cost & time
 
-Setup runs in a few minutes on the dedicated **XSMALL** warehouse (auto-suspends at 60s). The only usage-based cost is Cortex `AI_COMPLETE` token consumption, incurred per note generated in the app (two calls each: draft + verify). The semantic view and agent cost nothing until queried.
+Measured on 2026-11-21 in a Snowflake demo account (XSMALL warehouse, key-pair auth):
+
+- `sql/setup.sql`: 17 s, and safe to run twice in a row.
+- First Live page load: about 2 s. Each underwriting note: 9–19 s (two `AI_COMPLETE` calls). Each agent answer: 8–27 s.
+- Warehouse: XSMALL bills 1 credit per hour of running time with a 60-second minimum per resume; setup and a full click-through used a few minutes of warehouse time, well under 0.1 credit. Metering had not posted before cleanup, so this is an estimate from measured time.
+- Cortex: each note and each agent answer is billed as AI tokens on top of warehouse time. The semantic view and agent cost nothing until queried.
+
+## Customize with Cortex Code
+
+Point [Cortex Code](https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code) at this repository. Prompts to start from:
+
+- "Explain this pack's data model and map `MERCHANT_RISK_APPLICATION` to my intake tables without changing any objects. Propose a least-privilege role and a validation plan first."
+- "Change the risk-score formula in `MERCHANT_RISK_SCORE_FACTORS` to weight chargeback history and years trading more heavily, regenerate the data with `data/generate.py`, and show how the approve / refer / decline mix moves."
+- "Make the reserve depend on credit tier as well as score, then update the fact pack in `app/ai.py` and the verifier so the new numbers are still fact-checked."
+- "Swap the CFPB payment-complaint backdrop for a different product category in `sql/cfpb_live_backdrop.sql` and update the backdrop wording in the app."
+
+## Data
+
+Everything is synthetic. `data/generate.py` (fixed seed) writes `data/*.csv`, the copies the app reads in `app/sample/`, and the INSERT block in `sql/setup.sql`, so Sample and Live show identical numbers. The planted stories are in [`data/README.md`](data/README.md). Rebuild steps:
+
+```bash
+python3 data/generate.py            # regenerate data and the setup.sql data block
+# run sql/setup.sql, then with the Live variables set:
+python3 scripts/capture_sample.py   # recapture Sample AI responses from Live
+npm run build:example               # rebuild docs/try/data.js and docs/.nojekyll
+```
 
 ## Known limitations
 
-- The application/decision book is **synthetic** in both modes; swap `MERCHANT_RISK_APPLICATION` / `MERCHANT_RISK_DECISION` for your own intake (same columns) to score a real book.
-- The CFPB backdrop is **non-additive** and joined **by month only** — it is an external payment-industry complaint signal, not this processor's own complaints.
-- The static browser try page uses mocked AI responses (illustrative, not live inference).
-- Illustrative example, not a production underwriting system — review and test before any real use.
+- The application book is synthetic in every mode; swap `MERCHANT_RISK_APPLICATION` for your own intake (same columns) to score a real book. The scoring formula and thresholds are illustrative, not a credit model.
+- About 30 applications sit in each category × tier cell and 5 per category per month, so small changes move rates by several points.
+- The CFPB backdrop is non-additive and joined by month only. `sql/cfpb_live_backdrop.sql` was not run in the v2 verification because the listing was not mounted in the test account; its view body is unchanged from the original pack.
+- The verifier is itself a model and can be wrong. In the captured runs 6 of 7 notes verified; the Furniture note was flagged for a total (38 declines) that is in fact correct. Treat **Needs review** as "a person should read this".
+- Agent answers can add caveats or rounding of their own; the result table and SQL are shown so you can check them.
+- Sample mode replays the four suggested questions only; type your own in Live mode.
+- The hosted example is a static JavaScript copy of the app on the same data; it is always Sample mode.
 
 ## Cleanup
 
-Run [`app/teardown.sql`](app/teardown.sql) to drop the `SNOWPACK_MERCHANT_RISK` database and the `SNOWPACK_MERCHANT_RISK_WH` warehouse. The free external CFPB listing, if mounted, is unaffected.
+Run [`sql/cleanup.sql`](sql/cleanup.sql). It drops the database (tables, views, semantic view, agent, notes, stage, Streamlit app) and the warehouse as `MERCHANT_RISK_ROLE`, then drops the role as `ACCOUNTADMIN`. It is safe to run twice. A mounted CFPB listing is not touched.
+
+## Repository layout
+
+```text
+app/            Streamlit app: streamlit_app.py, data.py (Sample/Live), ai.py, brand.py, views/, sample/
+sql/            setup.sql, cleanup.sql, cfpb_live_backdrop.sql (optional)
+data/           generate.py (seeded), generated CSVs, README with the planted stories
+scripts/        capture_sample.py (Live -> Sample AI), build_example.py (hosted example)
+docs/           GitHub Pages guide, DESIGN.md, images/, try/ (hosted example), fonts/
+notebook/       Step-by-step Snowflake notebook of the grounded-note loop
+```
 
 ## Learn more
 
-- [Snowflake Cortex AISQL (`AI_COMPLETE`)](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql)
+- [AI_COMPLETE](https://docs.snowflake.com/en/sql-reference/functions/ai_complete)
 - [Cortex Agents](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents)
-- [Cortex Analyst](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst)
+- [Cortex Analyst](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst) and [semantic views](https://docs.snowflake.com/en/user-guide/views-semantic/overview)
 - [Streamlit in Snowflake](https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit)
+- [Key-pair authentication](https://docs.snowflake.com/en/user-guide/key-pair-auth)
 
 ## License
 
-Apache 2.0 (see [`LICENSE`](LICENSE)). Illustrative example, as-is, not supported by Snowflake Support. This is not an official Snowflake product. Contains no customer data. Review and test before any production use.
+Apache 2.0 (see [`LICENSE`](LICENSE)). Illustrative example, provided as-is, not an official Snowflake product, and not supported by Snowflake Support. Synthetic data only; contains no customer data. Not a production underwriting system or credit advice. Review and test before any production use. Fonts: Instrument Sans and Red Hat Mono, SIL Open Font License (`docs/fonts/`).

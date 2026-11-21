@@ -1,0 +1,721 @@
+application_id,merchant_name,mcc,category_code,category_name,credit_tier,requested_monthly_volume,years_in_business,prior_processor_flag,chargeback_history_bps,month_end
+APP-000000,Clothing & Accessories Merchant #0000,5651,APPAREL,Clothing & Accessories,C-Subprime,243714,12,1,24,2024-07-31
+APP-000001,Electronics & Appliances Merchant #0001,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,41184,24,0,30,2024-07-31
+APP-000002,Furniture & Home Furnishings Merchant #0002,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,188235,7,0,13,2024-07-31
+APP-000003,Food & Beverage Stores Merchant #0003,5411,GROCERY,Food & Beverage Stores,B-NearPrime,186538,14,0,169,2024-07-31
+APP-000004,Health & Personal Care Merchant #0004,5912,HEALTH,Health & Personal Care,B-NearPrime,350113,24,1,311,2024-07-31
+APP-000005,Restaurants & Food Service Merchant #0005,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,321297,6,0,28,2024-07-31
+APP-000006,Clothing & Accessories Merchant #0006,5651,APPAREL,Clothing & Accessories,A-Prime,239093,16,1,105,2024-08-31
+APP-000007,Electronics & Appliances Merchant #0007,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,148625,9,0,130,2024-08-31
+APP-000008,Furniture & Home Furnishings Merchant #0008,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,426156,10,1,133,2024-08-31
+APP-000009,Food & Beverage Stores Merchant #0009,5411,GROCERY,Food & Beverage Stores,B-NearPrime,249735,23,0,309,2024-08-31
+APP-000010,Health & Personal Care Merchant #0010,5912,HEALTH,Health & Personal Care,B-NearPrime,155813,8,1,0,2024-08-31
+APP-000011,Restaurants & Food Service Merchant #0011,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,10370,16,1,43,2024-08-31
+APP-000012,Clothing & Accessories Merchant #0012,5651,APPAREL,Clothing & Accessories,C-Subprime,69302,7,0,267,2024-09-30
+APP-000013,Electronics & Appliances Merchant #0013,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,112122,8,0,395,2024-09-30
+APP-000014,Furniture & Home Furnishings Merchant #0014,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,342694,24,0,269,2024-09-30
+APP-000015,Food & Beverage Stores Merchant #0015,5411,GROCERY,Food & Beverage Stores,B-NearPrime,69710,15,1,387,2024-09-30
+APP-000016,Health & Personal Care Merchant #0016,5912,HEALTH,Health & Personal Care,C-Subprime,12643,17,0,326,2024-09-30
+APP-000017,Restaurants & Food Service Merchant #0017,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,208822,3,1,232,2024-09-30
+APP-000018,Clothing & Accessories Merchant #0018,5651,APPAREL,Clothing & Accessories,B-NearPrime,454110,8,0,272,2024-10-31
+APP-000019,Electronics & Appliances Merchant #0019,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,13184,12,0,144,2024-10-31
+APP-000020,Furniture & Home Furnishings Merchant #0020,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,272741,15,0,370,2024-10-31
+APP-000021,Food & Beverage Stores Merchant #0021,5411,GROCERY,Food & Beverage Stores,D-HighRisk,479127,8,0,0,2024-10-31
+APP-000022,Health & Personal Care Merchant #0022,5912,HEALTH,Health & Personal Care,A-Prime,247824,4,0,83,2024-10-31
+APP-000023,Restaurants & Food Service Merchant #0023,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,369382,23,1,152,2024-10-31
+APP-000024,Clothing & Accessories Merchant #0024,5651,APPAREL,Clothing & Accessories,C-Subprime,123631,1,1,199,2024-11-30
+APP-000025,Electronics & Appliances Merchant #0025,5732,ELECTRONICS,Electronics & Appliances,A-Prime,366091,8,1,102,2024-11-30
+APP-000026,Furniture & Home Furnishings Merchant #0026,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,324635,7,0,21,2024-11-30
+APP-000027,Food & Beverage Stores Merchant #0027,5411,GROCERY,Food & Beverage Stores,C-Subprime,248751,4,0,213,2024-11-30
+APP-000028,Health & Personal Care Merchant #0028,5912,HEALTH,Health & Personal Care,B-NearPrime,345762,8,1,280,2024-11-30
+APP-000029,Restaurants & Food Service Merchant #0029,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,240659,2,1,108,2024-11-30
+APP-000030,Clothing & Accessories Merchant #0030,5651,APPAREL,Clothing & Accessories,A-Prime,478530,3,1,7,2024-12-31
+APP-000031,Electronics & Appliances Merchant #0031,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,317557,10,0,191,2024-12-31
+APP-000032,Furniture & Home Furnishings Merchant #0032,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,371383,21,0,139,2024-12-31
+APP-000033,Food & Beverage Stores Merchant #0033,5411,GROCERY,Food & Beverage Stores,C-Subprime,57987,2,0,63,2024-12-31
+APP-000034,Health & Personal Care Merchant #0034,5912,HEALTH,Health & Personal Care,C-Subprime,261854,22,1,13,2024-12-31
+APP-000035,Restaurants & Food Service Merchant #0035,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,250557,18,0,332,2024-12-31
+APP-000036,Clothing & Accessories Merchant #0036,5651,APPAREL,Clothing & Accessories,C-Subprime,6856,14,0,147,2025-01-31
+APP-000037,Electronics & Appliances Merchant #0037,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,455175,14,0,89,2025-01-31
+APP-000038,Furniture & Home Furnishings Merchant #0038,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,261801,18,0,4,2025-01-31
+APP-000039,Food & Beverage Stores Merchant #0039,5411,GROCERY,Food & Beverage Stores,C-Subprime,461218,17,0,144,2025-01-31
+APP-000040,Health & Personal Care Merchant #0040,5912,HEALTH,Health & Personal Care,A-Prime,413182,17,1,179,2025-01-31
+APP-000041,Restaurants & Food Service Merchant #0041,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,99392,24,1,65,2025-01-31
+APP-000042,Clothing & Accessories Merchant #0042,5651,APPAREL,Clothing & Accessories,C-Subprime,78502,12,1,158,2025-02-28
+APP-000043,Electronics & Appliances Merchant #0043,5732,ELECTRONICS,Electronics & Appliances,A-Prime,58643,6,0,237,2025-02-28
+APP-000044,Furniture & Home Furnishings Merchant #0044,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,361008,0,1,329,2025-02-28
+APP-000045,Food & Beverage Stores Merchant #0045,5411,GROCERY,Food & Beverage Stores,B-NearPrime,175507,7,1,267,2025-02-28
+APP-000046,Health & Personal Care Merchant #0046,5912,HEALTH,Health & Personal Care,D-HighRisk,39798,24,0,154,2025-02-28
+APP-000047,Restaurants & Food Service Merchant #0047,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,197243,21,1,147,2025-02-28
+APP-000048,Clothing & Accessories Merchant #0048,5651,APPAREL,Clothing & Accessories,B-NearPrime,365605,5,0,226,2025-03-31
+APP-000049,Electronics & Appliances Merchant #0049,5732,ELECTRONICS,Electronics & Appliances,A-Prime,384062,24,1,50,2025-03-31
+APP-000050,Furniture & Home Furnishings Merchant #0050,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,386601,22,0,206,2025-03-31
+APP-000051,Food & Beverage Stores Merchant #0051,5411,GROCERY,Food & Beverage Stores,A-Prime,192860,0,0,396,2025-03-31
+APP-000052,Health & Personal Care Merchant #0052,5912,HEALTH,Health & Personal Care,B-NearPrime,140489,7,0,357,2025-03-31
+APP-000053,Restaurants & Food Service Merchant #0053,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,326720,19,0,75,2025-03-31
+APP-000054,Clothing & Accessories Merchant #0054,5651,APPAREL,Clothing & Accessories,C-Subprime,204306,8,0,42,2025-04-30
+APP-000055,Electronics & Appliances Merchant #0055,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,177051,0,0,231,2025-04-30
+APP-000056,Furniture & Home Furnishings Merchant #0056,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,317494,6,0,124,2025-04-30
+APP-000057,Food & Beverage Stores Merchant #0057,5411,GROCERY,Food & Beverage Stores,B-NearPrime,111570,16,1,384,2025-04-30
+APP-000058,Health & Personal Care Merchant #0058,5912,HEALTH,Health & Personal Care,C-Subprime,246535,21,0,307,2025-04-30
+APP-000059,Restaurants & Food Service Merchant #0059,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,261589,4,1,224,2025-04-30
+APP-000060,Clothing & Accessories Merchant #0060,5651,APPAREL,Clothing & Accessories,D-HighRisk,93148,1,0,224,2025-05-31
+APP-000061,Electronics & Appliances Merchant #0061,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,34244,23,1,102,2025-05-31
+APP-000062,Furniture & Home Furnishings Merchant #0062,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,310971,25,0,43,2025-05-31
+APP-000063,Food & Beverage Stores Merchant #0063,5411,GROCERY,Food & Beverage Stores,A-Prime,480479,12,0,131,2025-05-31
+APP-000064,Health & Personal Care Merchant #0064,5912,HEALTH,Health & Personal Care,A-Prime,60178,1,0,13,2025-05-31
+APP-000065,Restaurants & Food Service Merchant #0065,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,444057,8,0,279,2025-05-31
+APP-000066,Clothing & Accessories Merchant #0066,5651,APPAREL,Clothing & Accessories,C-Subprime,372749,17,0,78,2025-06-30
+APP-000067,Electronics & Appliances Merchant #0067,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,99966,19,0,299,2025-06-30
+APP-000068,Furniture & Home Furnishings Merchant #0068,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,499576,6,1,141,2025-06-30
+APP-000069,Food & Beverage Stores Merchant #0069,5411,GROCERY,Food & Beverage Stores,D-HighRisk,131032,7,1,228,2025-06-30
+APP-000070,Health & Personal Care Merchant #0070,5912,HEALTH,Health & Personal Care,A-Prime,205442,16,1,79,2025-06-30
+APP-000071,Restaurants & Food Service Merchant #0071,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,135664,24,1,379,2025-06-30
+APP-000072,Clothing & Accessories Merchant #0072,5651,APPAREL,Clothing & Accessories,B-NearPrime,75742,25,0,192,2025-07-31
+APP-000073,Electronics & Appliances Merchant #0073,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,284407,7,0,180,2025-07-31
+APP-000074,Furniture & Home Furnishings Merchant #0074,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,210082,21,1,379,2025-07-31
+APP-000075,Food & Beverage Stores Merchant #0075,5411,GROCERY,Food & Beverage Stores,C-Subprime,82203,24,0,283,2025-07-31
+APP-000076,Health & Personal Care Merchant #0076,5912,HEALTH,Health & Personal Care,B-NearPrime,153658,16,1,147,2025-07-31
+APP-000077,Restaurants & Food Service Merchant #0077,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,330121,5,1,256,2025-07-31
+APP-000078,Clothing & Accessories Merchant #0078,5651,APPAREL,Clothing & Accessories,A-Prime,186046,4,0,38,2025-08-31
+APP-000079,Electronics & Appliances Merchant #0079,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,352807,18,0,166,2025-08-31
+APP-000080,Furniture & Home Furnishings Merchant #0080,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,469263,21,1,269,2025-08-31
+APP-000081,Food & Beverage Stores Merchant #0081,5411,GROCERY,Food & Beverage Stores,C-Subprime,259794,19,1,96,2025-08-31
+APP-000082,Health & Personal Care Merchant #0082,5912,HEALTH,Health & Personal Care,D-HighRisk,369202,5,0,205,2025-08-31
+APP-000083,Restaurants & Food Service Merchant #0083,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,74964,6,0,139,2025-08-31
+APP-000084,Clothing & Accessories Merchant #0084,5651,APPAREL,Clothing & Accessories,D-HighRisk,493149,23,0,325,2025-09-30
+APP-000085,Electronics & Appliances Merchant #0085,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,487506,1,1,31,2025-09-30
+APP-000086,Furniture & Home Furnishings Merchant #0086,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,409052,1,1,45,2025-09-30
+APP-000087,Food & Beverage Stores Merchant #0087,5411,GROCERY,Food & Beverage Stores,B-NearPrime,406908,13,0,383,2025-09-30
+APP-000088,Health & Personal Care Merchant #0088,5912,HEALTH,Health & Personal Care,C-Subprime,371639,11,1,74,2025-09-30
+APP-000089,Restaurants & Food Service Merchant #0089,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,252484,25,0,3,2025-09-30
+APP-000090,Clothing & Accessories Merchant #0090,5651,APPAREL,Clothing & Accessories,C-Subprime,354981,7,0,19,2025-10-31
+APP-000091,Electronics & Appliances Merchant #0091,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,172966,13,1,370,2025-10-31
+APP-000092,Furniture & Home Furnishings Merchant #0092,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,453788,7,0,209,2025-10-31
+APP-000093,Food & Beverage Stores Merchant #0093,5411,GROCERY,Food & Beverage Stores,C-Subprime,154597,9,0,110,2025-10-31
+APP-000094,Health & Personal Care Merchant #0094,5912,HEALTH,Health & Personal Care,C-Subprime,413918,19,0,353,2025-10-31
+APP-000095,Restaurants & Food Service Merchant #0095,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,350042,19,1,311,2025-10-31
+APP-000096,Clothing & Accessories Merchant #0096,5651,APPAREL,Clothing & Accessories,B-NearPrime,124303,17,0,283,2025-11-30
+APP-000097,Electronics & Appliances Merchant #0097,5732,ELECTRONICS,Electronics & Appliances,A-Prime,393717,12,1,107,2025-11-30
+APP-000098,Furniture & Home Furnishings Merchant #0098,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,484714,13,1,178,2025-11-30
+APP-000099,Food & Beverage Stores Merchant #0099,5411,GROCERY,Food & Beverage Stores,D-HighRisk,251464,3,1,88,2025-11-30
+APP-000100,Health & Personal Care Merchant #0100,5912,HEALTH,Health & Personal Care,D-HighRisk,83921,20,1,316,2025-11-30
+APP-000101,Restaurants & Food Service Merchant #0101,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,144991,21,1,400,2025-11-30
+APP-000102,Clothing & Accessories Merchant #0102,5651,APPAREL,Clothing & Accessories,D-HighRisk,197632,11,0,34,2025-12-31
+APP-000103,Electronics & Appliances Merchant #0103,5732,ELECTRONICS,Electronics & Appliances,A-Prime,193755,2,1,122,2025-12-31
+APP-000104,Furniture & Home Furnishings Merchant #0104,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,211330,24,1,97,2025-12-31
+APP-000105,Food & Beverage Stores Merchant #0105,5411,GROCERY,Food & Beverage Stores,B-NearPrime,227135,25,1,127,2025-12-31
+APP-000106,Health & Personal Care Merchant #0106,5912,HEALTH,Health & Personal Care,D-HighRisk,480237,14,1,277,2025-12-31
+APP-000107,Restaurants & Food Service Merchant #0107,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,116581,15,0,121,2025-12-31
+APP-000108,Clothing & Accessories Merchant #0108,5651,APPAREL,Clothing & Accessories,C-Subprime,257245,13,1,47,2026-01-31
+APP-000109,Electronics & Appliances Merchant #0109,5732,ELECTRONICS,Electronics & Appliances,A-Prime,58699,20,1,216,2026-01-31
+APP-000110,Furniture & Home Furnishings Merchant #0110,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,54685,7,0,333,2026-01-31
+APP-000111,Food & Beverage Stores Merchant #0111,5411,GROCERY,Food & Beverage Stores,C-Subprime,343927,20,0,319,2026-01-31
+APP-000112,Health & Personal Care Merchant #0112,5912,HEALTH,Health & Personal Care,B-NearPrime,247145,24,0,344,2026-01-31
+APP-000113,Restaurants & Food Service Merchant #0113,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,388339,21,1,231,2026-01-31
+APP-000114,Clothing & Accessories Merchant #0114,5651,APPAREL,Clothing & Accessories,A-Prime,364112,2,0,287,2026-02-28
+APP-000115,Electronics & Appliances Merchant #0115,5732,ELECTRONICS,Electronics & Appliances,A-Prime,13535,21,0,284,2026-02-28
+APP-000116,Furniture & Home Furnishings Merchant #0116,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,73330,18,0,314,2026-02-28
+APP-000117,Food & Beverage Stores Merchant #0117,5411,GROCERY,Food & Beverage Stores,B-NearPrime,259540,22,1,279,2026-02-28
+APP-000118,Health & Personal Care Merchant #0118,5912,HEALTH,Health & Personal Care,B-NearPrime,138043,15,1,370,2026-02-28
+APP-000119,Restaurants & Food Service Merchant #0119,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,484021,0,1,265,2026-02-28
+APP-000120,Clothing & Accessories Merchant #0120,5651,APPAREL,Clothing & Accessories,B-NearPrime,438095,11,1,371,2026-03-31
+APP-000121,Electronics & Appliances Merchant #0121,5732,ELECTRONICS,Electronics & Appliances,A-Prime,42955,6,0,360,2026-03-31
+APP-000122,Furniture & Home Furnishings Merchant #0122,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,435539,19,0,365,2026-03-31
+APP-000123,Food & Beverage Stores Merchant #0123,5411,GROCERY,Food & Beverage Stores,D-HighRisk,170758,14,0,343,2026-03-31
+APP-000124,Health & Personal Care Merchant #0124,5912,HEALTH,Health & Personal Care,C-Subprime,222147,9,0,271,2026-03-31
+APP-000125,Restaurants & Food Service Merchant #0125,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,103320,24,1,171,2026-03-31
+APP-000126,Clothing & Accessories Merchant #0126,5651,APPAREL,Clothing & Accessories,B-NearPrime,156039,14,1,159,2026-04-30
+APP-000127,Electronics & Appliances Merchant #0127,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,331321,16,1,149,2026-04-30
+APP-000128,Furniture & Home Furnishings Merchant #0128,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,77147,18,0,382,2026-04-30
+APP-000129,Food & Beverage Stores Merchant #0129,5411,GROCERY,Food & Beverage Stores,B-NearPrime,356187,4,0,294,2026-04-30
+APP-000130,Health & Personal Care Merchant #0130,5912,HEALTH,Health & Personal Care,D-HighRisk,45198,4,0,400,2026-04-30
+APP-000131,Restaurants & Food Service Merchant #0131,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,443762,1,0,276,2026-04-30
+APP-000132,Clothing & Accessories Merchant #0132,5651,APPAREL,Clothing & Accessories,B-NearPrime,299483,2,0,349,2026-05-31
+APP-000133,Electronics & Appliances Merchant #0133,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,112329,4,0,167,2026-05-31
+APP-000134,Furniture & Home Furnishings Merchant #0134,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,408545,22,0,37,2026-05-31
+APP-000135,Food & Beverage Stores Merchant #0135,5411,GROCERY,Food & Beverage Stores,B-NearPrime,136110,21,1,102,2026-05-31
+APP-000136,Health & Personal Care Merchant #0136,5912,HEALTH,Health & Personal Care,A-Prime,478091,6,0,307,2026-05-31
+APP-000137,Restaurants & Food Service Merchant #0137,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,71282,1,1,244,2026-05-31
+APP-000138,Clothing & Accessories Merchant #0138,5651,APPAREL,Clothing & Accessories,C-Subprime,476310,20,1,120,2026-06-30
+APP-000139,Electronics & Appliances Merchant #0139,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,495423,9,1,323,2026-06-30
+APP-000140,Furniture & Home Furnishings Merchant #0140,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,239775,2,1,18,2026-06-30
+APP-000141,Food & Beverage Stores Merchant #0141,5411,GROCERY,Food & Beverage Stores,A-Prime,62419,5,0,347,2026-06-30
+APP-000142,Health & Personal Care Merchant #0142,5912,HEALTH,Health & Personal Care,C-Subprime,397215,23,0,254,2026-06-30
+APP-000143,Restaurants & Food Service Merchant #0143,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,72727,1,1,28,2026-06-30
+APP-000144,Clothing & Accessories Merchant #0144,5651,APPAREL,Clothing & Accessories,D-HighRisk,60710,20,1,99,2024-07-31
+APP-000145,Electronics & Appliances Merchant #0145,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,487375,10,0,12,2024-07-31
+APP-000146,Furniture & Home Furnishings Merchant #0146,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,223914,6,1,185,2024-07-31
+APP-000147,Food & Beverage Stores Merchant #0147,5411,GROCERY,Food & Beverage Stores,A-Prime,377846,21,1,398,2024-07-31
+APP-000148,Health & Personal Care Merchant #0148,5912,HEALTH,Health & Personal Care,B-NearPrime,471952,23,0,189,2024-07-31
+APP-000149,Restaurants & Food Service Merchant #0149,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,307947,0,1,380,2024-07-31
+APP-000150,Clothing & Accessories Merchant #0150,5651,APPAREL,Clothing & Accessories,B-NearPrime,247663,15,0,197,2024-08-31
+APP-000151,Electronics & Appliances Merchant #0151,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,22998,23,1,262,2024-08-31
+APP-000152,Furniture & Home Furnishings Merchant #0152,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,110850,17,0,140,2024-08-31
+APP-000153,Food & Beverage Stores Merchant #0153,5411,GROCERY,Food & Beverage Stores,D-HighRisk,336602,7,1,69,2024-08-31
+APP-000154,Health & Personal Care Merchant #0154,5912,HEALTH,Health & Personal Care,B-NearPrime,283182,9,1,289,2024-08-31
+APP-000155,Restaurants & Food Service Merchant #0155,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,260352,12,0,13,2024-08-31
+APP-000156,Clothing & Accessories Merchant #0156,5651,APPAREL,Clothing & Accessories,B-NearPrime,277924,24,0,64,2024-09-30
+APP-000157,Electronics & Appliances Merchant #0157,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,347605,7,1,213,2024-09-30
+APP-000158,Furniture & Home Furnishings Merchant #0158,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,282310,3,0,0,2024-09-30
+APP-000159,Food & Beverage Stores Merchant #0159,5411,GROCERY,Food & Beverage Stores,D-HighRisk,40569,16,0,95,2024-09-30
+APP-000160,Health & Personal Care Merchant #0160,5912,HEALTH,Health & Personal Care,A-Prime,308367,18,1,195,2024-09-30
+APP-000161,Restaurants & Food Service Merchant #0161,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,438361,9,0,320,2024-09-30
+APP-000162,Clothing & Accessories Merchant #0162,5651,APPAREL,Clothing & Accessories,B-NearPrime,157066,13,1,160,2024-10-31
+APP-000163,Electronics & Appliances Merchant #0163,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,225717,3,0,281,2024-10-31
+APP-000164,Furniture & Home Furnishings Merchant #0164,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,139234,16,1,257,2024-10-31
+APP-000165,Food & Beverage Stores Merchant #0165,5411,GROCERY,Food & Beverage Stores,B-NearPrime,291314,12,0,177,2024-10-31
+APP-000166,Health & Personal Care Merchant #0166,5912,HEALTH,Health & Personal Care,A-Prime,144750,18,1,60,2024-10-31
+APP-000167,Restaurants & Food Service Merchant #0167,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,118679,24,1,262,2024-10-31
+APP-000168,Clothing & Accessories Merchant #0168,5651,APPAREL,Clothing & Accessories,A-Prime,418532,11,1,122,2024-11-30
+APP-000169,Electronics & Appliances Merchant #0169,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,149594,25,1,51,2024-11-30
+APP-000170,Furniture & Home Furnishings Merchant #0170,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,44405,23,1,368,2024-11-30
+APP-000171,Food & Beverage Stores Merchant #0171,5411,GROCERY,Food & Beverage Stores,C-Subprime,404604,20,1,164,2024-11-30
+APP-000172,Health & Personal Care Merchant #0172,5912,HEALTH,Health & Personal Care,A-Prime,226593,0,0,71,2024-11-30
+APP-000173,Restaurants & Food Service Merchant #0173,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,320369,18,0,298,2024-11-30
+APP-000174,Clothing & Accessories Merchant #0174,5651,APPAREL,Clothing & Accessories,B-NearPrime,8330,23,0,148,2024-12-31
+APP-000175,Electronics & Appliances Merchant #0175,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,417390,2,1,299,2024-12-31
+APP-000176,Furniture & Home Furnishings Merchant #0176,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,116864,25,1,306,2024-12-31
+APP-000177,Food & Beverage Stores Merchant #0177,5411,GROCERY,Food & Beverage Stores,D-HighRisk,487766,8,0,109,2024-12-31
+APP-000178,Health & Personal Care Merchant #0178,5912,HEALTH,Health & Personal Care,C-Subprime,192403,14,1,250,2024-12-31
+APP-000179,Restaurants & Food Service Merchant #0179,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,157602,21,1,163,2024-12-31
+APP-000180,Clothing & Accessories Merchant #0180,5651,APPAREL,Clothing & Accessories,D-HighRisk,360727,18,0,348,2025-01-31
+APP-000181,Electronics & Appliances Merchant #0181,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,281093,22,0,238,2025-01-31
+APP-000182,Furniture & Home Furnishings Merchant #0182,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,60212,7,1,117,2025-01-31
+APP-000183,Food & Beverage Stores Merchant #0183,5411,GROCERY,Food & Beverage Stores,A-Prime,496754,9,1,85,2025-01-31
+APP-000184,Health & Personal Care Merchant #0184,5912,HEALTH,Health & Personal Care,B-NearPrime,164515,4,0,98,2025-01-31
+APP-000185,Restaurants & Food Service Merchant #0185,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,413320,2,1,359,2025-01-31
+APP-000186,Clothing & Accessories Merchant #0186,5651,APPAREL,Clothing & Accessories,B-NearPrime,267959,5,0,263,2025-02-28
+APP-000187,Electronics & Appliances Merchant #0187,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,92185,2,0,17,2025-02-28
+APP-000188,Furniture & Home Furnishings Merchant #0188,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,432659,25,0,189,2025-02-28
+APP-000189,Food & Beverage Stores Merchant #0189,5411,GROCERY,Food & Beverage Stores,B-NearPrime,427159,21,0,247,2025-02-28
+APP-000190,Health & Personal Care Merchant #0190,5912,HEALTH,Health & Personal Care,B-NearPrime,415940,8,1,59,2025-02-28
+APP-000191,Restaurants & Food Service Merchant #0191,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,447460,10,1,372,2025-02-28
+APP-000192,Clothing & Accessories Merchant #0192,5651,APPAREL,Clothing & Accessories,A-Prime,130725,24,0,22,2025-03-31
+APP-000193,Electronics & Appliances Merchant #0193,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,228309,17,0,117,2025-03-31
+APP-000194,Furniture & Home Furnishings Merchant #0194,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,278463,15,1,350,2025-03-31
+APP-000195,Food & Beverage Stores Merchant #0195,5411,GROCERY,Food & Beverage Stores,D-HighRisk,109886,6,0,349,2025-03-31
+APP-000196,Health & Personal Care Merchant #0196,5912,HEALTH,Health & Personal Care,A-Prime,250850,15,1,71,2025-03-31
+APP-000197,Restaurants & Food Service Merchant #0197,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,182619,3,1,41,2025-03-31
+APP-000198,Clothing & Accessories Merchant #0198,5651,APPAREL,Clothing & Accessories,A-Prime,328432,11,1,46,2025-04-30
+APP-000199,Electronics & Appliances Merchant #0199,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,448329,12,0,159,2025-04-30
+APP-000200,Furniture & Home Furnishings Merchant #0200,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,203300,0,1,236,2025-04-30
+APP-000201,Food & Beverage Stores Merchant #0201,5411,GROCERY,Food & Beverage Stores,C-Subprime,191694,9,0,255,2025-04-30
+APP-000202,Health & Personal Care Merchant #0202,5912,HEALTH,Health & Personal Care,C-Subprime,422464,24,0,383,2025-04-30
+APP-000203,Restaurants & Food Service Merchant #0203,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,210062,10,0,276,2025-04-30
+APP-000204,Clothing & Accessories Merchant #0204,5651,APPAREL,Clothing & Accessories,C-Subprime,196242,20,0,245,2025-05-31
+APP-000205,Electronics & Appliances Merchant #0205,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,310013,20,1,109,2025-05-31
+APP-000206,Furniture & Home Furnishings Merchant #0206,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,144242,11,0,250,2025-05-31
+APP-000207,Food & Beverage Stores Merchant #0207,5411,GROCERY,Food & Beverage Stores,D-HighRisk,150882,9,1,31,2025-05-31
+APP-000208,Health & Personal Care Merchant #0208,5912,HEALTH,Health & Personal Care,B-NearPrime,106927,16,1,110,2025-05-31
+APP-000209,Restaurants & Food Service Merchant #0209,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,69853,19,0,58,2025-05-31
+APP-000210,Clothing & Accessories Merchant #0210,5651,APPAREL,Clothing & Accessories,A-Prime,21205,23,1,112,2025-06-30
+APP-000211,Electronics & Appliances Merchant #0211,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,67093,18,0,325,2025-06-30
+APP-000212,Furniture & Home Furnishings Merchant #0212,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,246847,13,0,253,2025-06-30
+APP-000213,Food & Beverage Stores Merchant #0213,5411,GROCERY,Food & Beverage Stores,A-Prime,368249,21,0,298,2025-06-30
+APP-000214,Health & Personal Care Merchant #0214,5912,HEALTH,Health & Personal Care,B-NearPrime,140591,15,1,129,2025-06-30
+APP-000215,Restaurants & Food Service Merchant #0215,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,187385,22,1,124,2025-06-30
+APP-000216,Clothing & Accessories Merchant #0216,5651,APPAREL,Clothing & Accessories,C-Subprime,181893,1,1,239,2025-07-31
+APP-000217,Electronics & Appliances Merchant #0217,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,226116,15,1,376,2025-07-31
+APP-000218,Furniture & Home Furnishings Merchant #0218,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,465014,17,0,365,2025-07-31
+APP-000219,Food & Beverage Stores Merchant #0219,5411,GROCERY,Food & Beverage Stores,C-Subprime,132564,24,1,282,2025-07-31
+APP-000220,Health & Personal Care Merchant #0220,5912,HEALTH,Health & Personal Care,D-HighRisk,445853,7,1,280,2025-07-31
+APP-000221,Restaurants & Food Service Merchant #0221,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,228224,5,1,160,2025-07-31
+APP-000222,Clothing & Accessories Merchant #0222,5651,APPAREL,Clothing & Accessories,D-HighRisk,314626,18,1,236,2025-08-31
+APP-000223,Electronics & Appliances Merchant #0223,5732,ELECTRONICS,Electronics & Appliances,A-Prime,452026,0,0,225,2025-08-31
+APP-000224,Furniture & Home Furnishings Merchant #0224,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,491387,9,1,307,2025-08-31
+APP-000225,Food & Beverage Stores Merchant #0225,5411,GROCERY,Food & Beverage Stores,A-Prime,87043,21,0,304,2025-08-31
+APP-000226,Health & Personal Care Merchant #0226,5912,HEALTH,Health & Personal Care,D-HighRisk,66792,2,1,119,2025-08-31
+APP-000227,Restaurants & Food Service Merchant #0227,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,399755,21,0,58,2025-08-31
+APP-000228,Clothing & Accessories Merchant #0228,5651,APPAREL,Clothing & Accessories,B-NearPrime,435538,3,1,302,2025-09-30
+APP-000229,Electronics & Appliances Merchant #0229,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,362003,9,1,205,2025-09-30
+APP-000230,Furniture & Home Furnishings Merchant #0230,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,226326,8,1,249,2025-09-30
+APP-000231,Food & Beverage Stores Merchant #0231,5411,GROCERY,Food & Beverage Stores,A-Prime,469261,18,0,363,2025-09-30
+APP-000232,Health & Personal Care Merchant #0232,5912,HEALTH,Health & Personal Care,D-HighRisk,237621,3,0,34,2025-09-30
+APP-000233,Restaurants & Food Service Merchant #0233,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,57590,7,1,34,2025-09-30
+APP-000234,Clothing & Accessories Merchant #0234,5651,APPAREL,Clothing & Accessories,B-NearPrime,285241,17,1,305,2025-10-31
+APP-000235,Electronics & Appliances Merchant #0235,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,462879,19,0,390,2025-10-31
+APP-000236,Furniture & Home Furnishings Merchant #0236,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,449146,11,0,245,2025-10-31
+APP-000237,Food & Beverage Stores Merchant #0237,5411,GROCERY,Food & Beverage Stores,C-Subprime,273551,10,0,261,2025-10-31
+APP-000238,Health & Personal Care Merchant #0238,5912,HEALTH,Health & Personal Care,D-HighRisk,189183,15,1,42,2025-10-31
+APP-000239,Restaurants & Food Service Merchant #0239,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,453337,5,0,186,2025-10-31
+APP-000240,Clothing & Accessories Merchant #0240,5651,APPAREL,Clothing & Accessories,D-HighRisk,116512,6,1,122,2025-11-30
+APP-000241,Electronics & Appliances Merchant #0241,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,355742,22,1,127,2025-11-30
+APP-000242,Furniture & Home Furnishings Merchant #0242,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,155071,15,0,312,2025-11-30
+APP-000243,Food & Beverage Stores Merchant #0243,5411,GROCERY,Food & Beverage Stores,D-HighRisk,382201,19,0,271,2025-11-30
+APP-000244,Health & Personal Care Merchant #0244,5912,HEALTH,Health & Personal Care,A-Prime,362619,25,0,231,2025-11-30
+APP-000245,Restaurants & Food Service Merchant #0245,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,18646,6,0,191,2025-11-30
+APP-000246,Clothing & Accessories Merchant #0246,5651,APPAREL,Clothing & Accessories,A-Prime,417942,25,1,231,2025-12-31
+APP-000247,Electronics & Appliances Merchant #0247,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,107997,1,0,41,2025-12-31
+APP-000248,Furniture & Home Furnishings Merchant #0248,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,10678,23,1,173,2025-12-31
+APP-000249,Food & Beverage Stores Merchant #0249,5411,GROCERY,Food & Beverage Stores,B-NearPrime,336648,19,0,66,2025-12-31
+APP-000250,Health & Personal Care Merchant #0250,5912,HEALTH,Health & Personal Care,A-Prime,76657,6,0,67,2025-12-31
+APP-000251,Restaurants & Food Service Merchant #0251,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,160786,9,0,350,2025-12-31
+APP-000252,Clothing & Accessories Merchant #0252,5651,APPAREL,Clothing & Accessories,C-Subprime,125782,4,1,56,2026-01-31
+APP-000253,Electronics & Appliances Merchant #0253,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,328776,14,1,265,2026-01-31
+APP-000254,Furniture & Home Furnishings Merchant #0254,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,441316,19,1,362,2026-01-31
+APP-000255,Food & Beverage Stores Merchant #0255,5411,GROCERY,Food & Beverage Stores,A-Prime,203078,15,1,313,2026-01-31
+APP-000256,Health & Personal Care Merchant #0256,5912,HEALTH,Health & Personal Care,C-Subprime,207548,8,0,308,2026-01-31
+APP-000257,Restaurants & Food Service Merchant #0257,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,120375,13,0,52,2026-01-31
+APP-000258,Clothing & Accessories Merchant #0258,5651,APPAREL,Clothing & Accessories,D-HighRisk,184222,18,0,97,2026-02-28
+APP-000259,Electronics & Appliances Merchant #0259,5732,ELECTRONICS,Electronics & Appliances,A-Prime,348049,5,1,241,2026-02-28
+APP-000260,Furniture & Home Furnishings Merchant #0260,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,494980,9,1,271,2026-02-28
+APP-000261,Food & Beverage Stores Merchant #0261,5411,GROCERY,Food & Beverage Stores,D-HighRisk,140995,9,1,281,2026-02-28
+APP-000262,Health & Personal Care Merchant #0262,5912,HEALTH,Health & Personal Care,D-HighRisk,370688,8,0,332,2026-02-28
+APP-000263,Restaurants & Food Service Merchant #0263,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,162031,20,0,59,2026-02-28
+APP-000264,Clothing & Accessories Merchant #0264,5651,APPAREL,Clothing & Accessories,C-Subprime,35352,16,0,318,2026-03-31
+APP-000265,Electronics & Appliances Merchant #0265,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,431662,0,0,214,2026-03-31
+APP-000266,Furniture & Home Furnishings Merchant #0266,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,483676,24,1,13,2026-03-31
+APP-000267,Food & Beverage Stores Merchant #0267,5411,GROCERY,Food & Beverage Stores,C-Subprime,79219,10,0,273,2026-03-31
+APP-000268,Health & Personal Care Merchant #0268,5912,HEALTH,Health & Personal Care,D-HighRisk,15075,6,0,104,2026-03-31
+APP-000269,Restaurants & Food Service Merchant #0269,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,73279,13,0,325,2026-03-31
+APP-000270,Clothing & Accessories Merchant #0270,5651,APPAREL,Clothing & Accessories,C-Subprime,30897,8,1,306,2026-04-30
+APP-000271,Electronics & Appliances Merchant #0271,5732,ELECTRONICS,Electronics & Appliances,A-Prime,73268,11,0,332,2026-04-30
+APP-000272,Furniture & Home Furnishings Merchant #0272,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,377425,25,1,53,2026-04-30
+APP-000273,Food & Beverage Stores Merchant #0273,5411,GROCERY,Food & Beverage Stores,B-NearPrime,66812,7,0,97,2026-04-30
+APP-000274,Health & Personal Care Merchant #0274,5912,HEALTH,Health & Personal Care,D-HighRisk,408108,12,0,244,2026-04-30
+APP-000275,Restaurants & Food Service Merchant #0275,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,266320,1,1,151,2026-04-30
+APP-000276,Clothing & Accessories Merchant #0276,5651,APPAREL,Clothing & Accessories,D-HighRisk,323198,4,1,243,2026-05-31
+APP-000277,Electronics & Appliances Merchant #0277,5732,ELECTRONICS,Electronics & Appliances,A-Prime,83960,21,1,243,2026-05-31
+APP-000278,Furniture & Home Furnishings Merchant #0278,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,492036,25,0,157,2026-05-31
+APP-000279,Food & Beverage Stores Merchant #0279,5411,GROCERY,Food & Beverage Stores,C-Subprime,492666,24,1,378,2026-05-31
+APP-000280,Health & Personal Care Merchant #0280,5912,HEALTH,Health & Personal Care,B-NearPrime,375615,1,1,116,2026-05-31
+APP-000281,Restaurants & Food Service Merchant #0281,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,456492,1,1,15,2026-05-31
+APP-000282,Clothing & Accessories Merchant #0282,5651,APPAREL,Clothing & Accessories,A-Prime,484500,3,1,202,2026-06-30
+APP-000283,Electronics & Appliances Merchant #0283,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,9158,5,1,204,2026-06-30
+APP-000284,Furniture & Home Furnishings Merchant #0284,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,222986,16,0,81,2026-06-30
+APP-000285,Food & Beverage Stores Merchant #0285,5411,GROCERY,Food & Beverage Stores,D-HighRisk,480676,13,0,101,2026-06-30
+APP-000286,Health & Personal Care Merchant #0286,5912,HEALTH,Health & Personal Care,C-Subprime,488007,10,0,21,2026-06-30
+APP-000287,Restaurants & Food Service Merchant #0287,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,409326,1,1,107,2026-06-30
+APP-000288,Clothing & Accessories Merchant #0288,5651,APPAREL,Clothing & Accessories,D-HighRisk,492456,22,0,63,2024-07-31
+APP-000289,Electronics & Appliances Merchant #0289,5732,ELECTRONICS,Electronics & Appliances,A-Prime,115518,8,1,87,2024-07-31
+APP-000290,Furniture & Home Furnishings Merchant #0290,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,192901,5,0,49,2024-07-31
+APP-000291,Food & Beverage Stores Merchant #0291,5411,GROCERY,Food & Beverage Stores,C-Subprime,96029,8,0,298,2024-07-31
+APP-000292,Health & Personal Care Merchant #0292,5912,HEALTH,Health & Personal Care,A-Prime,81425,14,0,99,2024-07-31
+APP-000293,Restaurants & Food Service Merchant #0293,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,443667,7,1,130,2024-07-31
+APP-000294,Clothing & Accessories Merchant #0294,5651,APPAREL,Clothing & Accessories,C-Subprime,86537,0,1,230,2024-08-31
+APP-000295,Electronics & Appliances Merchant #0295,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,379387,0,1,339,2024-08-31
+APP-000296,Furniture & Home Furnishings Merchant #0296,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,95817,8,0,104,2024-08-31
+APP-000297,Food & Beverage Stores Merchant #0297,5411,GROCERY,Food & Beverage Stores,A-Prime,453303,8,0,319,2024-08-31
+APP-000298,Health & Personal Care Merchant #0298,5912,HEALTH,Health & Personal Care,D-HighRisk,6992,4,1,102,2024-08-31
+APP-000299,Restaurants & Food Service Merchant #0299,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,87957,19,0,240,2024-08-31
+APP-000300,Clothing & Accessories Merchant #0300,5651,APPAREL,Clothing & Accessories,C-Subprime,156326,11,1,216,2024-09-30
+APP-000301,Electronics & Appliances Merchant #0301,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,82382,13,0,67,2024-09-30
+APP-000302,Furniture & Home Furnishings Merchant #0302,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,36301,24,0,29,2024-09-30
+APP-000303,Food & Beverage Stores Merchant #0303,5411,GROCERY,Food & Beverage Stores,D-HighRisk,307765,9,0,268,2024-09-30
+APP-000304,Health & Personal Care Merchant #0304,5912,HEALTH,Health & Personal Care,C-Subprime,125973,5,0,386,2024-09-30
+APP-000305,Restaurants & Food Service Merchant #0305,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,95177,23,0,370,2024-09-30
+APP-000306,Clothing & Accessories Merchant #0306,5651,APPAREL,Clothing & Accessories,D-HighRisk,435314,17,1,252,2024-10-31
+APP-000307,Electronics & Appliances Merchant #0307,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,491891,17,0,69,2024-10-31
+APP-000308,Furniture & Home Furnishings Merchant #0308,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,36667,2,1,105,2024-10-31
+APP-000309,Food & Beverage Stores Merchant #0309,5411,GROCERY,Food & Beverage Stores,C-Subprime,384716,3,1,157,2024-10-31
+APP-000310,Health & Personal Care Merchant #0310,5912,HEALTH,Health & Personal Care,B-NearPrime,99920,6,0,363,2024-10-31
+APP-000311,Restaurants & Food Service Merchant #0311,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,402400,8,1,113,2024-10-31
+APP-000312,Clothing & Accessories Merchant #0312,5651,APPAREL,Clothing & Accessories,B-NearPrime,479147,12,0,243,2024-11-30
+APP-000313,Electronics & Appliances Merchant #0313,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,371077,7,1,81,2024-11-30
+APP-000314,Furniture & Home Furnishings Merchant #0314,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,375790,11,0,393,2024-11-30
+APP-000315,Food & Beverage Stores Merchant #0315,5411,GROCERY,Food & Beverage Stores,C-Subprime,54687,16,0,0,2024-11-30
+APP-000316,Health & Personal Care Merchant #0316,5912,HEALTH,Health & Personal Care,D-HighRisk,82795,22,1,322,2024-11-30
+APP-000317,Restaurants & Food Service Merchant #0317,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,479976,22,0,337,2024-11-30
+APP-000318,Clothing & Accessories Merchant #0318,5651,APPAREL,Clothing & Accessories,C-Subprime,300913,17,0,193,2024-12-31
+APP-000319,Electronics & Appliances Merchant #0319,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,452784,13,0,360,2024-12-31
+APP-000320,Furniture & Home Furnishings Merchant #0320,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,21991,1,0,103,2024-12-31
+APP-000321,Food & Beverage Stores Merchant #0321,5411,GROCERY,Food & Beverage Stores,C-Subprime,471417,1,1,230,2024-12-31
+APP-000322,Health & Personal Care Merchant #0322,5912,HEALTH,Health & Personal Care,C-Subprime,232275,0,0,95,2024-12-31
+APP-000323,Restaurants & Food Service Merchant #0323,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,244053,11,1,21,2024-12-31
+APP-000324,Clothing & Accessories Merchant #0324,5651,APPAREL,Clothing & Accessories,C-Subprime,348216,9,0,382,2025-01-31
+APP-000325,Electronics & Appliances Merchant #0325,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,252732,11,1,175,2025-01-31
+APP-000326,Furniture & Home Furnishings Merchant #0326,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,31565,8,0,286,2025-01-31
+APP-000327,Food & Beverage Stores Merchant #0327,5411,GROCERY,Food & Beverage Stores,B-NearPrime,32744,10,1,98,2025-01-31
+APP-000328,Health & Personal Care Merchant #0328,5912,HEALTH,Health & Personal Care,D-HighRisk,137475,19,0,12,2025-01-31
+APP-000329,Restaurants & Food Service Merchant #0329,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,220114,25,0,324,2025-01-31
+APP-000330,Clothing & Accessories Merchant #0330,5651,APPAREL,Clothing & Accessories,D-HighRisk,208446,16,0,122,2025-02-28
+APP-000331,Electronics & Appliances Merchant #0331,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,172376,19,1,390,2025-02-28
+APP-000332,Furniture & Home Furnishings Merchant #0332,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,468410,15,0,43,2025-02-28
+APP-000333,Food & Beverage Stores Merchant #0333,5411,GROCERY,Food & Beverage Stores,C-Subprime,38855,18,1,400,2025-02-28
+APP-000334,Health & Personal Care Merchant #0334,5912,HEALTH,Health & Personal Care,D-HighRisk,191937,19,1,14,2025-02-28
+APP-000335,Restaurants & Food Service Merchant #0335,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,210274,3,1,36,2025-02-28
+APP-000336,Clothing & Accessories Merchant #0336,5651,APPAREL,Clothing & Accessories,D-HighRisk,25508,2,1,369,2025-03-31
+APP-000337,Electronics & Appliances Merchant #0337,5732,ELECTRONICS,Electronics & Appliances,A-Prime,276042,12,0,23,2025-03-31
+APP-000338,Furniture & Home Furnishings Merchant #0338,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,492106,1,0,28,2025-03-31
+APP-000339,Food & Beverage Stores Merchant #0339,5411,GROCERY,Food & Beverage Stores,D-HighRisk,362638,20,0,147,2025-03-31
+APP-000340,Health & Personal Care Merchant #0340,5912,HEALTH,Health & Personal Care,C-Subprime,9252,4,1,92,2025-03-31
+APP-000341,Restaurants & Food Service Merchant #0341,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,19446,24,1,175,2025-03-31
+APP-000342,Clothing & Accessories Merchant #0342,5651,APPAREL,Clothing & Accessories,D-HighRisk,216190,0,1,288,2025-04-30
+APP-000343,Electronics & Appliances Merchant #0343,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,151749,9,0,177,2025-04-30
+APP-000344,Furniture & Home Furnishings Merchant #0344,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,307395,8,0,206,2025-04-30
+APP-000345,Food & Beverage Stores Merchant #0345,5411,GROCERY,Food & Beverage Stores,B-NearPrime,399756,12,1,122,2025-04-30
+APP-000346,Health & Personal Care Merchant #0346,5912,HEALTH,Health & Personal Care,C-Subprime,181318,10,1,168,2025-04-30
+APP-000347,Restaurants & Food Service Merchant #0347,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,233222,19,1,362,2025-04-30
+APP-000348,Clothing & Accessories Merchant #0348,5651,APPAREL,Clothing & Accessories,A-Prime,37857,17,0,268,2025-05-31
+APP-000349,Electronics & Appliances Merchant #0349,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,402600,7,1,7,2025-05-31
+APP-000350,Furniture & Home Furnishings Merchant #0350,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,72249,9,0,322,2025-05-31
+APP-000351,Food & Beverage Stores Merchant #0351,5411,GROCERY,Food & Beverage Stores,D-HighRisk,253798,9,0,319,2025-05-31
+APP-000352,Health & Personal Care Merchant #0352,5912,HEALTH,Health & Personal Care,C-Subprime,146273,7,1,308,2025-05-31
+APP-000353,Restaurants & Food Service Merchant #0353,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,265101,22,1,94,2025-05-31
+APP-000354,Clothing & Accessories Merchant #0354,5651,APPAREL,Clothing & Accessories,D-HighRisk,160708,19,1,343,2025-06-30
+APP-000355,Electronics & Appliances Merchant #0355,5732,ELECTRONICS,Electronics & Appliances,A-Prime,492083,9,1,389,2025-06-30
+APP-000356,Furniture & Home Furnishings Merchant #0356,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,191694,13,0,101,2025-06-30
+APP-000357,Food & Beverage Stores Merchant #0357,5411,GROCERY,Food & Beverage Stores,D-HighRisk,348663,10,0,43,2025-06-30
+APP-000358,Health & Personal Care Merchant #0358,5912,HEALTH,Health & Personal Care,B-NearPrime,488562,24,1,1,2025-06-30
+APP-000359,Restaurants & Food Service Merchant #0359,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,261120,23,0,200,2025-06-30
+APP-000360,Clothing & Accessories Merchant #0360,5651,APPAREL,Clothing & Accessories,B-NearPrime,271960,20,1,15,2025-07-31
+APP-000361,Electronics & Appliances Merchant #0361,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,347412,0,1,338,2025-07-31
+APP-000362,Furniture & Home Furnishings Merchant #0362,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,463678,4,0,325,2025-07-31
+APP-000363,Food & Beverage Stores Merchant #0363,5411,GROCERY,Food & Beverage Stores,D-HighRisk,104422,20,0,315,2025-07-31
+APP-000364,Health & Personal Care Merchant #0364,5912,HEALTH,Health & Personal Care,D-HighRisk,30248,8,1,58,2025-07-31
+APP-000365,Restaurants & Food Service Merchant #0365,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,261934,4,0,161,2025-07-31
+APP-000366,Clothing & Accessories Merchant #0366,5651,APPAREL,Clothing & Accessories,D-HighRisk,101231,17,0,91,2025-08-31
+APP-000367,Electronics & Appliances Merchant #0367,5732,ELECTRONICS,Electronics & Appliances,A-Prime,467321,3,0,370,2025-08-31
+APP-000368,Furniture & Home Furnishings Merchant #0368,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,390150,6,0,308,2025-08-31
+APP-000369,Food & Beverage Stores Merchant #0369,5411,GROCERY,Food & Beverage Stores,A-Prime,93750,8,0,247,2025-08-31
+APP-000370,Health & Personal Care Merchant #0370,5912,HEALTH,Health & Personal Care,D-HighRisk,322566,20,0,398,2025-08-31
+APP-000371,Restaurants & Food Service Merchant #0371,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,226348,9,0,194,2025-08-31
+APP-000372,Clothing & Accessories Merchant #0372,5651,APPAREL,Clothing & Accessories,A-Prime,147023,15,1,130,2025-09-30
+APP-000373,Electronics & Appliances Merchant #0373,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,499219,24,1,322,2025-09-30
+APP-000374,Furniture & Home Furnishings Merchant #0374,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,138016,5,0,278,2025-09-30
+APP-000375,Food & Beverage Stores Merchant #0375,5411,GROCERY,Food & Beverage Stores,D-HighRisk,263605,9,0,49,2025-09-30
+APP-000376,Health & Personal Care Merchant #0376,5912,HEALTH,Health & Personal Care,D-HighRisk,146328,3,0,384,2025-09-30
+APP-000377,Restaurants & Food Service Merchant #0377,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,440099,24,0,105,2025-09-30
+APP-000378,Clothing & Accessories Merchant #0378,5651,APPAREL,Clothing & Accessories,A-Prime,222356,22,0,316,2025-10-31
+APP-000379,Electronics & Appliances Merchant #0379,5732,ELECTRONICS,Electronics & Appliances,A-Prime,235817,5,1,92,2025-10-31
+APP-000380,Furniture & Home Furnishings Merchant #0380,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,72390,19,1,50,2025-10-31
+APP-000381,Food & Beverage Stores Merchant #0381,5411,GROCERY,Food & Beverage Stores,B-NearPrime,202027,21,1,253,2025-10-31
+APP-000382,Health & Personal Care Merchant #0382,5912,HEALTH,Health & Personal Care,A-Prime,330112,8,0,339,2025-10-31
+APP-000383,Restaurants & Food Service Merchant #0383,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,423077,0,0,17,2025-10-31
+APP-000384,Clothing & Accessories Merchant #0384,5651,APPAREL,Clothing & Accessories,D-HighRisk,118454,11,1,29,2025-11-30
+APP-000385,Electronics & Appliances Merchant #0385,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,62147,0,1,256,2025-11-30
+APP-000386,Furniture & Home Furnishings Merchant #0386,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,145067,9,1,290,2025-11-30
+APP-000387,Food & Beverage Stores Merchant #0387,5411,GROCERY,Food & Beverage Stores,C-Subprime,16030,4,1,233,2025-11-30
+APP-000388,Health & Personal Care Merchant #0388,5912,HEALTH,Health & Personal Care,D-HighRisk,222722,6,1,101,2025-11-30
+APP-000389,Restaurants & Food Service Merchant #0389,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,33011,4,0,95,2025-11-30
+APP-000390,Clothing & Accessories Merchant #0390,5651,APPAREL,Clothing & Accessories,B-NearPrime,46452,24,0,297,2025-12-31
+APP-000391,Electronics & Appliances Merchant #0391,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,423428,18,0,117,2025-12-31
+APP-000392,Furniture & Home Furnishings Merchant #0392,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,185093,23,0,171,2025-12-31
+APP-000393,Food & Beverage Stores Merchant #0393,5411,GROCERY,Food & Beverage Stores,A-Prime,477568,18,0,189,2025-12-31
+APP-000394,Health & Personal Care Merchant #0394,5912,HEALTH,Health & Personal Care,C-Subprime,192066,8,0,194,2025-12-31
+APP-000395,Restaurants & Food Service Merchant #0395,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,37270,0,0,236,2025-12-31
+APP-000396,Clothing & Accessories Merchant #0396,5651,APPAREL,Clothing & Accessories,A-Prime,44374,22,0,30,2026-01-31
+APP-000397,Electronics & Appliances Merchant #0397,5732,ELECTRONICS,Electronics & Appliances,A-Prime,236678,14,1,349,2026-01-31
+APP-000398,Furniture & Home Furnishings Merchant #0398,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,360615,12,1,146,2026-01-31
+APP-000399,Food & Beverage Stores Merchant #0399,5411,GROCERY,Food & Beverage Stores,B-NearPrime,348445,24,1,383,2026-01-31
+APP-000400,Health & Personal Care Merchant #0400,5912,HEALTH,Health & Personal Care,D-HighRisk,333338,8,1,281,2026-01-31
+APP-000401,Restaurants & Food Service Merchant #0401,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,310744,8,0,68,2026-01-31
+APP-000402,Clothing & Accessories Merchant #0402,5651,APPAREL,Clothing & Accessories,D-HighRisk,454460,3,1,57,2026-02-28
+APP-000403,Electronics & Appliances Merchant #0403,5732,ELECTRONICS,Electronics & Appliances,A-Prime,211328,3,0,167,2026-02-28
+APP-000404,Furniture & Home Furnishings Merchant #0404,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,414916,3,0,156,2026-02-28
+APP-000405,Food & Beverage Stores Merchant #0405,5411,GROCERY,Food & Beverage Stores,A-Prime,217421,17,1,270,2026-02-28
+APP-000406,Health & Personal Care Merchant #0406,5912,HEALTH,Health & Personal Care,B-NearPrime,437254,3,1,226,2026-02-28
+APP-000407,Restaurants & Food Service Merchant #0407,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,397179,8,1,292,2026-02-28
+APP-000408,Clothing & Accessories Merchant #0408,5651,APPAREL,Clothing & Accessories,C-Subprime,161891,5,1,399,2026-03-31
+APP-000409,Electronics & Appliances Merchant #0409,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,52678,4,0,209,2026-03-31
+APP-000410,Furniture & Home Furnishings Merchant #0410,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,376885,7,0,326,2026-03-31
+APP-000411,Food & Beverage Stores Merchant #0411,5411,GROCERY,Food & Beverage Stores,A-Prime,34620,18,1,52,2026-03-31
+APP-000412,Health & Personal Care Merchant #0412,5912,HEALTH,Health & Personal Care,C-Subprime,370609,3,1,204,2026-03-31
+APP-000413,Restaurants & Food Service Merchant #0413,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,8270,3,0,167,2026-03-31
+APP-000414,Clothing & Accessories Merchant #0414,5651,APPAREL,Clothing & Accessories,A-Prime,245199,17,1,171,2026-04-30
+APP-000415,Electronics & Appliances Merchant #0415,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,229335,19,0,393,2026-04-30
+APP-000416,Furniture & Home Furnishings Merchant #0416,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,345612,11,1,367,2026-04-30
+APP-000417,Food & Beverage Stores Merchant #0417,5411,GROCERY,Food & Beverage Stores,B-NearPrime,467091,3,1,131,2026-04-30
+APP-000418,Health & Personal Care Merchant #0418,5912,HEALTH,Health & Personal Care,B-NearPrime,188567,0,1,328,2026-04-30
+APP-000419,Restaurants & Food Service Merchant #0419,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,285442,0,0,128,2026-04-30
+APP-000420,Clothing & Accessories Merchant #0420,5651,APPAREL,Clothing & Accessories,A-Prime,49760,10,0,359,2026-05-31
+APP-000421,Electronics & Appliances Merchant #0421,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,368505,18,1,367,2026-05-31
+APP-000422,Furniture & Home Furnishings Merchant #0422,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,414600,14,1,192,2026-05-31
+APP-000423,Food & Beverage Stores Merchant #0423,5411,GROCERY,Food & Beverage Stores,A-Prime,302135,8,0,163,2026-05-31
+APP-000424,Health & Personal Care Merchant #0424,5912,HEALTH,Health & Personal Care,C-Subprime,103954,17,1,343,2026-05-31
+APP-000425,Restaurants & Food Service Merchant #0425,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,361441,1,1,352,2026-05-31
+APP-000426,Clothing & Accessories Merchant #0426,5651,APPAREL,Clothing & Accessories,B-NearPrime,263150,1,1,25,2026-06-30
+APP-000427,Electronics & Appliances Merchant #0427,5732,ELECTRONICS,Electronics & Appliances,A-Prime,243575,5,0,287,2026-06-30
+APP-000428,Furniture & Home Furnishings Merchant #0428,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,21389,1,0,238,2026-06-30
+APP-000429,Food & Beverage Stores Merchant #0429,5411,GROCERY,Food & Beverage Stores,B-NearPrime,95861,5,1,92,2026-06-30
+APP-000430,Health & Personal Care Merchant #0430,5912,HEALTH,Health & Personal Care,A-Prime,60638,11,1,363,2026-06-30
+APP-000431,Restaurants & Food Service Merchant #0431,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,460065,1,0,226,2026-06-30
+APP-000432,Clothing & Accessories Merchant #0432,5651,APPAREL,Clothing & Accessories,D-HighRisk,23263,25,1,388,2024-07-31
+APP-000433,Electronics & Appliances Merchant #0433,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,285563,2,0,206,2024-07-31
+APP-000434,Furniture & Home Furnishings Merchant #0434,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,340815,3,1,48,2024-07-31
+APP-000435,Food & Beverage Stores Merchant #0435,5411,GROCERY,Food & Beverage Stores,B-NearPrime,337195,19,1,170,2024-07-31
+APP-000436,Health & Personal Care Merchant #0436,5912,HEALTH,Health & Personal Care,C-Subprime,360399,22,0,49,2024-07-31
+APP-000437,Restaurants & Food Service Merchant #0437,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,194892,20,0,381,2024-07-31
+APP-000438,Clothing & Accessories Merchant #0438,5651,APPAREL,Clothing & Accessories,A-Prime,92334,8,1,197,2024-08-31
+APP-000439,Electronics & Appliances Merchant #0439,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,434733,25,0,292,2024-08-31
+APP-000440,Furniture & Home Furnishings Merchant #0440,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,379264,5,0,328,2024-08-31
+APP-000441,Food & Beverage Stores Merchant #0441,5411,GROCERY,Food & Beverage Stores,A-Prime,167428,12,0,314,2024-08-31
+APP-000442,Health & Personal Care Merchant #0442,5912,HEALTH,Health & Personal Care,D-HighRisk,376833,0,1,389,2024-08-31
+APP-000443,Restaurants & Food Service Merchant #0443,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,285597,3,0,340,2024-08-31
+APP-000444,Clothing & Accessories Merchant #0444,5651,APPAREL,Clothing & Accessories,C-Subprime,309911,25,1,280,2024-09-30
+APP-000445,Electronics & Appliances Merchant #0445,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,340848,11,1,130,2024-09-30
+APP-000446,Furniture & Home Furnishings Merchant #0446,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,86394,17,0,296,2024-09-30
+APP-000447,Food & Beverage Stores Merchant #0447,5411,GROCERY,Food & Beverage Stores,B-NearPrime,153159,18,1,372,2024-09-30
+APP-000448,Health & Personal Care Merchant #0448,5912,HEALTH,Health & Personal Care,A-Prime,444598,8,1,23,2024-09-30
+APP-000449,Restaurants & Food Service Merchant #0449,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,145441,24,0,228,2024-09-30
+APP-000450,Clothing & Accessories Merchant #0450,5651,APPAREL,Clothing & Accessories,A-Prime,486983,8,0,150,2024-10-31
+APP-000451,Electronics & Appliances Merchant #0451,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,69489,19,0,80,2024-10-31
+APP-000452,Furniture & Home Furnishings Merchant #0452,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,409129,15,1,245,2024-10-31
+APP-000453,Food & Beverage Stores Merchant #0453,5411,GROCERY,Food & Beverage Stores,B-NearPrime,27450,3,0,147,2024-10-31
+APP-000454,Health & Personal Care Merchant #0454,5912,HEALTH,Health & Personal Care,C-Subprime,78667,9,1,168,2024-10-31
+APP-000455,Restaurants & Food Service Merchant #0455,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,9949,0,1,230,2024-10-31
+APP-000456,Clothing & Accessories Merchant #0456,5651,APPAREL,Clothing & Accessories,D-HighRisk,403837,6,0,300,2024-11-30
+APP-000457,Electronics & Appliances Merchant #0457,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,471647,25,1,260,2024-11-30
+APP-000458,Furniture & Home Furnishings Merchant #0458,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,157818,9,0,292,2024-11-30
+APP-000459,Food & Beverage Stores Merchant #0459,5411,GROCERY,Food & Beverage Stores,A-Prime,6585,8,1,131,2024-11-30
+APP-000460,Health & Personal Care Merchant #0460,5912,HEALTH,Health & Personal Care,C-Subprime,152022,0,0,92,2024-11-30
+APP-000461,Restaurants & Food Service Merchant #0461,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,119320,21,1,43,2024-11-30
+APP-000462,Clothing & Accessories Merchant #0462,5651,APPAREL,Clothing & Accessories,C-Subprime,387619,13,1,224,2024-12-31
+APP-000463,Electronics & Appliances Merchant #0463,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,201069,12,1,293,2024-12-31
+APP-000464,Furniture & Home Furnishings Merchant #0464,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,49105,21,1,83,2024-12-31
+APP-000465,Food & Beverage Stores Merchant #0465,5411,GROCERY,Food & Beverage Stores,B-NearPrime,329246,15,1,72,2024-12-31
+APP-000466,Health & Personal Care Merchant #0466,5912,HEALTH,Health & Personal Care,B-NearPrime,277400,10,1,97,2024-12-31
+APP-000467,Restaurants & Food Service Merchant #0467,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,231070,0,1,199,2024-12-31
+APP-000468,Clothing & Accessories Merchant #0468,5651,APPAREL,Clothing & Accessories,D-HighRisk,466266,2,0,259,2025-01-31
+APP-000469,Electronics & Appliances Merchant #0469,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,44222,21,1,69,2025-01-31
+APP-000470,Furniture & Home Furnishings Merchant #0470,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,466585,3,0,218,2025-01-31
+APP-000471,Food & Beverage Stores Merchant #0471,5411,GROCERY,Food & Beverage Stores,D-HighRisk,485317,1,0,152,2025-01-31
+APP-000472,Health & Personal Care Merchant #0472,5912,HEALTH,Health & Personal Care,D-HighRisk,293482,0,1,261,2025-01-31
+APP-000473,Restaurants & Food Service Merchant #0473,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,244796,23,1,53,2025-01-31
+APP-000474,Clothing & Accessories Merchant #0474,5651,APPAREL,Clothing & Accessories,A-Prime,294441,16,1,61,2025-02-28
+APP-000475,Electronics & Appliances Merchant #0475,5732,ELECTRONICS,Electronics & Appliances,A-Prime,232630,2,0,60,2025-02-28
+APP-000476,Furniture & Home Furnishings Merchant #0476,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,399071,1,0,271,2025-02-28
+APP-000477,Food & Beverage Stores Merchant #0477,5411,GROCERY,Food & Beverage Stores,A-Prime,379178,15,0,235,2025-02-28
+APP-000478,Health & Personal Care Merchant #0478,5912,HEALTH,Health & Personal Care,D-HighRisk,64067,14,1,7,2025-02-28
+APP-000479,Restaurants & Food Service Merchant #0479,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,439249,1,1,43,2025-02-28
+APP-000480,Clothing & Accessories Merchant #0480,5651,APPAREL,Clothing & Accessories,A-Prime,435792,18,0,301,2025-03-31
+APP-000481,Electronics & Appliances Merchant #0481,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,399110,14,0,298,2025-03-31
+APP-000482,Furniture & Home Furnishings Merchant #0482,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,173559,6,0,220,2025-03-31
+APP-000483,Food & Beverage Stores Merchant #0483,5411,GROCERY,Food & Beverage Stores,D-HighRisk,125349,2,0,269,2025-03-31
+APP-000484,Health & Personal Care Merchant #0484,5912,HEALTH,Health & Personal Care,A-Prime,84420,4,1,323,2025-03-31
+APP-000485,Restaurants & Food Service Merchant #0485,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,221921,3,1,273,2025-03-31
+APP-000486,Clothing & Accessories Merchant #0486,5651,APPAREL,Clothing & Accessories,C-Subprime,486771,11,1,373,2025-04-30
+APP-000487,Electronics & Appliances Merchant #0487,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,413454,0,1,108,2025-04-30
+APP-000488,Furniture & Home Furnishings Merchant #0488,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,96371,5,0,253,2025-04-30
+APP-000489,Food & Beverage Stores Merchant #0489,5411,GROCERY,Food & Beverage Stores,B-NearPrime,167931,8,0,293,2025-04-30
+APP-000490,Health & Personal Care Merchant #0490,5912,HEALTH,Health & Personal Care,A-Prime,107000,23,0,161,2025-04-30
+APP-000491,Restaurants & Food Service Merchant #0491,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,98122,9,1,280,2025-04-30
+APP-000492,Clothing & Accessories Merchant #0492,5651,APPAREL,Clothing & Accessories,D-HighRisk,133982,23,0,366,2025-05-31
+APP-000493,Electronics & Appliances Merchant #0493,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,51075,20,0,199,2025-05-31
+APP-000494,Furniture & Home Furnishings Merchant #0494,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,16612,17,1,171,2025-05-31
+APP-000495,Food & Beverage Stores Merchant #0495,5411,GROCERY,Food & Beverage Stores,D-HighRisk,187569,20,0,306,2025-05-31
+APP-000496,Health & Personal Care Merchant #0496,5912,HEALTH,Health & Personal Care,C-Subprime,301684,1,0,301,2025-05-31
+APP-000497,Restaurants & Food Service Merchant #0497,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,369715,3,0,3,2025-05-31
+APP-000498,Clothing & Accessories Merchant #0498,5651,APPAREL,Clothing & Accessories,A-Prime,266327,22,1,24,2025-06-30
+APP-000499,Electronics & Appliances Merchant #0499,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,214531,17,1,131,2025-06-30
+APP-000500,Furniture & Home Furnishings Merchant #0500,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,26816,6,1,41,2025-06-30
+APP-000501,Food & Beverage Stores Merchant #0501,5411,GROCERY,Food & Beverage Stores,A-Prime,123605,17,0,74,2025-06-30
+APP-000502,Health & Personal Care Merchant #0502,5912,HEALTH,Health & Personal Care,A-Prime,246517,4,0,392,2025-06-30
+APP-000503,Restaurants & Food Service Merchant #0503,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,99965,22,1,163,2025-06-30
+APP-000504,Clothing & Accessories Merchant #0504,5651,APPAREL,Clothing & Accessories,D-HighRisk,117755,12,1,115,2025-07-31
+APP-000505,Electronics & Appliances Merchant #0505,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,97794,13,1,52,2025-07-31
+APP-000506,Furniture & Home Furnishings Merchant #0506,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,306234,0,0,292,2025-07-31
+APP-000507,Food & Beverage Stores Merchant #0507,5411,GROCERY,Food & Beverage Stores,A-Prime,117744,10,1,4,2025-07-31
+APP-000508,Health & Personal Care Merchant #0508,5912,HEALTH,Health & Personal Care,B-NearPrime,153873,16,1,114,2025-07-31
+APP-000509,Restaurants & Food Service Merchant #0509,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,40998,7,1,174,2025-07-31
+APP-000510,Clothing & Accessories Merchant #0510,5651,APPAREL,Clothing & Accessories,A-Prime,284618,9,0,114,2025-08-31
+APP-000511,Electronics & Appliances Merchant #0511,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,122806,22,0,157,2025-08-31
+APP-000512,Furniture & Home Furnishings Merchant #0512,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,94782,23,0,179,2025-08-31
+APP-000513,Food & Beverage Stores Merchant #0513,5411,GROCERY,Food & Beverage Stores,B-NearPrime,435409,18,1,184,2025-08-31
+APP-000514,Health & Personal Care Merchant #0514,5912,HEALTH,Health & Personal Care,C-Subprime,173060,8,1,200,2025-08-31
+APP-000515,Restaurants & Food Service Merchant #0515,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,190426,14,0,393,2025-08-31
+APP-000516,Clothing & Accessories Merchant #0516,5651,APPAREL,Clothing & Accessories,D-HighRisk,425876,13,0,117,2025-09-30
+APP-000517,Electronics & Appliances Merchant #0517,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,379032,4,0,117,2025-09-30
+APP-000518,Furniture & Home Furnishings Merchant #0518,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,362386,18,0,124,2025-09-30
+APP-000519,Food & Beverage Stores Merchant #0519,5411,GROCERY,Food & Beverage Stores,D-HighRisk,244126,19,0,298,2025-09-30
+APP-000520,Health & Personal Care Merchant #0520,5912,HEALTH,Health & Personal Care,A-Prime,321187,23,0,362,2025-09-30
+APP-000521,Restaurants & Food Service Merchant #0521,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,368619,23,1,109,2025-09-30
+APP-000522,Clothing & Accessories Merchant #0522,5651,APPAREL,Clothing & Accessories,D-HighRisk,416877,9,1,151,2025-10-31
+APP-000523,Electronics & Appliances Merchant #0523,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,115740,17,1,22,2025-10-31
+APP-000524,Furniture & Home Furnishings Merchant #0524,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,356410,6,0,105,2025-10-31
+APP-000525,Food & Beverage Stores Merchant #0525,5411,GROCERY,Food & Beverage Stores,D-HighRisk,107631,16,1,245,2025-10-31
+APP-000526,Health & Personal Care Merchant #0526,5912,HEALTH,Health & Personal Care,B-NearPrime,114818,18,0,76,2025-10-31
+APP-000527,Restaurants & Food Service Merchant #0527,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,415113,13,0,159,2025-10-31
+APP-000528,Clothing & Accessories Merchant #0528,5651,APPAREL,Clothing & Accessories,D-HighRisk,216784,18,0,193,2025-11-30
+APP-000529,Electronics & Appliances Merchant #0529,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,287600,18,0,178,2025-11-30
+APP-000530,Furniture & Home Furnishings Merchant #0530,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,252080,20,1,34,2025-11-30
+APP-000531,Food & Beverage Stores Merchant #0531,5411,GROCERY,Food & Beverage Stores,C-Subprime,174037,7,0,253,2025-11-30
+APP-000532,Health & Personal Care Merchant #0532,5912,HEALTH,Health & Personal Care,A-Prime,102598,6,1,381,2025-11-30
+APP-000533,Restaurants & Food Service Merchant #0533,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,336099,6,1,150,2025-11-30
+APP-000534,Clothing & Accessories Merchant #0534,5651,APPAREL,Clothing & Accessories,A-Prime,60372,23,1,239,2025-12-31
+APP-000535,Electronics & Appliances Merchant #0535,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,178987,17,0,346,2025-12-31
+APP-000536,Furniture & Home Furnishings Merchant #0536,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,64178,13,0,163,2025-12-31
+APP-000537,Food & Beverage Stores Merchant #0537,5411,GROCERY,Food & Beverage Stores,A-Prime,335633,24,1,235,2025-12-31
+APP-000538,Health & Personal Care Merchant #0538,5912,HEALTH,Health & Personal Care,A-Prime,259173,7,0,129,2025-12-31
+APP-000539,Restaurants & Food Service Merchant #0539,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,132410,3,1,317,2025-12-31
+APP-000540,Clothing & Accessories Merchant #0540,5651,APPAREL,Clothing & Accessories,C-Subprime,411401,13,1,129,2026-01-31
+APP-000541,Electronics & Appliances Merchant #0541,5732,ELECTRONICS,Electronics & Appliances,A-Prime,87663,23,0,212,2026-01-31
+APP-000542,Furniture & Home Furnishings Merchant #0542,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,6801,8,1,248,2026-01-31
+APP-000543,Food & Beverage Stores Merchant #0543,5411,GROCERY,Food & Beverage Stores,B-NearPrime,192605,4,0,107,2026-01-31
+APP-000544,Health & Personal Care Merchant #0544,5912,HEALTH,Health & Personal Care,D-HighRisk,399444,19,1,262,2026-01-31
+APP-000545,Restaurants & Food Service Merchant #0545,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,389703,17,1,176,2026-01-31
+APP-000546,Clothing & Accessories Merchant #0546,5651,APPAREL,Clothing & Accessories,D-HighRisk,274854,3,0,74,2026-02-28
+APP-000547,Electronics & Appliances Merchant #0547,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,38358,19,1,251,2026-02-28
+APP-000548,Furniture & Home Furnishings Merchant #0548,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,359771,5,0,330,2026-02-28
+APP-000549,Food & Beverage Stores Merchant #0549,5411,GROCERY,Food & Beverage Stores,A-Prime,102478,9,0,234,2026-02-28
+APP-000550,Health & Personal Care Merchant #0550,5912,HEALTH,Health & Personal Care,D-HighRisk,26590,25,1,117,2026-02-28
+APP-000551,Restaurants & Food Service Merchant #0551,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,110575,18,1,71,2026-02-28
+APP-000552,Clothing & Accessories Merchant #0552,5651,APPAREL,Clothing & Accessories,C-Subprime,417596,21,1,241,2026-03-31
+APP-000553,Electronics & Appliances Merchant #0553,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,52288,23,1,297,2026-03-31
+APP-000554,Furniture & Home Furnishings Merchant #0554,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,425519,10,0,149,2026-03-31
+APP-000555,Food & Beverage Stores Merchant #0555,5411,GROCERY,Food & Beverage Stores,C-Subprime,340011,22,1,194,2026-03-31
+APP-000556,Health & Personal Care Merchant #0556,5912,HEALTH,Health & Personal Care,C-Subprime,455247,25,0,299,2026-03-31
+APP-000557,Restaurants & Food Service Merchant #0557,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,261590,0,1,192,2026-03-31
+APP-000558,Clothing & Accessories Merchant #0558,5651,APPAREL,Clothing & Accessories,D-HighRisk,253073,25,0,224,2026-04-30
+APP-000559,Electronics & Appliances Merchant #0559,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,302417,23,0,274,2026-04-30
+APP-000560,Furniture & Home Furnishings Merchant #0560,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,374382,15,1,236,2026-04-30
+APP-000561,Food & Beverage Stores Merchant #0561,5411,GROCERY,Food & Beverage Stores,B-NearPrime,480901,21,0,297,2026-04-30
+APP-000562,Health & Personal Care Merchant #0562,5912,HEALTH,Health & Personal Care,D-HighRisk,199721,19,1,74,2026-04-30
+APP-000563,Restaurants & Food Service Merchant #0563,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,464937,1,0,365,2026-04-30
+APP-000564,Clothing & Accessories Merchant #0564,5651,APPAREL,Clothing & Accessories,D-HighRisk,150662,7,1,309,2026-05-31
+APP-000565,Electronics & Appliances Merchant #0565,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,121688,11,0,232,2026-05-31
+APP-000566,Furniture & Home Furnishings Merchant #0566,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,95093,16,1,85,2026-05-31
+APP-000567,Food & Beverage Stores Merchant #0567,5411,GROCERY,Food & Beverage Stores,B-NearPrime,397792,14,0,162,2026-05-31
+APP-000568,Health & Personal Care Merchant #0568,5912,HEALTH,Health & Personal Care,C-Subprime,38785,16,1,162,2026-05-31
+APP-000569,Restaurants & Food Service Merchant #0569,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,445682,1,0,377,2026-05-31
+APP-000570,Clothing & Accessories Merchant #0570,5651,APPAREL,Clothing & Accessories,C-Subprime,186709,4,0,36,2026-06-30
+APP-000571,Electronics & Appliances Merchant #0571,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,140111,10,1,369,2026-06-30
+APP-000572,Furniture & Home Furnishings Merchant #0572,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,426714,14,0,361,2026-06-30
+APP-000573,Food & Beverage Stores Merchant #0573,5411,GROCERY,Food & Beverage Stores,C-Subprime,457744,21,1,67,2026-06-30
+APP-000574,Health & Personal Care Merchant #0574,5912,HEALTH,Health & Personal Care,C-Subprime,433846,5,0,200,2026-06-30
+APP-000575,Restaurants & Food Service Merchant #0575,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,329188,1,0,109,2026-06-30
+APP-000576,Clothing & Accessories Merchant #0576,5651,APPAREL,Clothing & Accessories,D-HighRisk,465404,15,0,81,2024-07-31
+APP-000577,Electronics & Appliances Merchant #0577,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,493166,12,0,387,2024-07-31
+APP-000578,Furniture & Home Furnishings Merchant #0578,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,261631,0,0,32,2024-07-31
+APP-000579,Food & Beverage Stores Merchant #0579,5411,GROCERY,Food & Beverage Stores,B-NearPrime,463978,19,1,202,2024-07-31
+APP-000580,Health & Personal Care Merchant #0580,5912,HEALTH,Health & Personal Care,C-Subprime,338361,13,1,386,2024-07-31
+APP-000581,Restaurants & Food Service Merchant #0581,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,48771,12,0,399,2024-07-31
+APP-000582,Clothing & Accessories Merchant #0582,5651,APPAREL,Clothing & Accessories,D-HighRisk,127149,23,0,0,2024-08-31
+APP-000583,Electronics & Appliances Merchant #0583,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,344432,4,1,306,2024-08-31
+APP-000584,Furniture & Home Furnishings Merchant #0584,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,443174,19,0,191,2024-08-31
+APP-000585,Food & Beverage Stores Merchant #0585,5411,GROCERY,Food & Beverage Stores,A-Prime,153473,7,0,70,2024-08-31
+APP-000586,Health & Personal Care Merchant #0586,5912,HEALTH,Health & Personal Care,D-HighRisk,261722,0,0,196,2024-08-31
+APP-000587,Restaurants & Food Service Merchant #0587,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,42454,11,1,257,2024-08-31
+APP-000588,Clothing & Accessories Merchant #0588,5651,APPAREL,Clothing & Accessories,B-NearPrime,477985,22,0,271,2024-09-30
+APP-000589,Electronics & Appliances Merchant #0589,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,341599,9,0,196,2024-09-30
+APP-000590,Furniture & Home Furnishings Merchant #0590,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,84081,15,1,115,2024-09-30
+APP-000591,Food & Beverage Stores Merchant #0591,5411,GROCERY,Food & Beverage Stores,C-Subprime,419655,17,0,129,2024-09-30
+APP-000592,Health & Personal Care Merchant #0592,5912,HEALTH,Health & Personal Care,B-NearPrime,413792,9,0,352,2024-09-30
+APP-000593,Restaurants & Food Service Merchant #0593,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,440139,20,1,314,2024-09-30
+APP-000594,Clothing & Accessories Merchant #0594,5651,APPAREL,Clothing & Accessories,A-Prime,198024,9,1,70,2024-10-31
+APP-000595,Electronics & Appliances Merchant #0595,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,215032,21,0,275,2024-10-31
+APP-000596,Furniture & Home Furnishings Merchant #0596,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,94572,15,0,369,2024-10-31
+APP-000597,Food & Beverage Stores Merchant #0597,5411,GROCERY,Food & Beverage Stores,C-Subprime,267944,10,0,194,2024-10-31
+APP-000598,Health & Personal Care Merchant #0598,5912,HEALTH,Health & Personal Care,D-HighRisk,94014,15,1,183,2024-10-31
+APP-000599,Restaurants & Food Service Merchant #0599,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,296682,2,0,331,2024-10-31
+APP-000600,Clothing & Accessories Merchant #0600,5651,APPAREL,Clothing & Accessories,D-HighRisk,29675,2,1,215,2024-11-30
+APP-000601,Electronics & Appliances Merchant #0601,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,358976,10,1,25,2024-11-30
+APP-000602,Furniture & Home Furnishings Merchant #0602,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,466766,2,1,347,2024-11-30
+APP-000603,Food & Beverage Stores Merchant #0603,5411,GROCERY,Food & Beverage Stores,B-NearPrime,307449,9,1,156,2024-11-30
+APP-000604,Health & Personal Care Merchant #0604,5912,HEALTH,Health & Personal Care,C-Subprime,168028,23,0,361,2024-11-30
+APP-000605,Restaurants & Food Service Merchant #0605,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,63558,20,0,13,2024-11-30
+APP-000606,Clothing & Accessories Merchant #0606,5651,APPAREL,Clothing & Accessories,C-Subprime,409012,20,0,233,2024-12-31
+APP-000607,Electronics & Appliances Merchant #0607,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,192603,9,1,10,2024-12-31
+APP-000608,Furniture & Home Furnishings Merchant #0608,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,350234,14,0,233,2024-12-31
+APP-000609,Food & Beverage Stores Merchant #0609,5411,GROCERY,Food & Beverage Stores,B-NearPrime,172689,3,1,241,2024-12-31
+APP-000610,Health & Personal Care Merchant #0610,5912,HEALTH,Health & Personal Care,D-HighRisk,51263,9,1,160,2024-12-31
+APP-000611,Restaurants & Food Service Merchant #0611,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,170496,0,1,188,2024-12-31
+APP-000612,Clothing & Accessories Merchant #0612,5651,APPAREL,Clothing & Accessories,D-HighRisk,316609,18,1,56,2025-01-31
+APP-000613,Electronics & Appliances Merchant #0613,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,245096,14,0,399,2025-01-31
+APP-000614,Furniture & Home Furnishings Merchant #0614,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,59873,9,1,326,2025-01-31
+APP-000615,Food & Beverage Stores Merchant #0615,5411,GROCERY,Food & Beverage Stores,B-NearPrime,278257,1,0,362,2025-01-31
+APP-000616,Health & Personal Care Merchant #0616,5912,HEALTH,Health & Personal Care,A-Prime,426056,19,1,6,2025-01-31
+APP-000617,Restaurants & Food Service Merchant #0617,5812,RESTAURANTS,Restaurants & Food Service,B-NearPrime,435585,3,1,227,2025-01-31
+APP-000618,Clothing & Accessories Merchant #0618,5651,APPAREL,Clothing & Accessories,D-HighRisk,424818,15,0,62,2025-02-28
+APP-000619,Electronics & Appliances Merchant #0619,5732,ELECTRONICS,Electronics & Appliances,A-Prime,10512,14,1,297,2025-02-28
+APP-000620,Furniture & Home Furnishings Merchant #0620,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,48621,18,1,277,2025-02-28
+APP-000621,Food & Beverage Stores Merchant #0621,5411,GROCERY,Food & Beverage Stores,A-Prime,443016,21,0,110,2025-02-28
+APP-000622,Health & Personal Care Merchant #0622,5912,HEALTH,Health & Personal Care,A-Prime,136005,20,0,130,2025-02-28
+APP-000623,Restaurants & Food Service Merchant #0623,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,397334,4,1,207,2025-02-28
+APP-000624,Clothing & Accessories Merchant #0624,5651,APPAREL,Clothing & Accessories,B-NearPrime,130711,9,0,224,2025-03-31
+APP-000625,Electronics & Appliances Merchant #0625,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,37039,25,1,225,2025-03-31
+APP-000626,Furniture & Home Furnishings Merchant #0626,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,493898,6,1,320,2025-03-31
+APP-000627,Food & Beverage Stores Merchant #0627,5411,GROCERY,Food & Beverage Stores,C-Subprime,235725,15,1,37,2025-03-31
+APP-000628,Health & Personal Care Merchant #0628,5912,HEALTH,Health & Personal Care,A-Prime,407787,22,1,27,2025-03-31
+APP-000629,Restaurants & Food Service Merchant #0629,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,249443,11,1,216,2025-03-31
+APP-000630,Clothing & Accessories Merchant #0630,5651,APPAREL,Clothing & Accessories,A-Prime,114236,0,0,347,2025-04-30
+APP-000631,Electronics & Appliances Merchant #0631,5732,ELECTRONICS,Electronics & Appliances,A-Prime,293640,25,1,34,2025-04-30
+APP-000632,Furniture & Home Furnishings Merchant #0632,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,401184,6,0,221,2025-04-30
+APP-000633,Food & Beverage Stores Merchant #0633,5411,GROCERY,Food & Beverage Stores,D-HighRisk,324039,21,0,369,2025-04-30
+APP-000634,Health & Personal Care Merchant #0634,5912,HEALTH,Health & Personal Care,B-NearPrime,154368,11,1,16,2025-04-30
+APP-000635,Restaurants & Food Service Merchant #0635,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,368585,3,0,7,2025-04-30
+APP-000636,Clothing & Accessories Merchant #0636,5651,APPAREL,Clothing & Accessories,A-Prime,66883,13,0,372,2025-05-31
+APP-000637,Electronics & Appliances Merchant #0637,5732,ELECTRONICS,Electronics & Appliances,A-Prime,354916,16,0,257,2025-05-31
+APP-000638,Furniture & Home Furnishings Merchant #0638,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,328875,11,0,232,2025-05-31
+APP-000639,Food & Beverage Stores Merchant #0639,5411,GROCERY,Food & Beverage Stores,B-NearPrime,112203,16,0,7,2025-05-31
+APP-000640,Health & Personal Care Merchant #0640,5912,HEALTH,Health & Personal Care,D-HighRisk,129653,15,1,85,2025-05-31
+APP-000641,Restaurants & Food Service Merchant #0641,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,257910,22,0,173,2025-05-31
+APP-000642,Clothing & Accessories Merchant #0642,5651,APPAREL,Clothing & Accessories,D-HighRisk,231869,16,1,309,2025-06-30
+APP-000643,Electronics & Appliances Merchant #0643,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,436080,9,0,108,2025-06-30
+APP-000644,Furniture & Home Furnishings Merchant #0644,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,385802,20,1,260,2025-06-30
+APP-000645,Food & Beverage Stores Merchant #0645,5411,GROCERY,Food & Beverage Stores,B-NearPrime,156575,5,1,171,2025-06-30
+APP-000646,Health & Personal Care Merchant #0646,5912,HEALTH,Health & Personal Care,C-Subprime,428555,17,1,396,2025-06-30
+APP-000647,Restaurants & Food Service Merchant #0647,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,253577,24,1,380,2025-06-30
+APP-000648,Clothing & Accessories Merchant #0648,5651,APPAREL,Clothing & Accessories,C-Subprime,338795,16,0,355,2025-07-31
+APP-000649,Electronics & Appliances Merchant #0649,5732,ELECTRONICS,Electronics & Appliances,A-Prime,237471,22,1,389,2025-07-31
+APP-000650,Furniture & Home Furnishings Merchant #0650,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,481299,17,1,30,2025-07-31
+APP-000651,Food & Beverage Stores Merchant #0651,5411,GROCERY,Food & Beverage Stores,D-HighRisk,147571,15,1,88,2025-07-31
+APP-000652,Health & Personal Care Merchant #0652,5912,HEALTH,Health & Personal Care,D-HighRisk,208996,11,0,152,2025-07-31
+APP-000653,Restaurants & Food Service Merchant #0653,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,158550,8,0,27,2025-07-31
+APP-000654,Clothing & Accessories Merchant #0654,5651,APPAREL,Clothing & Accessories,B-NearPrime,151346,6,0,134,2025-08-31
+APP-000655,Electronics & Appliances Merchant #0655,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,239018,2,1,356,2025-08-31
+APP-000656,Furniture & Home Furnishings Merchant #0656,5712,FURNITURE,Furniture & Home Furnishings,D-HighRisk,260842,20,1,60,2025-08-31
+APP-000657,Food & Beverage Stores Merchant #0657,5411,GROCERY,Food & Beverage Stores,B-NearPrime,105984,13,0,209,2025-08-31
+APP-000658,Health & Personal Care Merchant #0658,5912,HEALTH,Health & Personal Care,A-Prime,37071,19,0,374,2025-08-31
+APP-000659,Restaurants & Food Service Merchant #0659,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,378272,12,1,283,2025-08-31
+APP-000660,Clothing & Accessories Merchant #0660,5651,APPAREL,Clothing & Accessories,B-NearPrime,309946,1,0,11,2025-09-30
+APP-000661,Electronics & Appliances Merchant #0661,5732,ELECTRONICS,Electronics & Appliances,C-Subprime,110809,15,0,208,2025-09-30
+APP-000662,Furniture & Home Furnishings Merchant #0662,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,207077,19,0,138,2025-09-30
+APP-000663,Food & Beverage Stores Merchant #0663,5411,GROCERY,Food & Beverage Stores,B-NearPrime,471588,15,0,148,2025-09-30
+APP-000664,Health & Personal Care Merchant #0664,5912,HEALTH,Health & Personal Care,D-HighRisk,337551,10,0,70,2025-09-30
+APP-000665,Restaurants & Food Service Merchant #0665,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,137722,5,1,169,2025-09-30
+APP-000666,Clothing & Accessories Merchant #0666,5651,APPAREL,Clothing & Accessories,C-Subprime,72781,12,1,239,2025-10-31
+APP-000667,Electronics & Appliances Merchant #0667,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,85272,19,1,256,2025-10-31
+APP-000668,Furniture & Home Furnishings Merchant #0668,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,9747,6,1,314,2025-10-31
+APP-000669,Food & Beverage Stores Merchant #0669,5411,GROCERY,Food & Beverage Stores,A-Prime,445708,21,0,365,2025-10-31
+APP-000670,Health & Personal Care Merchant #0670,5912,HEALTH,Health & Personal Care,A-Prime,253251,0,1,397,2025-10-31
+APP-000671,Restaurants & Food Service Merchant #0671,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,133921,13,1,386,2025-10-31
+APP-000672,Clothing & Accessories Merchant #0672,5651,APPAREL,Clothing & Accessories,A-Prime,488285,19,1,355,2025-11-30
+APP-000673,Electronics & Appliances Merchant #0673,5732,ELECTRONICS,Electronics & Appliances,A-Prime,229516,7,0,311,2025-11-30
+APP-000674,Furniture & Home Furnishings Merchant #0674,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,418769,17,0,364,2025-11-30
+APP-000675,Food & Beverage Stores Merchant #0675,5411,GROCERY,Food & Beverage Stores,A-Prime,297112,4,0,97,2025-11-30
+APP-000676,Health & Personal Care Merchant #0676,5912,HEALTH,Health & Personal Care,A-Prime,31386,4,1,90,2025-11-30
+APP-000677,Restaurants & Food Service Merchant #0677,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,437451,8,1,213,2025-11-30
+APP-000678,Clothing & Accessories Merchant #0678,5651,APPAREL,Clothing & Accessories,A-Prime,446151,20,0,283,2025-12-31
+APP-000679,Electronics & Appliances Merchant #0679,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,478811,15,0,273,2025-12-31
+APP-000680,Furniture & Home Furnishings Merchant #0680,5712,FURNITURE,Furniture & Home Furnishings,B-NearPrime,296577,15,0,353,2025-12-31
+APP-000681,Food & Beverage Stores Merchant #0681,5411,GROCERY,Food & Beverage Stores,C-Subprime,204680,6,1,76,2025-12-31
+APP-000682,Health & Personal Care Merchant #0682,5912,HEALTH,Health & Personal Care,D-HighRisk,197013,23,1,73,2025-12-31
+APP-000683,Restaurants & Food Service Merchant #0683,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,358483,18,0,399,2025-12-31
+APP-000684,Clothing & Accessories Merchant #0684,5651,APPAREL,Clothing & Accessories,A-Prime,257477,7,1,314,2026-01-31
+APP-000685,Electronics & Appliances Merchant #0685,5732,ELECTRONICS,Electronics & Appliances,B-NearPrime,33810,15,1,376,2026-01-31
+APP-000686,Furniture & Home Furnishings Merchant #0686,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,493088,9,1,91,2026-01-31
+APP-000687,Food & Beverage Stores Merchant #0687,5411,GROCERY,Food & Beverage Stores,B-NearPrime,64664,13,1,283,2026-01-31
+APP-000688,Health & Personal Care Merchant #0688,5912,HEALTH,Health & Personal Care,C-Subprime,49209,20,0,208,2026-01-31
+APP-000689,Restaurants & Food Service Merchant #0689,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,456498,24,0,6,2026-01-31
+APP-000690,Clothing & Accessories Merchant #0690,5651,APPAREL,Clothing & Accessories,B-NearPrime,372362,12,0,398,2026-02-28
+APP-000691,Electronics & Appliances Merchant #0691,5732,ELECTRONICS,Electronics & Appliances,A-Prime,101964,11,0,268,2026-02-28
+APP-000692,Furniture & Home Furnishings Merchant #0692,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,291742,7,1,214,2026-02-28
+APP-000693,Food & Beverage Stores Merchant #0693,5411,GROCERY,Food & Beverage Stores,C-Subprime,293473,17,1,237,2026-02-28
+APP-000694,Health & Personal Care Merchant #0694,5912,HEALTH,Health & Personal Care,B-NearPrime,488475,5,0,372,2026-02-28
+APP-000695,Restaurants & Food Service Merchant #0695,5812,RESTAURANTS,Restaurants & Food Service,C-Subprime,130427,14,0,174,2026-02-28
+APP-000696,Clothing & Accessories Merchant #0696,5651,APPAREL,Clothing & Accessories,C-Subprime,185762,24,0,272,2026-03-31
+APP-000697,Electronics & Appliances Merchant #0697,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,499921,25,0,169,2026-03-31
+APP-000698,Furniture & Home Furnishings Merchant #0698,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,170466,12,1,87,2026-03-31
+APP-000699,Food & Beverage Stores Merchant #0699,5411,GROCERY,Food & Beverage Stores,A-Prime,180282,17,1,1,2026-03-31
+APP-000700,Health & Personal Care Merchant #0700,5912,HEALTH,Health & Personal Care,B-NearPrime,478798,5,0,138,2026-03-31
+APP-000701,Restaurants & Food Service Merchant #0701,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,20584,8,1,82,2026-03-31
+APP-000702,Clothing & Accessories Merchant #0702,5651,APPAREL,Clothing & Accessories,D-HighRisk,207647,22,1,173,2026-04-30
+APP-000703,Electronics & Appliances Merchant #0703,5732,ELECTRONICS,Electronics & Appliances,A-Prime,487268,15,1,236,2026-04-30
+APP-000704,Furniture & Home Furnishings Merchant #0704,5712,FURNITURE,Furniture & Home Furnishings,A-Prime,16736,19,1,28,2026-04-30
+APP-000705,Food & Beverage Stores Merchant #0705,5411,GROCERY,Food & Beverage Stores,D-HighRisk,32567,3,0,28,2026-04-30
+APP-000706,Health & Personal Care Merchant #0706,5912,HEALTH,Health & Personal Care,D-HighRisk,383020,11,0,336,2026-04-30
+APP-000707,Restaurants & Food Service Merchant #0707,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,267283,0,1,369,2026-04-30
+APP-000708,Clothing & Accessories Merchant #0708,5651,APPAREL,Clothing & Accessories,C-Subprime,473063,7,1,93,2026-05-31
+APP-000709,Electronics & Appliances Merchant #0709,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,443680,14,1,218,2026-05-31
+APP-000710,Furniture & Home Furnishings Merchant #0710,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,327402,3,0,12,2026-05-31
+APP-000711,Food & Beverage Stores Merchant #0711,5411,GROCERY,Food & Beverage Stores,B-NearPrime,120502,1,0,100,2026-05-31
+APP-000712,Health & Personal Care Merchant #0712,5912,HEALTH,Health & Personal Care,B-NearPrime,250945,7,1,6,2026-05-31
+APP-000713,Restaurants & Food Service Merchant #0713,5812,RESTAURANTS,Restaurants & Food Service,A-Prime,215885,0,0,230,2026-05-31
+APP-000714,Clothing & Accessories Merchant #0714,5651,APPAREL,Clothing & Accessories,D-HighRisk,245607,25,1,117,2026-06-30
+APP-000715,Electronics & Appliances Merchant #0715,5732,ELECTRONICS,Electronics & Appliances,D-HighRisk,479780,13,1,149,2026-06-30
+APP-000716,Furniture & Home Furnishings Merchant #0716,5712,FURNITURE,Furniture & Home Furnishings,C-Subprime,192823,14,1,269,2026-06-30
+APP-000717,Food & Beverage Stores Merchant #0717,5411,GROCERY,Food & Beverage Stores,D-HighRisk,471324,3,0,181,2026-06-30
+APP-000718,Health & Personal Care Merchant #0718,5912,HEALTH,Health & Personal Care,A-Prime,223139,23,1,277,2026-06-30
+APP-000719,Restaurants & Food Service Merchant #0719,5812,RESTAURANTS,Restaurants & Food Service,D-HighRisk,274236,1,1,333,2026-06-30

@@ -1,0 +1,721 @@
+application_id,decision,risk_score,decline_reason,reserve_pct
+APP-000000,approve,39.0,,1.95
+APP-000001,refer,63.0,,6.30
+APP-000002,refer,53.9,,5.39
+APP-000003,approve,36.1,,1.81
+APP-000004,refer,51.1,,5.11
+APP-000005,decline,74.6,Composite risk over threshold,0.00
+APP-000006,approve,27.5,,1.38
+APP-000007,decline,72.2,High-risk category,0.00
+APP-000008,refer,57.3,,5.73
+APP-000009,refer,48.9,,4.89
+APP-000010,approve,28.4,,1.42
+APP-000011,refer,52.3,,5.23
+APP-000012,decline,74.3,High chargeback history,0.00
+APP-000013,decline,99.9,High chargeback history,0.00
+APP-000014,refer,61.9,,6.19
+APP-000015,refer,51.7,,5.17
+APP-000016,refer,65.6,,6.56
+APP-000017,decline,85.6,High chargeback history,0.00
+APP-000018,refer,65.6,,6.56
+APP-000019,decline,86.0,High-risk category,0.00
+APP-000020,decline,80.0,High chargeback history,0.00
+APP-000021,refer,42.4,,4.24
+APP-000022,approve,38.5,,1.93
+APP-000023,refer,47.2,,4.72
+APP-000024,refer,69.7,,6.97
+APP-000025,refer,57.6,,5.76
+APP-000026,refer,46.7,,4.67
+APP-000027,refer,60.5,,6.05
+APP-000028,refer,56.4,,5.64
+APP-000029,refer,66.4,,6.64
+APP-000030,approve,32.1,,1.61
+APP-000031,decline,93.1,High-risk category,0.00
+APP-000032,refer,40.9,,4.09
+APP-000033,refer,47.9,,4.79
+APP-000034,approve,29.3,,1.47
+APP-000035,decline,86.2,High chargeback history,0.00
+APP-000036,refer,53.9,,5.39
+APP-000037,refer,62.1,,6.21
+APP-000038,refer,43.4,,4.34
+APP-000039,refer,40.4,,4.04
+APP-000040,approve,29.9,,1.50
+APP-000041,refer,54.5,,5.45
+APP-000042,refer,52.4,,5.24
+APP-000043,decline,78.5,High chargeback history,0.00
+APP-000044,decline,96.9,High chargeback history,0.00
+APP-000045,refer,49.3,,4.93
+APP-000046,refer,56.4,,5.64
+APP-000047,refer,54.7,,5.47
+APP-000048,refer,64.6,,6.46
+APP-000049,refer,44.0,,4.40
+APP-000050,refer,47.6,,4.76
+APP-000051,refer,67.6,,6.76
+APP-000052,decline,70.3,High chargeback history,0.00
+APP-000053,refer,52.5,,5.25
+APP-000054,refer,50.6,,5.06
+APP-000055,decline,93.1,High chargeback history,0.00
+APP-000056,refer,58.2,,5.82
+APP-000057,refer,51.4,,5.14
+APP-000058,refer,63.7,,6.37
+APP-000059,decline,75.6,High chargeback history,0.00
+APP-000060,decline,85.2,High chargeback history,0.00
+APP-000061,decline,73.2,High-risk category,0.00
+APP-000062,refer,55.3,,5.53
+APP-000063,approve,26.7,,1.34
+APP-000064,approve,35.1,,1.76
+APP-000065,decline,73.3,High chargeback history,0.00
+APP-000066,refer,45.8,,4.58
+APP-000067,decline,97.9,High chargeback history,0.00
+APP-000068,decline,70.9,Composite risk over threshold,0.00
+APP-000069,refer,61.4,,6.14
+APP-000070,approve,19.9,,1.00
+APP-000071,decline,93.9,High chargeback history,0.00
+APP-000072,refer,49.2,,4.92
+APP-000073,decline,87.6,High-risk category,0.00
+APP-000074,refer,67.9,,6.79
+APP-000075,refer,54.3,,5.43
+APP-000076,approve,34.7,,1.74
+APP-000077,refer,69.6,,6.96
+APP-000078,approve,39.0,,1.95
+APP-000079,decline,76.6,High-risk category,0.00
+APP-000080,refer,64.9,,6.49
+APP-000081,approve,30.6,,1.53
+APP-000082,decline,73.5,High chargeback history,0.00
+APP-000083,refer,69.7,,6.97
+APP-000084,decline,78.5,High chargeback history,0.00
+APP-000085,decline,74.9,Thin operating history,0.00
+APP-000086,refer,43.3,,4.33
+APP-000087,refer,58.7,,5.87
+APP-000088,refer,40.2,,4.02
+APP-000089,refer,61.3,,6.13
+APP-000090,refer,49.5,,4.95
+APP-000091,decline,86.4,High chargeback history,0.00
+APP-000092,decline,73.5,High chargeback history,0.00
+APP-000093,refer,44.2,,4.42
+APP-000094,refer,68.3,,6.83
+APP-000095,decline,71.1,High chargeback history,0.00
+APP-000096,refer,58.3,,5.83
+APP-000097,refer,53.3,,5.33
+APP-000098,refer,58.2,,5.82
+APP-000099,refer,52.2,,5.22
+APP-000100,refer,67.6,,6.76
+APP-000101,decline,72.0,High chargeback history,0.00
+APP-000102,refer,54.2,,5.42
+APP-000103,refer,66.8,,6.68
+APP-000104,refer,55.7,,5.57
+APP-000105,approve,25.7,,1.29
+APP-000106,refer,64.9,,6.49
+APP-000107,refer,49.1,,4.91
+APP-000108,refer,40.1,,4.01
+APP-000109,refer,60.6,,6.06
+APP-000110,decline,77.9,High chargeback history,0.00
+APP-000111,refer,57.9,,5.79
+APP-000112,refer,59.4,,5.94
+APP-000113,decline,79.1,High chargeback history,0.00
+APP-000114,refer,66.3,,6.63
+APP-000115,decline,72.4,High chargeback history,0.00
+APP-000116,refer,58.4,,5.84
+APP-000117,refer,40.9,,4.09
+APP-000118,refer,57.0,,5.70
+APP-000119,decline,84.5,High chargeback history,0.00
+APP-000120,refer,66.9,,6.69
+APP-000121,decline,90.8,High chargeback history,0.00
+APP-000122,decline,71.5,High chargeback history,0.00
+APP-000123,refer,69.5,,6.95
+APP-000124,refer,67.3,,6.73
+APP-000125,decline,73.1,Composite risk over threshold,0.00
+APP-000126,refer,42.1,,4.21
+APP-000127,refer,61.9,,6.19
+APP-000128,refer,65.2,,6.52
+APP-000129,refer,60.6,,6.06
+APP-000130,decline,94.2,High chargeback history,0.00
+APP-000131,decline,97.4,High chargeback history,0.00
+APP-000132,decline,80.5,High chargeback history,0.00
+APP-000133,decline,97.9,High-risk category,0.00
+APP-000134,refer,54.7,,5.47
+APP-000135,approve,23.2,,1.16
+APP-000136,refer,58.5,,5.85
+APP-000137,decline,89.2,High chargeback history,0.00
+APP-000138,refer,45.0,,4.50
+APP-000139,decline,94.5,High chargeback history,0.00
+APP-000140,refer,47.4,,4.74
+APP-000141,refer,56.7,,5.67
+APP-000142,refer,58.4,,5.84
+APP-000143,refer,67.6,,6.76
+APP-000144,refer,50.9,,5.09
+APP-000145,decline,75.2,High-risk category,0.00
+APP-000146,decline,75.3,Composite risk over threshold,0.00
+APP-000147,refer,44.8,,4.48
+APP-000148,refer,43.9,,4.39
+APP-000149,decline,100.0,High chargeback history,0.00
+APP-000150,refer,49.7,,4.97
+APP-000151,decline,89.2,High chargeback history,0.00
+APP-000152,refer,41.0,,4.10
+APP-000153,refer,45.5,,4.55
+APP-000154,refer,56.1,,5.61
+APP-000155,refer,65.9,,6.59
+APP-000156,approve,36.4,,1.82
+APP-000157,decline,85.9,High chargeback history,0.00
+APP-000158,refer,49.4,,4.94
+APP-000159,refer,43.5,,4.35
+APP-000160,approve,31.5,,1.58
+APP-000161,decline,100.0,High chargeback history,0.00
+APP-000162,refer,43.4,,4.34
+APP-000163,decline,100.0,High chargeback history,0.00
+APP-000164,refer,63.7,,6.37
+APP-000165,approve,39.3,,1.97
+APP-000166,approve,18.0,,0.90
+APP-000167,refer,66.2,,6.62
+APP-000168,approve,34.0,,1.70
+APP-000169,refer,60.1,,6.01
+APP-000170,refer,66.8,,6.68
+APP-000171,approve,37.4,,1.87
+APP-000172,refer,42.1,,4.21
+APP-000173,decline,74.8,High chargeback history,0.00
+APP-000174,refer,44.8,,4.48
+APP-000175,decline,92.5,High chargeback history,0.00
+APP-000176,refer,52.6,,5.26
+APP-000177,refer,53.3,,5.33
+APP-000178,refer,54.2,,5.42
+APP-000179,refer,64.3,,6.43
+APP-000180,decline,80.8,High chargeback history,0.00
+APP-000181,decline,91.8,High chargeback history,0.00
+APP-000182,refer,43.3,,4.33
+APP-000183,approve,20.7,,1.04
+APP-000184,refer,48.0,,4.80
+APP-000185,decline,100.0,High chargeback history,0.00
+APP-000186,refer,68.3,,6.83
+APP-000187,decline,85.3,High-risk category,0.00
+APP-000188,refer,53.9,,5.39
+APP-000189,refer,42.7,,4.27
+APP-000190,approve,34.3,,1.72
+APP-000191,decline,83.2,High chargeback history,0.00
+APP-000192,approve,24.2,,1.21
+APP-000193,decline,79.7,High-risk category,0.00
+APP-000194,decline,73.0,High chargeback history,0.00
+APP-000195,decline,79.7,High chargeback history,0.00
+APP-000196,approve,19.1,,0.96
+APP-000197,refer,50.5,,5.05
+APP-000198,approve,26.4,,1.32
+APP-000199,decline,87.5,High-risk category,0.00
+APP-000200,decline,71.6,High chargeback history,0.00
+APP-000201,refer,58.7,,5.87
+APP-000202,decline,71.3,High chargeback history,0.00
+APP-000203,decline,94.6,High chargeback history,0.00
+APP-000204,refer,62.5,,6.25
+APP-000205,decline,73.9,High-risk category,0.00
+APP-000206,decline,72.8,High chargeback history,0.00
+APP-000207,approve,39.3,,1.97
+APP-000208,approve,31.0,,1.55
+APP-000209,refer,66.8,,6.68
+APP-000210,approve,28.2,,1.41
+APP-000211,decline,100.0,High chargeback history,0.00
+APP-000212,refer,62.7,,6.27
+APP-000213,approve,39.8,,1.99
+APP-000214,approve,32.9,,1.65
+APP-000215,refer,60.4,,6.04
+APP-000216,decline,73.7,High chargeback history,0.00
+APP-000217,decline,92.6,High chargeback history,0.00
+APP-000218,decline,87.5,High chargeback history,0.00
+APP-000219,refer,49.2,,4.92
+APP-000220,decline,73.6,High chargeback history,0.00
+APP-000221,refer,68.0,,6.80
+APP-000222,refer,64.6,,6.46
+APP-000223,decline,84.5,High chargeback history,0.00
+APP-000224,decline,83.9,High chargeback history,0.00
+APP-000225,refer,40.4,,4.04
+APP-000226,refer,63.5,,6.35
+APP-000227,refer,66.8,,6.68
+APP-000228,refer,69.6,,6.96
+APP-000229,decline,90.7,High chargeback history,0.00
+APP-000230,refer,63.3,,6.33
+APP-000231,refer,46.3,,4.63
+APP-000232,refer,58.8,,5.88
+APP-000233,refer,53.0,,5.30
+APP-000234,refer,55.5,,5.55
+APP-000235,decline,100.0,High chargeback history,0.00
+APP-000236,decline,80.3,High chargeback history,0.00
+APP-000237,refer,58.1,,5.81
+APP-000238,refer,40.2,,4.02
+APP-000239,refer,67.6,,6.76
+APP-000240,refer,64.0,,6.40
+APP-000241,refer,59.7,,5.97
+APP-000242,decline,74.2,High chargeback history,0.00
+APP-000243,refer,61.1,,6.11
+APP-000244,refer,40.1,,4.01
+APP-000245,decline,82.9,Composite risk over threshold,0.00
+APP-000246,refer,40.1,,4.01
+APP-000247,decline,88.9,Thin operating history,0.00
+APP-000248,refer,63.3,,6.33
+APP-000249,approve,24.6,,1.23
+APP-000250,approve,34.5,,1.73
+APP-000251,decline,79.2,High chargeback history,0.00
+APP-000252,refer,51.8,,5.18
+APP-000253,decline,90.7,High chargeback history,0.00
+APP-000254,decline,74.2,High chargeback history,0.00
+APP-000255,approve,36.3,,1.82
+APP-000256,decline,72.2,High chargeback history,0.00
+APP-000257,refer,44.6,,4.46
+APP-000258,refer,55.7,,5.57
+APP-000259,decline,75.1,High chargeback history,0.00
+APP-000260,refer,56.3,,5.63
+APP-000261,refer,64.3,,6.43
+APP-000262,decline,82.6,High chargeback history,0.00
+APP-000263,refer,42.9,,4.29
+APP-000264,refer,69.8,,6.98
+APP-000265,decline,91.4,High chargeback history,0.00
+APP-000266,approve,23.3,,1.17
+APP-000267,refer,59.3,,5.93
+APP-000268,refer,62.2,,6.22
+APP-000269,decline,95.9,High chargeback history,0.00
+APP-000270,decline,72.0,High chargeback history,0.00
+APP-000271,decline,82.0,High chargeback history,0.00
+APP-000272,refer,43.3,,4.33
+APP-000273,approve,37.3,,1.87
+APP-000274,refer,69.0,,6.90
+APP-000275,decline,79.9,Thin operating history,0.00
+APP-000276,decline,78.5,High chargeback history,0.00
+APP-000277,refer,63.3,,6.33
+APP-000278,refer,50.7,,5.07
+APP-000279,refer,58.8,,5.88
+APP-000280,refer,48.4,,4.84
+APP-000281,refer,58.3,,5.83
+APP-000282,refer,51.6,,5.16
+APP-000283,decline,79.4,High chargeback history,0.00
+APP-000284,refer,59.1,,5.91
+APP-000285,refer,46.5,,4.65
+APP-000286,refer,41.1,,4.11
+APP-000287,decline,83.5,Thin operating history,0.00
+APP-000288,refer,52.3,,5.23
+APP-000289,refer,56.1,,5.61
+APP-000290,refer,51.9,,5.19
+APP-000291,refer,64.2,,6.42
+APP-000292,approve,28.1,,1.41
+APP-000293,refer,54.6,,5.46
+APP-000294,decline,74.0,High chargeback history,0.00
+APP-000295,decline,98.9,High chargeback history,0.00
+APP-000296,refer,45.8,,4.58
+APP-000297,refer,50.3,,5.03
+APP-000298,refer,59.4,,5.94
+APP-000299,refer,61.0,,6.10
+APP-000300,refer,59.4,,5.94
+APP-000301,refer,61.1,,6.11
+APP-000302,refer,45.9,,4.59
+APP-000303,refer,68.0,,6.80
+APP-000304,decline,83.6,High chargeback history,0.00
+APP-000305,decline,74.0,High chargeback history,0.00
+APP-000306,refer,66.2,,6.62
+APP-000307,refer,66.9,,6.69
+APP-000308,refer,56.1,,5.61
+APP-000309,refer,51.1,,5.11
+APP-000310,decline,72.1,High chargeback history,0.00
+APP-000311,decline,75.7,Composite risk over threshold,0.00
+APP-000312,refer,57.9,,5.79
+APP-000313,refer,64.7,,6.47
+APP-000314,decline,95.1,High chargeback history,0.00
+APP-000315,approve,26.0,,1.30
+APP-000316,refer,68.2,,6.82
+APP-000317,decline,78.7,High chargeback history,0.00
+APP-000318,refer,57.3,,5.73
+APP-000319,decline,100.0,High chargeback history,0.00
+APP-000320,decline,78.1,Thin operating history,0.00
+APP-000321,refer,60.8,,6.08
+APP-000322,refer,60.5,,6.05
+APP-000323,refer,46.9,,4.69
+APP-000324,decline,83.4,High chargeback history,0.00
+APP-000325,decline,77.3,High-risk category,0.00
+APP-000326,decline,80.0,High chargeback history,0.00
+APP-000327,approve,28.8,,1.44
+APP-000328,refer,42.2,,4.22
+APP-000329,decline,77.4,High chargeback history,0.00
+APP-000330,refer,58.2,,5.82
+APP-000331,decline,86.0,High chargeback history,0.00
+APP-000332,approve,31.3,,1.57
+APP-000333,refer,61.0,,6.10
+APP-000334,approve,37.4,,1.87
+APP-000335,decline,74.0,Composite risk over threshold,0.00
+APP-000336,decline,93.5,High chargeback history,0.00
+APP-000337,refer,49.9,,4.99
+APP-000338,refer,62.6,,6.26
+APP-000339,refer,48.7,,4.87
+APP-000340,refer,50.4,,5.04
+APP-000341,decline,73.5,Composite risk over threshold,0.00
+APP-000342,decline,87.8,High chargeback history,0.00
+APP-000343,decline,92.9,High-risk category,0.00
+APP-000344,refer,64.0,,6.40
+APP-000345,approve,28.8,,1.44
+APP-000346,refer,50.8,,5.08
+APP-000347,decline,92.2,High chargeback history,0.00
+APP-000348,refer,48.8,,4.88
+APP-000349,decline,73.3,High-risk category,0.00
+APP-000350,refer,66.4,,6.64
+APP-000351,decline,73.1,High chargeback history,0.00
+APP-000352,refer,68.4,,6.84
+APP-000353,refer,41.4,,4.14
+APP-000354,decline,75.3,High chargeback history,0.00
+APP-000355,decline,85.1,High chargeback history,0.00
+APP-000356,refer,55.5,,5.55
+APP-000357,refer,44.3,,4.43
+APP-000358,approve,20.1,,1.01
+APP-000359,refer,57.0,,5.70
+APP-000360,approve,26.5,,1.33
+APP-000361,decline,100.0,High chargeback history,0.00
+APP-000362,decline,80.7,High chargeback history,0.00
+APP-000363,refer,65.5,,6.55
+APP-000364,refer,50.2,,5.02
+APP-000365,decline,82.3,Composite risk over threshold,0.00
+APP-000366,refer,55.1,,5.51
+APP-000367,decline,95.4,High chargeback history,0.00
+APP-000368,refer,68.6,,6.86
+APP-000369,refer,43.1,,4.31
+APP-000370,decline,80.8,High chargeback history,0.00
+APP-000371,refer,63.6,,6.36
+APP-000372,approve,30.0,,1.50
+APP-000373,decline,95.2,High chargeback history,0.00
+APP-000374,refer,66.8,,6.68
+APP-000375,refer,46.1,,4.61
+APP-000376,decline,93.8,High chargeback history,0.00
+APP-000377,decline,71.5,Composite risk over threshold,0.00
+APP-000378,refer,53.6,,5.36
+APP-000379,refer,60.2,,6.02
+APP-000380,approve,35.0,,1.75
+APP-000381,approve,38.3,,1.92
+APP-000382,refer,59.3,,5.93
+APP-000383,decline,80.7,Thin operating history,0.00
+APP-000384,refer,48.7,,4.87
+APP-000385,decline,100.0,High chargeback history,0.00
+APP-000386,decline,74.2,High chargeback history,0.00
+APP-000387,refer,57.5,,5.75
+APP-000388,refer,56.9,,5.69
+APP-000389,refer,67.7,,6.77
+APP-000390,refer,59.7,,5.97
+APP-000391,decline,71.7,High-risk category,0.00
+APP-000392,refer,44.1,,4.41
+APP-000393,approve,28.9,,1.45
+APP-000394,refer,60.8,,6.08
+APP-000395,decline,100.0,High chargeback history,0.00
+APP-000396,approve,25.0,,1.25
+APP-000397,decline,75.1,High chargeback history,0.00
+APP-000398,refer,56.2,,5.62
+APP-000399,refer,51.3,,5.13
+APP-000400,decline,72.5,High chargeback history,0.00
+APP-000401,refer,68.2,,6.82
+APP-000402,refer,61.1,,6.11
+APP-000403,decline,75.1,High-risk category,0.00
+APP-000404,decline,73.0,Composite risk over threshold,0.00
+APP-000405,approve,32.0,,1.60
+APP-000406,refer,57.0,,5.70
+APP-000407,decline,93.6,High chargeback history,0.00
+APP-000408,decline,84.9,High chargeback history,0.00
+APP-000409,decline,94.1,High chargeback history,0.00
+APP-000410,decline,93.2,High chargeback history,0.00
+APP-000411,approve,10.2,,0.51
+APP-000412,refer,62.8,,6.28
+APP-000413,decline,76.1,Composite risk over threshold,0.00
+APP-000414,approve,34.1,,1.71
+APP-000415,decline,99.3,High chargeback history,0.00
+APP-000416,refer,63.5,,6.35
+APP-000417,refer,40.5,,4.05
+APP-000418,decline,70.8,High chargeback history,0.00
+APP-000419,decline,75.8,Thin operating history,0.00
+APP-000420,refer,63.9,,6.39
+APP-000421,decline,91.7,High chargeback history,0.00
+APP-000422,refer,50.4,,5.04
+APP-000423,approve,34.7,,1.74
+APP-000424,refer,62.3,,6.23
+APP-000425,decline,92.0,High chargeback history,0.00
+APP-000426,refer,44.3,,4.43
+APP-000427,decline,84.7,High chargeback history,0.00
+APP-000428,decline,91.6,High chargeback history,0.00
+APP-000429,approve,34.2,,1.71
+APP-000430,refer,53.1,,5.31
+APP-000431,decline,76.4,High chargeback history,0.00
+APP-000432,decline,79.8,High chargeback history,0.00
+APP-000433,decline,88.2,High chargeback history,0.00
+APP-000434,refer,49.2,,4.92
+APP-000435,approve,30.0,,1.50
+APP-000436,approve,37.9,,1.90
+APP-000437,decline,83.1,High chargeback history,0.00
+APP-000438,refer,45.1,,4.51
+APP-000439,decline,89.2,High chargeback history,0.00
+APP-000440,decline,95.8,High chargeback history,0.00
+APP-000441,refer,45.0,,4.50
+APP-000442,decline,92.9,High chargeback history,0.00
+APP-000443,decline,100.0,High chargeback history,0.00
+APP-000444,refer,61.0,,6.10
+APP-000445,decline,80.8,High-risk category,0.00
+APP-000446,decline,80.6,High chargeback history,0.00
+APP-000447,refer,50.2,,5.02
+APP-000448,approve,22.7,,1.14
+APP-000449,refer,67.8,,6.78
+APP-000450,refer,45.4,,4.54
+APP-000451,decline,76.0,High-risk category,0.00
+APP-000452,refer,54.5,,5.45
+APP-000453,refer,47.1,,4.71
+APP-000454,refer,52.0,,5.20
+APP-000455,decline,81.0,High chargeback history,0.00
+APP-000456,decline,86.8,High chargeback history,0.00
+APP-000457,decline,73.0,High chargeback history,0.00
+APP-000458,decline,87.4,High chargeback history,0.00
+APP-000459,approve,26.5,,1.33
+APP-000460,refer,60.2,,6.02
+APP-000461,refer,60.3,,6.03
+APP-000462,refer,57.8,,5.78
+APP-000463,decline,79.9,High chargeback history,0.00
+APP-000464,refer,46.3,,4.63
+APP-000465,approve,20.2,,1.01
+APP-000466,approve,35.7,,1.79
+APP-000467,decline,77.9,Thin operating history,0.00
+APP-000468,decline,87.5,High chargeback history,0.00
+APP-000469,refer,61.9,,6.19
+APP-000470,refer,63.2,,6.32
+APP-000471,refer,66.0,,6.60
+APP-000472,decline,80.1,High chargeback history,0.00
+APP-000473,refer,45.3,,4.53
+APP-000474,approve,23.1,,1.16
+APP-000475,refer,65.6,,6.56
+APP-000476,decline,94.9,High chargeback history,0.00
+APP-000477,approve,33.5,,1.68
+APP-000478,approve,37.9,,1.90
+APP-000479,refer,69.1,,6.91
+APP-000480,refer,52.1,,5.21
+APP-000481,decline,91.0,High chargeback history,0.00
+APP-000482,refer,59.8,,5.98
+APP-000483,decline,76.5,High chargeback history,0.00
+APP-000484,refer,57.5,,5.75
+APP-000485,decline,97.7,High chargeback history,0.00
+APP-000486,decline,75.1,High chargeback history,0.00
+APP-000487,decline,91.8,Thin operating history,0.00
+APP-000488,refer,64.3,,6.43
+APP-000489,refer,55.7,,5.57
+APP-000490,approve,33.1,,1.66
+APP-000491,refer,67.2,,6.72
+APP-000492,decline,82.6,High chargeback history,0.00
+APP-000493,decline,87.9,High-risk category,0.00
+APP-000494,refer,47.1,,4.71
+APP-000495,refer,64.6,,6.46
+APP-000496,decline,79.9,High chargeback history,0.00
+APP-000497,decline,75.7,Composite risk over threshold,0.00
+APP-000498,approve,19.4,,0.97
+APP-000499,decline,76.1,High-risk category,0.00
+APP-000500,refer,44.9,,4.49
+APP-000501,approve,17.4,,0.87
+APP-000502,refer,69.4,,6.94
+APP-000503,refer,56.3,,5.63
+APP-000504,refer,56.1,,5.61
+APP-000505,refer,62.6,,6.26
+APP-000506,decline,74.2,High chargeback history,0.00
+APP-000507,approve,11.4,,0.57
+APP-000508,approve,31.4,,1.57
+APP-000509,refer,67.0,,6.70
+APP-000510,refer,40.6,,4.06
+APP-000511,decline,83.7,High-risk category,0.00
+APP-000512,refer,44.9,,4.49
+APP-000513,approve,31.4,,1.57
+APP-000514,refer,56.4,,5.64
+APP-000515,decline,77.5,High chargeback history,0.00
+APP-000516,refer,60.1,,6.01
+APP-000517,decline,84.9,High-risk category,0.00
+APP-000518,refer,47.4,,4.74
+APP-000519,refer,63.8,,6.38
+APP-000520,refer,53.2,,5.32
+APP-000521,refer,42.9,,4.29
+APP-000522,refer,63.3,,6.33
+APP-000523,refer,49.2,,4.92
+APP-000524,refer,48.3,,4.83
+APP-000525,refer,53.5,,5.35
+APP-000526,approve,32.6,,1.63
+APP-000527,decline,79.3,Composite risk over threshold,0.00
+APP-000528,refer,65.3,,6.53
+APP-000529,decline,77.8,High-risk category,0.00
+APP-000530,refer,41.4,,4.14
+APP-000531,refer,60.9,,6.09
+APP-000532,refer,60.9,,6.09
+APP-000533,refer,57.8,,5.78
+APP-000534,refer,40.9,,4.09
+APP-000535,decline,100.0,High chargeback history,0.00
+APP-000536,refer,53.7,,5.37
+APP-000537,approve,28.5,,1.43
+APP-000538,approve,39.5,,1.98
+APP-000539,decline,78.1,High chargeback history,0.00
+APP-000540,refer,48.3,,4.83
+APP-000541,refer,65.2,,6.52
+APP-000542,refer,55.2,,5.52
+APP-000543,refer,41.9,,4.19
+APP-000544,refer,62.2,,6.22
+APP-000545,decline,73.6,Composite risk over threshold,0.00
+APP-000546,refer,67.8,,6.78
+APP-000547,decline,80.1,High chargeback history,0.00
+APP-000548,decline,80.0,High chargeback history,0.00
+APP-000549,refer,40.6,,4.06
+APP-000550,refer,47.7,,4.77
+APP-000551,refer,55.1,,5.51
+APP-000552,refer,57.1,,5.71
+APP-000553,decline,84.7,High chargeback history,0.00
+APP-000554,refer,47.9,,4.79
+APP-000555,refer,40.4,,4.04
+APP-000556,refer,62.9,,6.29
+APP-000557,decline,77.2,Thin operating history,0.00
+APP-000558,refer,68.4,,6.84
+APP-000559,decline,79.4,High chargeback history,0.00
+APP-000560,refer,61.6,,6.16
+APP-000561,refer,47.7,,4.77
+APP-000562,refer,43.4,,4.34
+APP-000563,decline,100.0,High chargeback history,0.00
+APP-000564,decline,81.5,High chargeback history,0.00
+APP-000565,decline,96.0,High chargeback history,0.00
+APP-000566,refer,54.5,,5.45
+APP-000567,approve,35.4,,1.77
+APP-000568,refer,44.2,,4.42
+APP-000569,decline,100.0,High chargeback history,0.00
+APP-000570,refer,54.8,,5.48
+APP-000571,decline,100.0,High chargeback history,0.00
+APP-000572,decline,88.3,High chargeback history,0.00
+APP-000573,approve,27.7,,1.39
+APP-000574,refer,65.0,,6.50
+APP-000575,decline,80.7,Thin operating history,0.00
+APP-000576,refer,54.1,,5.41
+APP-000577,decline,94.3,High chargeback history,0.00
+APP-000578,decline,72.2,Thin operating history,0.00
+APP-000579,approve,33.2,,1.66
+APP-000580,refer,69.0,,6.90
+APP-000581,decline,88.5,High chargeback history,0.00
+APP-000582,refer,46.0,,4.60
+APP-000583,decline,98.8,High chargeback history,0.00
+APP-000584,refer,46.1,,4.61
+APP-000585,approve,26.6,,1.33
+APP-000586,decline,78.6,Thin operating history,0.00
+APP-000587,decline,78.5,High chargeback history,0.00
+APP-000588,refer,57.1,,5.71
+APP-000589,decline,86.8,High-risk category,0.00
+APP-000590,refer,49.5,,4.95
+APP-000591,approve,38.9,,1.95
+APP-000592,refer,67.4,,6.74
+APP-000593,decline,71.4,High chargeback history,0.00
+APP-000594,approve,31.2,,1.56
+APP-000595,decline,87.5,High chargeback history,0.00
+APP-000596,refer,63.9,,6.39
+APP-000597,refer,51.4,,5.14
+APP-000598,refer,54.3,,5.43
+APP-000599,decline,100.0,High chargeback history,0.00
+APP-000600,decline,78.1,High chargeback history,0.00
+APP-000601,refer,63.5,,6.35
+APP-000602,decline,96.3,High chargeback history,0.00
+APP-000603,approve,35.8,,1.79
+APP-000604,refer,69.1,,6.91
+APP-000605,refer,46.3,,4.63
+APP-000606,refer,61.3,,6.13
+APP-000607,decline,71.2,High-risk category,0.00
+APP-000608,refer,67.5,,6.75
+APP-000609,refer,51.5,,5.15
+APP-000610,refer,59.2,,5.92
+APP-000611,refer,68.8,,6.88
+APP-000612,refer,46.6,,4.66
+APP-000613,decline,93.1,High chargeback history,0.00
+APP-000614,decline,77.8,High chargeback history,0.00
+APP-000615,decline,71.0,High chargeback history,0.00
+APP-000616,approve,12.6,,0.63
+APP-000617,decline,77.1,High chargeback history,0.00
+APP-000618,refer,52.2,,5.22
+APP-000619,refer,69.9,,6.99
+APP-000620,decline,73.7,High chargeback history,0.00
+APP-000621,approve,21.0,,1.05
+APP-000622,approve,30.0,,1.50
+APP-000623,refer,65.9,,6.59
+APP-000624,refer,59.6,,5.96
+APP-000625,decline,77.5,High chargeback history,0.00
+APP-000626,refer,64.8,,6.48
+APP-000627,approve,24.7,,1.24
+APP-000628,approve,14.7,,0.74
+APP-000629,refer,58.4,,5.84
+APP-000630,decline,74.7,High chargeback history,0.00
+APP-000631,refer,42.4,,4.24
+APP-000632,decline,75.9,High chargeback history,0.00
+APP-000633,decline,70.9,High chargeback history,0.00
+APP-000634,approve,26.4,,1.32
+APP-000635,decline,76.1,Composite risk over threshold,0.00
+APP-000636,refer,61.6,,6.16
+APP-000637,refer,69.7,,6.97
+APP-000638,refer,63.0,,6.30
+APP-000639,approve,18.7,,0.94
+APP-000640,refer,44.5,,4.45
+APP-000641,decline,70.3,Composite risk over threshold,0.00
+APP-000642,decline,71.9,High chargeback history,0.00
+APP-000643,decline,86.0,High-risk category,0.00
+APP-000644,refer,56.0,,5.60
+APP-000645,refer,42.1,,4.21
+APP-000646,refer,67.6,,6.76
+APP-000647,decline,94.0,High chargeback history,0.00
+APP-000648,decline,73.5,High chargeback history,0.00
+APP-000649,decline,77.9,High chargeback history,0.00
+APP-000650,refer,49.0,,4.90
+APP-000651,approve,37.8,,1.89
+APP-000652,refer,61.0,,6.10
+APP-000653,refer,48.1,,4.81
+APP-000654,refer,54.2,,5.42
+APP-000655,decline,100.0,High chargeback history,0.00
+APP-000656,refer,52.0,,5.20
+APP-000657,refer,41.3,,4.13
+APP-000658,refer,54.4,,5.44
+APP-000659,decline,87.9,High chargeback history,0.00
+APP-000660,refer,47.9,,4.79
+APP-000661,decline,80.8,High chargeback history,0.00
+APP-000662,refer,40.8,,4.08
+APP-000663,approve,32.8,,1.64
+APP-000664,refer,54.0,,5.40
+APP-000665,decline,76.9,Composite risk over threshold,0.00
+APP-000666,refer,60.5,,6.05
+APP-000667,decline,88.6,High chargeback history,0.00
+APP-000668,decline,80.2,High chargeback history,0.00
+APP-000669,refer,46.5,,4.65
+APP-000670,refer,69.7,,6.97
+APP-000671,decline,97.0,High chargeback history,0.00
+APP-000672,refer,52.5,,5.25
+APP-000673,decline,84.7,High chargeback history,0.00
+APP-000674,decline,79.4,High chargeback history,0.00
+APP-000675,approve,32.9,,1.65
+APP-000676,approve,34.2,,1.71
+APP-000677,decline,85.7,High chargeback history,0.00
+APP-000678,refer,50.3,,5.03
+APP-000679,decline,79.3,High chargeback history,0.00
+APP-000680,decline,70.3,High chargeback history,0.00
+APP-000681,approve,39.4,,1.97
+APP-000682,refer,43.3,,4.33
+APP-000683,decline,100.0,High chargeback history,0.00
+APP-000684,refer,58.0,,5.80
+APP-000685,decline,84.6,High chargeback history,0.00
+APP-000686,refer,54.3,,5.43
+APP-000687,refer,43.7,,4.37
+APP-000688,refer,53.8,,5.38
+APP-000689,refer,53.6,,5.36
+APP-000690,decline,73.4,High chargeback history,0.00
+APP-000691,decline,75.6,High chargeback history,0.00
+APP-000692,refer,69.0,,6.90
+APP-000693,refer,44.7,,4.47
+APP-000694,decline,74.2,High chargeback history,0.00
+APP-000695,decline,71.6,Composite risk over threshold,0.00
+APP-000696,refer,65.2,,6.52
+APP-000697,decline,84.9,High-risk category,0.00
+APP-000698,refer,50.3,,5.03
+APP-000699,approve,5.1,,0.26
+APP-000700,refer,50.8,,5.08
+APP-000701,decline,72.6,Composite risk over threshold,0.00
+APP-000702,refer,58.3,,5.83
+APP-000703,refer,62.6,,6.26
+APP-000704,approve,24.8,,1.24
+APP-000705,refer,51.2,,5.12
+APP-000706,decline,79.4,High chargeback history,0.00
+APP-000707,decline,100.0,High chargeback history,0.00
+APP-000708,refer,51.9,,5.19
+APP-000709,decline,86.0,High chargeback history,0.00
+APP-000710,refer,58.6,,5.86
+APP-000711,refer,44.8,,4.48
+APP-000712,approve,30.2,,1.51
+APP-000713,decline,78.0,High chargeback history,0.00
+APP-000714,refer,52.7,,5.27
+APP-000715,decline,80.3,High-risk category,0.00
+APP-000716,refer,66.1,,6.61
+APP-000717,refer,66.5,,6.65
+APP-000718,approve,39.7,,1.99
+APP-000719,decline,100.0,High chargeback history,0.00

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Try Merchant Risk &amp; Underwriting (sample data)</title>
+<meta name="description" content="No-account example of the Merchant Risk & Underwriting Snowflake app, on synthetic data.">
+<link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/tokens.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="side" id="side" aria-label="Navigation">
+    <a class="brand" href="../" aria-label="Back to the guide"><img src="../assets/logo.svg" width="34" height="34" alt=""><span><b>Merchant Risk &amp; Underwriting</b><small>New-merchant scoring · acquirer underwriting desk</small></span></a>
+    <p class="lbl">Data mode</p>
+    <div class="seg" role="group" aria-label="Data mode"><button type="button" class="on" data-mode="Sample" aria-pressed="true">Sample</button><button type="button" data-mode="Live" aria-pressed="false">Live</button></div>
+    <div class="chips"><span class="chip sample"><i></i>Sample data</span><span class="chip role">Underwriter · MERCHANT_RISK_ROLE</span></div>
+    <p class="lbl">Workspace</p>
+    <nav id="nav"></nav>
+    <p class="foot-s">Synthetic data and illustrative scoring only. Not a production underwriting system or credit advice.</p>
+  </aside>
+  <div class="mainwrap">
+    <header class="mbar"><button type="button" id="menu" aria-controls="side" aria-expanded="false">Menu</button><img src="../assets/logo.svg" width="26" height="26" alt=""><b>Merchant Risk &amp; Underwriting</b></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="foot">Hosted example: always Sample mode, synthetic data. AI answers were captured from Live runs on Snowflake. <a href="https://github.com/sfc-gh-jsoliz/sfguide-merchant-risk#live-mode">Run it Live on Snowflake</a>.</footer>
+  </div>
+</div>
+<div id="scrim" class="scrim" hidden></div>
+<aside id="drawer" class="drawer" aria-hidden="true" aria-label="Application detail"><div id="drawer-in"></div></aside>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
