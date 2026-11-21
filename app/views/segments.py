@@ -41,7 +41,7 @@ def render(mode):
             x=alt.X("tier:N", sort=data.TIERS), y=alt.Y("category:N", sort=sorted(seg.category.unique())),
             text=alt.Text(f"{col}:Q", format=fmt),
             color=alt.condition(f"datum.{col} > {seg[col].quantile(.6)}", alt.value("#FFFFFF"), alt.value("#1E1A1B")))
-        st.altair_chart((heat + text).properties(height=300), width="stretch", theme=None)
+        st.altair_chart((heat + text).properties(height=300), use_container_width=True, theme=None)
 
     left, right = st.columns([1.3, 1], gap="medium")
     with left.container(key="card_hist"):
@@ -57,7 +57,7 @@ def render(mode):
             tooltip=[alt.Tooltip("bin:Q", title="Score from"), alt.Tooltip("decision:N", title="Decision"),
                      alt.Tooltip("count:Q", title="Applications")])
         rules = alt.Chart(pd.DataFrame({"x": [40, 70]})).mark_rule(color="#1E1A1B", strokeDash=[4, 3]).encode(x="x:Q")
-        st.altair_chart((bars + rules).properties(height=260), width="stretch", theme=None)
+        st.altair_chart((bars + rules).properties(height=260), use_container_width=True, theme=None)
     with right.container(key="card_shift"):
         st.markdown('<p class="mr-card-h">Decline rate: first vs last six months</p><p class="mr-card-s">'
                     'Jul-Dec 2024 against Jan-Jun 2026, by category.</p>', unsafe_allow_html=True)
@@ -74,7 +74,7 @@ def render(mode):
             color=alt.Color("period:N", title=None, scale=alt.Scale(domain=["Jul-Dec 2024", "Jan-Jun 2026"], range=["#B8ADA3", "#B02A1E"])),
             tooltip=[alt.Tooltip("category_name:N", title="Category"), alt.Tooltip("period:N", title="Period"),
                      alt.Tooltip("decline_rate:Q", title="Decline rate", format=".1%")])
-        st.altair_chart((line + pts).properties(height=260), width="stretch", theme=None)
+        st.altair_chart((line + pts).properties(height=260), use_container_width=True, theme=None)
 
     with st.container(key="card_tbl"):
         st.markdown('<p class="mr-card-h">Segment table</p><p class="mr-card-s">Sortable. Same figures as the matrix.</p>',

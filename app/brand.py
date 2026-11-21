@@ -32,8 +32,10 @@ CSS = "<style>" + _FONTS + """
  --ink:#1E1A1B;--ink2:#4A4245;--muted:#655C5F;--steel:#36587A;--ap:#1D6B47;--apS:#DDF0E5;--rf:#8A5A00;--rfS:#FBEBCB;--dc:#B02A1E;--dcS:#F9E0DC;
  --sans:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"Red Hat Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
 html{overflow-x:clip}
+[data-testid="stIconMaterial"],.material-symbols-rounded{font-family:"Material Symbols Rounded"!important}
 html,body,[class*="st-"],.stMarkdown,button,input,textarea,select{font-family:var(--sans)}
-[data-testid="stToolbar"],[data-testid="stDecoration"],#MainMenu,footer{display:none}
+[data-testid="stToolbarActions"],[data-testid="stMainMenu"],[data-testid="stAppDeployButton"],[data-testid="stDecoration"],#MainMenu,footer{display:none}
+[data-testid="stExpandSidebarButton"]{background:var(--ox700);border-radius:8px}[data-testid="stExpandSidebarButton"] svg{color:#FFF7F2}
 [data-testid="stHeader"]{background:transparent;height:2.6rem}
 .stApp{background:var(--stone)}
 .block-container,[data-testid="stMainBlockContainer"]{padding-top:1.6rem!important;max-width:1240px;padding-left:1.4rem;padding-right:1.4rem}
@@ -60,7 +62,7 @@ html,body,[class*="st-"],.stMarkdown,button,input,textarea,select{font-family:va
 .mr-chip{display:inline-flex;align-items:center;gap:.35rem;font-size:.74rem;border-radius:999px;padding:.22rem .6rem;border:1px solid var(--line);color:var(--ink2);background:var(--surface);white-space:nowrap;max-width:100%;font-weight:500}
 .mr-chip.sample{background:var(--rfS);color:var(--rf)!important;border-color:#EDCF8E;font-weight:600}
 .mr-chip.live{background:var(--apS);color:var(--ap)!important;border-color:#A9D8BE;font-weight:600}
-[data-testid="stSidebar"] .mr-chip.role{background:#4E1A26;border-color:#6E3441;color:#E9D9DC!important}
+[data-testid="stSidebar"] .mr-chip.role{white-space:normal;background:#4E1A26;border-color:#6E3441;color:#E9D9DC!important}
 .mr-dot{width:7px;height:7px;border-radius:50%;background:currentColor}
 .mr-side-foot{font-size:.72rem;color:#C9AEB4!important;margin-top:1.4rem;line-height:1.45}
 /* page header */
@@ -229,16 +231,15 @@ def verdict(status):
     return '<span class="mr-pill warn">! Needs review</span>'
 
 
-def rail(scores, decisions, marker=None, h=56):
+def rail(scores, decisions, marker=None, h=56, W=1000):
     """The threshold rail: 0-100 split at 40 and 70, one tick per application."""
-    W = 1000
     x = lambda v: 8 + v / 100 * (W - 16)  # noqa: E731
     bands = (f'<rect x="{x(0)}" y="14" width="{x(40) - x(0)}" height="{h - 28}" fill="#DDF0E5"/>'
              f'<rect x="{x(40)}" y="14" width="{x(70) - x(40)}" height="{h - 28}" fill="#FBEBCB"/>'
              f'<rect x="{x(70)}" y="14" width="{x(100) - x(70)}" height="{h - 28}" fill="#F9E0DC"/>')
     ticks = "".join(f'<line class="tick" x1="{x(s):.1f}" x2="{x(s):.1f}" y1="18" y2="{h - 18}" stroke="{DEC_COLORS[d]}" stroke-opacity=".55" stroke-width="2"/>'
                     for s, d in zip(scores, decisions))
-    labels = "".join(f'<text x="{x(v)}" y="{h - 2}" text-anchor="middle" font-size="12" fill="#655C5F" font-family="Red Hat Mono, monospace">{v}</text>'
+    labels = "".join(f'<text x="{x(v)}" y="{h - 2}" text-anchor="{ {0: "start", 100: "end"}.get(v, "middle") }" font-size="12" fill="#655C5F" font-family="Red Hat Mono, monospace">{v}</text>'
                      for v in (0, 40, 70, 100))
     names = (f'<text x="{x(20)}" y="11" text-anchor="middle" font-size="12" font-weight="600" fill="#1D6B47">Approve</text>'
              f'<text x="{x(55)}" y="11" text-anchor="middle" font-size="12" font-weight="600" fill="#8A5A00">Refer</text>'

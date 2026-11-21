@@ -33,7 +33,7 @@ def detail(r, mode):
                 f'<div style="display:flex;gap:.4rem;flex-wrap:wrap;margin:.3rem 0 .4rem">{brand.pill(r.decision)}'
                 f'<span class="mr-pill n">{brand.esc(r.credit_tier)}</span><span class="mr-pill n">MCC {brand.esc(r.mcc)}</span></div>',
                 unsafe_allow_html=True)
-    st.markdown(brand.rail([], [], marker=r.risk_score, h=50), unsafe_allow_html=True)
+    st.markdown(brand.rail([], [], marker=r.risk_score, h=56, W=420), unsafe_allow_html=True)
     st.markdown(f'<div class="mr-facts"><div><span>Requested volume / month</span><b>{brand.usd(r.requested_monthly_volume)}</b></div>'
                 f'<div><span>Chargebacks</span><b>{r.chargeback_history_bps:.0f} bps</b></div>'
                 f'<div><span>Years trading</span><b>{r.years_in_business:.0f}</b></div>'

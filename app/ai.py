@@ -140,12 +140,14 @@ def draft_note(fp):
 def verify(fp, draft):
     vp = (
         "You are a fact-checker. Compare the DRAFT against the FACTS JSON (only allowed source). Return ONLY a JSON object with keys "
-        "reason (one sentence), status (exactly 'verified' if every number/claim is supported and there are no hedge words like "
-        "likely/approximately/around/could, else exactly 'needs_review'), residual_hedges (int), "
+        "reason (one sentence), status (exactly 'verified' if every number/claim is supported and there are no hedge words, else exactly "
+        "'needs_review'), residual_hedges (int), "
         "edits (array of strings, each naming the unsupported or hedged claim). "
         "Rounding a FACTS number to the draft's display units (whole or one-decimal percentages, $M/$K) and simple differences "
         "between two FACTS numbers (for example a change in percentage points) count as supported; flag only wrong numbers, "
-        "invented claims and hedges.\n\n"
+        "invented claims and hedges. Hedge words are words of uncertainty only (likely, approximately, around, about, roughly, could, may, "
+        "might, perhaps, suggests); descriptive words such as sharply, elevated or climbing are not hedges when the numbers support them. "
+        "The data window (2024-07-31 to 2026-06-30) is historical; do not flag dates as being in the future.\n\n"
         f"FACTS: {json.dumps(fp)}\n\nDRAFT:\n{draft}"
     )
     raw = complete(vp)

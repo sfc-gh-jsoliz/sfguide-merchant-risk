@@ -24,7 +24,7 @@ def render(mode):
         return f"{(x - y) * 100:+.1f} pp vs H2 2025"
     tiles = [
         brand.kpi("Applications, H1 2026", brand.counter("", a["applications"]),
-                  f'<span class="flat">{brand.usd(a["volume"])} requested / month</span>', list(m.applications)),
+                  f'<span class="flat">{brand.usd(a["volume"])} requested / month</span>'),
         brand.kpi("Approval rate", brand.num(a["approval_rate"] * 100, 1, "", "%"),
                   brand.delta(a["approval_rate"] - b["approval_rate"], pp(a["approval_rate"], b["approval_rate"])),
                   list(m.approval_rate)),
@@ -77,7 +77,7 @@ def render(mode):
             tooltip=[alt.Tooltip("month:T", title="Month-end", format="%B %Y"), alt.Tooltip("decision:N", title="Decision"),
                      alt.Tooltip("count:Q", title="Applications")],
         ).properties(height=290)
-        st.altair_chart(chart, width="stretch", theme=None)
+        st.altair_chart(chart, use_container_width=True, theme=None)
     with right.container(key="card_reasons"):
         st.markdown('<p class="mr-card-h">Why applications decline</p><p class="mr-card-s">First matching rule per declined application.</p>',
                     unsafe_allow_html=True)
@@ -105,6 +105,6 @@ def render(mode):
         l2 = base.mark_line(color=brand.T["steel"], strokeWidth=2, strokeDash=[5, 4]).encode(
             y=alt.Y("complaint_count:Q", title="CFPB complaints / month", scale=alt.Scale(zero=False),
                     axis=alt.Axis(titleColor=brand.T["steel"])), tooltip=tip)
-        st.altair_chart(alt.layer(l1, l2).resolve_scale(y="independent").properties(height=230), width="stretch", theme=None)
+        st.altair_chart(alt.layer(l1, l2).resolve_scale(y="independent").properties(height=230), use_container_width=True, theme=None)
         st.markdown('<div class="mr-legend"><span><i style="background:#7D2A3C"></i>Decline rate (this book)</span>'
                     '<span><i style="background:#36587A"></i>CFPB payment complaints (backdrop)</span></div>', unsafe_allow_html=True)

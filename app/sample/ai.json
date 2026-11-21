@@ -1,1 +1,1283 @@
-{"notes": {}, "ask": {}}
+{
+ "notes": {
+  "ALL": {
+   "scope": "ALL",
+   "subject": "Whole book",
+   "markdown": "# Underwriting Risk Note\n\n**Electronics & Appliances (0.0% approval, 80.6 risk) and Restaurants & Food Service (0.0% approval, 73.7 risk) are highest-risk with zero approvals; Food & Beverage Stores is lowest-risk (36.7% approval, 44.7 risk).**\n\n## Portfolio Summary\n\n| Segment | Applications | Approval % | Decline % | Avg Risk | Avg Reserve % Booked |\n|---------|-------------|-----------|-----------|----------|---------------------|\n| Clothing & Accessories | 120 | 13.3 | 20.8 | 57.0 | 4.86 |\n| Electronics & Appliances | 120 | 0.0 | 77.5 | 80.6 | 6.01 |\n| Food & Beverage Stores | 120 | 36.7 | 4.2 | 44.7 | 3.78 |\n| Furniture & Home Furnishings | 120 | 3.3 | 31.7 | 62.1 | 5.29 |\n| Health & Personal Care | 120 | 26.7 | 15.8 | 53.1 | 4.36 |\n| Restaurants & Food Service | 120 | 0.0 | 60.0 | 73.7 | 5.86 |\n| **Total** | **720** | **13.3** | **35.0** | **61.9** | **4.73** |\n\n### Credit Tier Breakdown\n\n| Segment | Applications | Approval % | Decline % | Avg Risk | Avg Reserve % Booked |\n|---------|-------------|-----------|-----------|----------|---------------------|\n| A-Prime | 170 | 29.4 | 14.1 | 49.9 | 4.04 |\n| B-NearPrime | 173 | 18.5 | 27.2 | 57.2 | 4.46 |\n| C-Subprime | 176 | 5.7 | 35.8 | 64.7 | 5.35 |\n| D-HighRisk | 201 | 2.0 | 58.7 | 73.6 | 5.51 |\n\n## Key Findings\n\n- **Period deterioration**: Electronics & Appliances declined from 73.3% to 83.3% decline rate and risk climbed from 80.4 to 82.0 between first_6m and last_6m; Restaurants & Food Service worsened from 56.7% to 76.7% decline rate and from 73.3 to 78.0 risk; Health & Personal Care decline rate rose from 13.3% to 23.3% and risk increased from 52.9 to 60.1.\n\n- **Decline drivers**: High chargeback history drove 190 of 252 total declines, followed by High-risk category (29), Composite risk over threshold (20), and Thin operating history (13).\n\n- **CFPB backdrop context**: Industry-wide payment complaints averaged 10473 monthly during first_6m and rose to 11739 in last_6m, with monetary relief climbing from 26.33% to 28.67%; this external trend parallels the book's risk deterioration in Electronics & Appliances and Restaurants & Food Service segments.\n\n## Data Coverage\n2024-07-31 to 2026-06-30, whole book, 720 applications across 6 merchant segments and 4 credit tiers.",
+   "status": "verified",
+   "edits": [],
+   "residual_hedges": 0,
+   "fact_pack": {
+    "scope": "Whole book",
+    "window": "2024-07-31 to 2026-06-30",
+    "segments": [
+     {
+      "segment": "Clothing & Accessories",
+      "applications": 120,
+      "approval_rate_pct": 13.3,
+      "refer_rate_pct": 65.8,
+      "decline_rate_pct": 20.8,
+      "avg_risk_score": 57.0,
+      "avg_reserve_pct_booked": 4.86
+     },
+     {
+      "segment": "Electronics & Appliances",
+      "applications": 120,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 22.5,
+      "decline_rate_pct": 77.5,
+      "avg_risk_score": 80.6,
+      "avg_reserve_pct_booked": 6.01
+     },
+     {
+      "segment": "Food & Beverage Stores",
+      "applications": 120,
+      "approval_rate_pct": 36.7,
+      "refer_rate_pct": 59.2,
+      "decline_rate_pct": 4.2,
+      "avg_risk_score": 44.7,
+      "avg_reserve_pct_booked": 3.78
+     },
+     {
+      "segment": "Furniture & Home Furnishings",
+      "applications": 120,
+      "approval_rate_pct": 3.3,
+      "refer_rate_pct": 65.0,
+      "decline_rate_pct": 31.7,
+      "avg_risk_score": 62.1,
+      "avg_reserve_pct_booked": 5.29
+     },
+     {
+      "segment": "Health & Personal Care",
+      "applications": 120,
+      "approval_rate_pct": 26.7,
+      "refer_rate_pct": 57.5,
+      "decline_rate_pct": 15.8,
+      "avg_risk_score": 53.1,
+      "avg_reserve_pct_booked": 4.36
+     },
+     {
+      "segment": "Restaurants & Food Service",
+      "applications": 120,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 40.0,
+      "decline_rate_pct": 60.0,
+      "avg_risk_score": 73.7,
+      "avg_reserve_pct_booked": 5.86
+     }
+    ],
+    "credit_tiers": [
+     {
+      "segment": "A-Prime",
+      "applications": 170,
+      "approval_rate_pct": 29.4,
+      "refer_rate_pct": 56.5,
+      "decline_rate_pct": 14.1,
+      "avg_risk_score": 49.9,
+      "avg_reserve_pct_booked": 4.04
+     },
+     {
+      "segment": "B-NearPrime",
+      "applications": 173,
+      "approval_rate_pct": 18.5,
+      "refer_rate_pct": 54.3,
+      "decline_rate_pct": 27.2,
+      "avg_risk_score": 57.2,
+      "avg_reserve_pct_booked": 4.46
+     },
+     {
+      "segment": "C-Subprime",
+      "applications": 176,
+      "approval_rate_pct": 5.7,
+      "refer_rate_pct": 58.5,
+      "decline_rate_pct": 35.8,
+      "avg_risk_score": 64.7,
+      "avg_reserve_pct_booked": 5.35
+     },
+     {
+      "segment": "D-HighRisk",
+      "applications": 201,
+      "approval_rate_pct": 2.0,
+      "refer_rate_pct": 39.3,
+      "decline_rate_pct": 58.7,
+      "avg_risk_score": 73.6,
+      "avg_reserve_pct_booked": 5.51
+     }
+    ],
+    "total": [
+     {
+      "segment": "Total",
+      "applications": 720,
+      "approval_rate_pct": 13.3,
+      "refer_rate_pct": 51.7,
+      "decline_rate_pct": 35.0,
+      "avg_risk_score": 61.9,
+      "avg_reserve_pct_booked": 4.73
+     }
+    ],
+    "periods": [
+     {
+      "segment": "Clothing & Accessories",
+      "period": "first_6m",
+      "applications": 30,
+      "decline_rate_pct": 16.7,
+      "avg_risk_score": 54.6
+     },
+     {
+      "segment": "Clothing & Accessories",
+      "period": "last_6m",
+      "applications": 30,
+      "decline_rate_pct": 20.0,
+      "avg_risk_score": 59.0
+     },
+     {
+      "segment": "Electronics & Appliances",
+      "period": "first_6m",
+      "applications": 30,
+      "decline_rate_pct": 73.3,
+      "avg_risk_score": 80.4
+     },
+     {
+      "segment": "Electronics & Appliances",
+      "period": "last_6m",
+      "applications": 30,
+      "decline_rate_pct": 83.3,
+      "avg_risk_score": 82.0
+     },
+     {
+      "segment": "Food & Beverage Stores",
+      "period": "first_6m",
+      "applications": 30,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 44.3
+     },
+     {
+      "segment": "Food & Beverage Stores",
+      "period": "last_6m",
+      "applications": 30,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 43.5
+     },
+     {
+      "segment": "Furniture & Home Furnishings",
+      "period": "first_6m",
+      "applications": 30,
+      "decline_rate_pct": 30.0,
+      "avg_risk_score": 62.4
+     },
+     {
+      "segment": "Furniture & Home Furnishings",
+      "period": "last_6m",
+      "applications": 30,
+      "decline_rate_pct": 26.7,
+      "avg_risk_score": 60.7
+     },
+     {
+      "segment": "Health & Personal Care",
+      "period": "first_6m",
+      "applications": 30,
+      "decline_rate_pct": 13.3,
+      "avg_risk_score": 52.9
+     },
+     {
+      "segment": "Health & Personal Care",
+      "period": "last_6m",
+      "applications": 30,
+      "decline_rate_pct": 23.3,
+      "avg_risk_score": 60.1
+     },
+     {
+      "segment": "Restaurants & Food Service",
+      "period": "first_6m",
+      "applications": 30,
+      "decline_rate_pct": 56.7,
+      "avg_risk_score": 73.3
+     },
+     {
+      "segment": "Restaurants & Food Service",
+      "period": "last_6m",
+      "applications": 30,
+      "decline_rate_pct": 76.7,
+      "avg_risk_score": 78.0
+     }
+    ],
+    "decline_reasons": [
+     {
+      "decline_reason": "High chargeback history",
+      "declines": 190
+     },
+     {
+      "decline_reason": "High-risk category",
+      "declines": 29
+     },
+     {
+      "decline_reason": "Composite risk over threshold",
+      "declines": 20
+     },
+     {
+      "decline_reason": "Thin operating history",
+      "declines": 13
+     }
+    ],
+    "cfpb_backdrop": [
+     {
+      "period": "first_6m",
+      "avg_monthly_complaints": 10473,
+      "avg_pct_monetary_relief": 26.33
+     },
+     {
+      "period": "last_6m",
+      "avg_monthly_complaints": 11739,
+      "avg_pct_monetary_relief": 28.67
+     }
+    ]
+   },
+   "model": "claude-sonnet-4-5",
+   "latency_ms": 14495
+  },
+  "ELECTRONICS": {
+   "scope": "ELECTRONICS",
+   "subject": "Electronics & Appliances",
+   "markdown": "# Electronics & Appliances Underwriting Risk Note\n\n**Takeaway:** D-HighRisk segment shows 100.0% decline rate at 88.5 average risk score; zero approvals across all segments with A-Prime achieving highest 51.7% refer rate.\n\n## Portfolio Summary\n\n| Segment | Applications | Approval % | Decline % | Avg Risk | Avg Reserve % Booked |\n|---------|--------------|------------|-----------|----------|---------------------|\n| A-Prime | 29 | 0.0 | 48.3 | 69.8 | 5.91 |\n| B-NearPrime | 23 | 0.0 | 73.9 | 79.6 | 5.98 |\n| C-Subprime | 29 | 0.0 | 79.3 | 81.5 | 6.3 |\n| D-HighRisk | 39 | 0.0 | 100.0 | 88.5 | n/d |\n| **Total** | **120** | **0.0** | **77.5** | **80.6** | **6.01** |\n\n## Key Observations\n\n* **Portfolio deterioration:** A-Prime applications increased from 2 in first_6m to 12 in last_6m with decline rate surging from 0.0% to 66.7% and average risk score climbing from 56.9 to 73.5; C-Subprime decline rate jumped from 60.0% to 100.0% with risk score rising from 80.2 to 90.7.\n\n* **Decline drivers:** High chargeback history drove 61 declines, followed by High-risk category at 29 declines and Thin operating history at 3 declines across the 120-application portfolio.\n\n* **External complaint environment:** CFPB payment-industry complaints increased from 10473 average monthly in first_6m to 11739 in last_6m, with monetary relief rising from 26.33% to 28.67%, forming the external backdrop during this underwriting period.\n\n## Data Coverage\n2024-07-31 to 2026-06-30 | Electronics & Appliances | 120 applications",
+   "status": "verified",
+   "edits": [],
+   "residual_hedges": 0,
+   "fact_pack": {
+    "scope": "Electronics & Appliances",
+    "window": "2024-07-31 to 2026-06-30",
+    "segments": [
+     {
+      "segment": "A-Prime",
+      "applications": 29,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 51.7,
+      "decline_rate_pct": 48.3,
+      "avg_risk_score": 69.8,
+      "avg_reserve_pct_booked": 5.91
+     },
+     {
+      "segment": "B-NearPrime",
+      "applications": 23,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 26.1,
+      "decline_rate_pct": 73.9,
+      "avg_risk_score": 79.6,
+      "avg_reserve_pct_booked": 5.98
+     },
+     {
+      "segment": "C-Subprime",
+      "applications": 29,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 20.7,
+      "decline_rate_pct": 79.3,
+      "avg_risk_score": 81.5,
+      "avg_reserve_pct_booked": 6.3
+     },
+     {
+      "segment": "D-HighRisk",
+      "applications": 39,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 0.0,
+      "decline_rate_pct": 100.0,
+      "avg_risk_score": 88.5,
+      "avg_reserve_pct_booked": null
+     }
+    ],
+    "total": [
+     {
+      "segment": "Total",
+      "applications": 120,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 22.5,
+      "decline_rate_pct": 77.5,
+      "avg_risk_score": 80.6,
+      "avg_reserve_pct_booked": 6.01
+     }
+    ],
+    "periods": [
+     {
+      "segment": "A-Prime",
+      "period": "first_6m",
+      "applications": 2,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 56.9
+     },
+     {
+      "segment": "A-Prime",
+      "period": "last_6m",
+      "applications": 12,
+      "decline_rate_pct": 66.7,
+      "avg_risk_score": 73.5
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "first_6m",
+      "applications": 10,
+      "decline_rate_pct": 80.0,
+      "avg_risk_score": 82.5
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "last_6m",
+      "applications": 5,
+      "decline_rate_pct": 80.0,
+      "avg_risk_score": 79.3
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "first_6m",
+      "applications": 10,
+      "decline_rate_pct": 60.0,
+      "avg_risk_score": 80.2
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "last_6m",
+      "applications": 6,
+      "decline_rate_pct": 100.0,
+      "avg_risk_score": 90.7
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "first_6m",
+      "applications": 8,
+      "decline_rate_pct": 100.0,
+      "avg_risk_score": 83.9
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "last_6m",
+      "applications": 7,
+      "decline_rate_pct": 100.0,
+      "avg_risk_score": 90.8
+     }
+    ],
+    "decline_reasons": [
+     {
+      "decline_reason": "High chargeback history",
+      "declines": 61
+     },
+     {
+      "decline_reason": "High-risk category",
+      "declines": 29
+     },
+     {
+      "decline_reason": "Thin operating history",
+      "declines": 3
+     }
+    ],
+    "cfpb_backdrop": [
+     {
+      "period": "first_6m",
+      "avg_monthly_complaints": 10473,
+      "avg_pct_monetary_relief": 26.33
+     },
+     {
+      "period": "last_6m",
+      "avg_monthly_complaints": 11739,
+      "avg_pct_monetary_relief": 28.67
+     }
+    ]
+   },
+   "model": "claude-sonnet-4-5",
+   "latency_ms": 9387
+  },
+  "RESTAURANTS": {
+   "scope": "RESTAURANTS",
+   "subject": "Restaurants & Food Service",
+   "markdown": "# Restaurants & Food Service Underwriting Risk Note\n\n**D-HighRisk shows the highest risk (84.2) and lowest approval (0.0%); A-Prime has the lowest risk (61.7) but still 0.0% approval across all segments.**\n\n| Segment | Applications | Approval % | Decline % | Avg Risk | Avg Reserve % Booked |\n|---------|-------------|------------|-----------|----------|---------------------|\n| A-Prime | 27 | 0.0 | 29.6 | 61.7 | 5.57 |\n| B-NearPrime | 32 | 0.0 | 53.1 | 69.7 | 5.91 |\n| C-Subprime | 24 | 0.0 | 62.5 | 76.1 | 6.06 |\n| D-HighRisk | 37 | 0.0 | 86.5 | 84.2 | 6.42 |\n| **Total** | **120** | **0.0** | **60.0** | **73.7** | **5.86** |\n\n- **Period deterioration:** Between first_6m (Jul-Dec 2024) and last_6m (Jan-Jun 2026), B-NearPrime decline rate increased from 58.3 to 83.3 and avg risk score rose from 70.8 to 77.3, while D-HighRisk decline rate surged from 71.4 to 100.0 with avg risk score climbing from 82.4 to 85.7.\n\n- **Decline driver concentration:** High chargeback history accounted for 48 of 72 total declines (66.7%), followed by Composite risk over threshold at 17 declines (23.6%) and Thin operating history at 7 declines (9.7%).\n\n- **Payment-industry complaint backdrop:** CFPB data shows average monthly complaints rose from 10473 in first_6m to 11739 in last_6m (12.1% increase), while average monetary relief percentage increased from 26.33 to 28.67.\n\n## Data Coverage\n2024-07-31 to 2026-06-30, Restaurants & Food Service, 120 applications across 4 risk segments.",
+   "status": "verified",
+   "edits": [],
+   "residual_hedges": 0,
+   "fact_pack": {
+    "scope": "Restaurants & Food Service",
+    "window": "2024-07-31 to 2026-06-30",
+    "segments": [
+     {
+      "segment": "A-Prime",
+      "applications": 27,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 70.4,
+      "decline_rate_pct": 29.6,
+      "avg_risk_score": 61.7,
+      "avg_reserve_pct_booked": 5.57
+     },
+     {
+      "segment": "B-NearPrime",
+      "applications": 32,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 46.9,
+      "decline_rate_pct": 53.1,
+      "avg_risk_score": 69.7,
+      "avg_reserve_pct_booked": 5.91
+     },
+     {
+      "segment": "C-Subprime",
+      "applications": 24,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 37.5,
+      "decline_rate_pct": 62.5,
+      "avg_risk_score": 76.1,
+      "avg_reserve_pct_booked": 6.06
+     },
+     {
+      "segment": "D-HighRisk",
+      "applications": 37,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 13.5,
+      "decline_rate_pct": 86.5,
+      "avg_risk_score": 84.2,
+      "avg_reserve_pct_booked": 6.42
+     }
+    ],
+    "total": [
+     {
+      "segment": "Total",
+      "applications": 120,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 40.0,
+      "decline_rate_pct": 60.0,
+      "avg_risk_score": 73.7,
+      "avg_reserve_pct_booked": 5.86
+     }
+    ],
+    "periods": [
+     {
+      "segment": "A-Prime",
+      "period": "first_6m",
+      "applications": 5,
+      "decline_rate_pct": 20.0,
+      "avg_risk_score": 61.1
+     },
+     {
+      "segment": "A-Prime",
+      "period": "last_6m",
+      "applications": 4,
+      "decline_rate_pct": 50.0,
+      "avg_risk_score": 60.5
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "first_6m",
+      "applications": 12,
+      "decline_rate_pct": 58.3,
+      "avg_risk_score": 70.8
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "last_6m",
+      "applications": 6,
+      "decline_rate_pct": 83.3,
+      "avg_risk_score": 77.3
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "first_6m",
+      "applications": 6,
+      "decline_rate_pct": 66.7,
+      "avg_risk_score": 77.8
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "last_6m",
+      "applications": 11,
+      "decline_rate_pct": 63.6,
+      "avg_risk_score": 78.5
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "first_6m",
+      "applications": 7,
+      "decline_rate_pct": 71.4,
+      "avg_risk_score": 82.4
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "last_6m",
+      "applications": 9,
+      "decline_rate_pct": 100.0,
+      "avg_risk_score": 85.7
+     }
+    ],
+    "decline_reasons": [
+     {
+      "decline_reason": "High chargeback history",
+      "declines": 48
+     },
+     {
+      "decline_reason": "Composite risk over threshold",
+      "declines": 17
+     },
+     {
+      "decline_reason": "Thin operating history",
+      "declines": 7
+     }
+    ],
+    "cfpb_backdrop": [
+     {
+      "period": "first_6m",
+      "avg_monthly_complaints": 10473,
+      "avg_pct_monetary_relief": 26.33
+     },
+     {
+      "period": "last_6m",
+      "avg_monthly_complaints": 11739,
+      "avg_pct_monetary_relief": 28.67
+     }
+    ]
+   },
+   "model": "claude-sonnet-4-5",
+   "latency_ms": 9211
+  },
+  "FURNITURE": {
+   "scope": "FURNITURE",
+   "subject": "Furniture & Home Furnishings",
+   "markdown": "# Furniture & Home Furnishings Underwriting Risk Note\n\n**Takeaway:** D-HighRisk posted the highest average risk score (76.4) and highest decline rate (69.2%); A-Prime achieved the only meaningful approval rate (10.0%).\n\n| Segment | Applications | Approval % | Decline % | Avg Risk | Avg Reserve % Booked |\n|---------|--------------|------------|-----------|----------|---------------------|\n| A-Prime | 30 | 10.0 | 3.3 | 51.9 | 4.98 |\n| B-NearPrime | 30 | 3.3 | 20.0 | 58.5 | 5.35 |\n| C-Subprime | 34 | 0.0 | 38.2 | 63.5 | 5.57 |\n| D-HighRisk | 26 | 0.0 | 69.2 | 76.4 | 5.55 |\n| **Total** | **120** | **3.3** | **31.7** | **62.1** | **5.29** |\n\n* **Period comparison:** B-NearPrime deteriorated sharply from first_6m to last_6m (decline rate rose from 0.0% to 50.0%, average risk score climbed from 54.6 to 63.0); D-HighRisk improved (decline rate dropped from 100.0% to 50.0%, average risk score fell from 85.1 to 73.6).\n\n* **Decline drivers:** High chargeback history accounted for 33 of 38 total declines, with Composite risk over threshold (3 declines) and Thin operating history (2 declines) as secondary factors.\n\n* **CFPB backdrop context:** Industry-wide average monthly complaints in the payments sector increased from 10473 in first_6m to 11739 in last_6m, while average monetary relief rose from 26.33% to 28.67%, a backdrop coinciding with the processor's elevated risk posture and 31.7% overall decline rate.\n\n## Data Coverage\n2024-07-31 to 2026-06-30 | 120 applications | Furniture & Home Furnishings",
+   "status": "needs_review",
+   "edits": [
+    "Decline drivers claim of '33 of 38 total declines' - the total of 38 declines is not supported by the facts"
+   ],
+   "residual_hedges": 0,
+   "fact_pack": {
+    "scope": "Furniture & Home Furnishings",
+    "window": "2024-07-31 to 2026-06-30",
+    "segments": [
+     {
+      "segment": "A-Prime",
+      "applications": 30,
+      "approval_rate_pct": 10.0,
+      "refer_rate_pct": 86.7,
+      "decline_rate_pct": 3.3,
+      "avg_risk_score": 51.9,
+      "avg_reserve_pct_booked": 4.98
+     },
+     {
+      "segment": "B-NearPrime",
+      "applications": 30,
+      "approval_rate_pct": 3.3,
+      "refer_rate_pct": 76.7,
+      "decline_rate_pct": 20.0,
+      "avg_risk_score": 58.5,
+      "avg_reserve_pct_booked": 5.35
+     },
+     {
+      "segment": "C-Subprime",
+      "applications": 34,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 61.8,
+      "decline_rate_pct": 38.2,
+      "avg_risk_score": 63.5,
+      "avg_reserve_pct_booked": 5.57
+     },
+     {
+      "segment": "D-HighRisk",
+      "applications": 26,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 30.8,
+      "decline_rate_pct": 69.2,
+      "avg_risk_score": 76.4,
+      "avg_reserve_pct_booked": 5.55
+     }
+    ],
+    "total": [
+     {
+      "segment": "Total",
+      "applications": 120,
+      "approval_rate_pct": 3.3,
+      "refer_rate_pct": 65.0,
+      "decline_rate_pct": 31.7,
+      "avg_risk_score": 62.1,
+      "avg_reserve_pct_booked": 5.29
+     }
+    ],
+    "periods": [
+     {
+      "segment": "A-Prime",
+      "period": "first_6m",
+      "applications": 6,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 48.4
+     },
+     {
+      "segment": "A-Prime",
+      "period": "last_6m",
+      "applications": 8,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 49.3
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "first_6m",
+      "applications": 8,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 54.6
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "last_6m",
+      "applications": 6,
+      "decline_rate_pct": 50.0,
+      "avg_risk_score": 63.0
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "first_6m",
+      "applications": 8,
+      "decline_rate_pct": 12.5,
+      "avg_risk_score": 58.0
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "last_6m",
+      "applications": 10,
+      "decline_rate_pct": 20.0,
+      "avg_risk_score": 60.7
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "first_6m",
+      "applications": 8,
+      "decline_rate_pct": 100.0,
+      "avg_risk_score": 85.1
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "last_6m",
+      "applications": 6,
+      "decline_rate_pct": 50.0,
+      "avg_risk_score": 73.6
+     }
+    ],
+    "decline_reasons": [
+     {
+      "decline_reason": "High chargeback history",
+      "declines": 33
+     },
+     {
+      "decline_reason": "Composite risk over threshold",
+      "declines": 3
+     },
+     {
+      "decline_reason": "Thin operating history",
+      "declines": 2
+     }
+    ],
+    "cfpb_backdrop": [
+     {
+      "period": "first_6m",
+      "avg_monthly_complaints": 10473,
+      "avg_pct_monetary_relief": 26.33
+     },
+     {
+      "period": "last_6m",
+      "avg_monthly_complaints": 11739,
+      "avg_pct_monetary_relief": 28.67
+     }
+    ]
+   },
+   "model": "claude-sonnet-4-5",
+   "latency_ms": 9375
+  },
+  "APPAREL": {
+   "scope": "APPAREL",
+   "subject": "Clothing & Accessories",
+   "markdown": "# Clothing & Accessories Underwriting Risk Note\n\n**D-HighRisk segment presents highest risk (66.7 avg score, 37.8% decline rate, 0.0% approval) while A-Prime shows lowest approval at 44.8%.**\n\n| Segment | Applications | Approval % | Decline % | Avg Risk | Avg Reserve % Booked |\n|---------|--------------|------------|-----------|----------|---------------------|\n| A-Prime | 29 | 44.8 | 3.4 | 42.1 | 3.42 |\n| B-NearPrime | 23 | 8.7 | 8.7 | 55.5 | 5.19 |\n| C-Subprime | 31 | 3.2 | 25.8 | 60.5 | 5.41 |\n| D-HighRisk | 37 | 0.0 | 37.8 | 66.7 | 5.75 |\n| **Total** | **120** | **13.3** | **20.8** | **57.0** | **4.86** |\n\n* **First vs. last 6 months**: A-Prime risk deteriorated from 35.9 to 49.8; B-NearPrime declines spiked from 0.0% to 40.0% while risk climbed from 50.7 to 61.4; C-Subprime and D-HighRisk showed relative stability in decline rates and risk scores between periods.\n\n* **Decline reasons**: High chargeback history drove all 25 declines captured in the dataset.\n\n* **CFPB backdrop**: Industry-wide payment complaints increased from 10473 to 11739 average monthly complaints between first_6m and last_6m, with monetary relief rising from 26.33% to 28.67%, indicating a more contentious operating environment during the same period this portfolio's risk scores climbed.\n\n## Data Coverage\n2024-07-31 to 2026-06-30 | Clothing & Accessories | 120 applications",
+   "status": "verified",
+   "edits": [],
+   "residual_hedges": 0,
+   "fact_pack": {
+    "scope": "Clothing & Accessories",
+    "window": "2024-07-31 to 2026-06-30",
+    "segments": [
+     {
+      "segment": "A-Prime",
+      "applications": 29,
+      "approval_rate_pct": 44.8,
+      "refer_rate_pct": 51.7,
+      "decline_rate_pct": 3.4,
+      "avg_risk_score": 42.1,
+      "avg_reserve_pct_booked": 3.42
+     },
+     {
+      "segment": "B-NearPrime",
+      "applications": 23,
+      "approval_rate_pct": 8.7,
+      "refer_rate_pct": 82.6,
+      "decline_rate_pct": 8.7,
+      "avg_risk_score": 55.5,
+      "avg_reserve_pct_booked": 5.19
+     },
+     {
+      "segment": "C-Subprime",
+      "applications": 31,
+      "approval_rate_pct": 3.2,
+      "refer_rate_pct": 71.0,
+      "decline_rate_pct": 25.8,
+      "avg_risk_score": 60.5,
+      "avg_reserve_pct_booked": 5.41
+     },
+     {
+      "segment": "D-HighRisk",
+      "applications": 37,
+      "approval_rate_pct": 0.0,
+      "refer_rate_pct": 62.2,
+      "decline_rate_pct": 37.8,
+      "avg_risk_score": 66.7,
+      "avg_reserve_pct_booked": 5.75
+     }
+    ],
+    "total": [
+     {
+      "segment": "Total",
+      "applications": 120,
+      "approval_rate_pct": 13.3,
+      "refer_rate_pct": 65.8,
+      "decline_rate_pct": 20.8,
+      "avg_risk_score": 57.0,
+      "avg_reserve_pct_booked": 4.86
+     }
+    ],
+    "periods": [
+     {
+      "segment": "A-Prime",
+      "period": "first_6m",
+      "applications": 6,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 35.9
+     },
+     {
+      "segment": "A-Prime",
+      "period": "last_6m",
+      "applications": 6,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 49.8
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "first_6m",
+      "applications": 7,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 50.7
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "last_6m",
+      "applications": 5,
+      "decline_rate_pct": 40.0,
+      "avg_risk_score": 61.4
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "first_6m",
+      "applications": 9,
+      "decline_rate_pct": 22.2,
+      "avg_risk_score": 61.5
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "last_6m",
+      "applications": 11,
+      "decline_rate_pct": 18.2,
+      "avg_risk_score": 58.3
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "first_6m",
+      "applications": 8,
+      "decline_rate_pct": 37.5,
+      "avg_risk_score": 64.3
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "last_6m",
+      "applications": 8,
+      "decline_rate_pct": 25.0,
+      "avg_risk_score": 65.5
+     }
+    ],
+    "decline_reasons": [
+     {
+      "decline_reason": "High chargeback history",
+      "declines": 25
+     }
+    ],
+    "cfpb_backdrop": [
+     {
+      "period": "first_6m",
+      "avg_monthly_complaints": 10473,
+      "avg_pct_monetary_relief": 26.33
+     },
+     {
+      "period": "last_6m",
+      "avg_monthly_complaints": 11739,
+      "avg_pct_monetary_relief": 28.67
+     }
+    ]
+   },
+   "model": "claude-sonnet-4-5",
+   "latency_ms": 9219
+  },
+  "HEALTH": {
+   "scope": "HEALTH",
+   "subject": "Health & Personal Care",
+   "markdown": "# Health & Personal Care Underwriting Risk Note (Jul 2024 – Jun 2026)\n\n**D-HighRisk shows the highest risk (63.0) and lowest approval (5.7%); A-Prime shows lowest risk (39.3) and highest approval (60.7%).**\n\n## Portfolio Summary\n\n| Segment | Applications | Approval % | Decline % | Avg Risk | Avg Reserve % Booked |\n|---------|-------------|-----------|-----------|----------|---------------------|\n| A-Prime | 28 | 60.7 | 0.0 | 39.3 | 3.07 |\n| B-NearPrime | 26 | 42.3 | 15.4 | 46.9 | 3.48 |\n| C-Subprime | 31 | 6.5 | 12.9 | 59.7 | 5.59 |\n| D-HighRisk | 35 | 5.7 | 31.4 | 63.0 | 5.28 |\n| **Total** | **120** | **26.7** | **15.8** | **53.1** | **4.36** |\n\n## Key Observations\n\n* **First vs. Last 6-Month Trend**: A-Prime average risk scores climbed sharply from 30.2 (first_6m) to 50.4 (last_6m), while B-NearPrime declines increased from 12.5% to 25.0%; D-HighRisk declines rose from 33.3% to 44.4% and average risk declined slightly from 68.8 to 68.1.\n\n* **Decline Drivers**: High chargeback history accounted for 18 of 19 total declines, with thin operating history responsible for 1 decline.\n\n* **CFPB Backdrop**: Industry-wide payment complaints averaged 10473 monthly in first_6m and increased to 11739 in last_6m, while monetary relief rates rose from 26.33% to 28.67%.\n\n## Data Coverage\nJul 2024 – Jun 2026 | Health & Personal Care | 120 applications",
+   "status": "verified",
+   "edits": [],
+   "residual_hedges": 0,
+   "fact_pack": {
+    "scope": "Health & Personal Care",
+    "window": "2024-07-31 to 2026-06-30",
+    "segments": [
+     {
+      "segment": "A-Prime",
+      "applications": 28,
+      "approval_rate_pct": 60.7,
+      "refer_rate_pct": 39.3,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 39.3,
+      "avg_reserve_pct_booked": 3.07
+     },
+     {
+      "segment": "B-NearPrime",
+      "applications": 26,
+      "approval_rate_pct": 42.3,
+      "refer_rate_pct": 42.3,
+      "decline_rate_pct": 15.4,
+      "avg_risk_score": 46.9,
+      "avg_reserve_pct_booked": 3.48
+     },
+     {
+      "segment": "C-Subprime",
+      "applications": 31,
+      "approval_rate_pct": 6.5,
+      "refer_rate_pct": 80.6,
+      "decline_rate_pct": 12.9,
+      "avg_risk_score": 59.7,
+      "avg_reserve_pct_booked": 5.59
+     },
+     {
+      "segment": "D-HighRisk",
+      "applications": 35,
+      "approval_rate_pct": 5.7,
+      "refer_rate_pct": 62.9,
+      "decline_rate_pct": 31.4,
+      "avg_risk_score": 63.0,
+      "avg_reserve_pct_booked": 5.28
+     }
+    ],
+    "total": [
+     {
+      "segment": "Total",
+      "applications": 120,
+      "approval_rate_pct": 26.7,
+      "refer_rate_pct": 57.5,
+      "decline_rate_pct": 15.8,
+      "avg_risk_score": 53.1,
+      "avg_reserve_pct_booked": 4.36
+     }
+    ],
+    "periods": [
+     {
+      "segment": "A-Prime",
+      "period": "first_6m",
+      "applications": 6,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 30.2
+     },
+     {
+      "segment": "A-Prime",
+      "period": "last_6m",
+      "applications": 3,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 50.4
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "first_6m",
+      "applications": 8,
+      "decline_rate_pct": 12.5,
+      "avg_risk_score": 51.4
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "last_6m",
+      "applications": 8,
+      "decline_rate_pct": 25.0,
+      "avg_risk_score": 56.0
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "first_6m",
+      "applications": 10,
+      "decline_rate_pct": 10.0,
+      "avg_risk_score": 58.1
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "last_6m",
+      "applications": 10,
+      "decline_rate_pct": 10.0,
+      "avg_risk_score": 59.0
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "first_6m",
+      "applications": 6,
+      "decline_rate_pct": 33.3,
+      "avg_risk_score": 68.8
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "last_6m",
+      "applications": 9,
+      "decline_rate_pct": 44.4,
+      "avg_risk_score": 68.1
+     }
+    ],
+    "decline_reasons": [
+     {
+      "decline_reason": "High chargeback history",
+      "declines": 18
+     },
+     {
+      "decline_reason": "Thin operating history",
+      "declines": 1
+     }
+    ],
+    "cfpb_backdrop": [
+     {
+      "period": "first_6m",
+      "avg_monthly_complaints": 10473,
+      "avg_pct_monetary_relief": 26.33
+     },
+     {
+      "period": "last_6m",
+      "avg_monthly_complaints": 11739,
+      "avg_pct_monetary_relief": 28.67
+     }
+    ]
+   },
+   "model": "claude-sonnet-4-5",
+   "latency_ms": 9097
+  },
+  "GROCERY": {
+   "scope": "GROCERY",
+   "subject": "Food & Beverage Stores",
+   "markdown": "# Food & Beverage Stores Underwriting Summary (Jul 2024 – Jun 2026)\n\n**Highest risk and lowest approval: D-HighRisk segment (57.6 avg risk score, 7.4% approval rate); A-Prime segment shows strongest performance (33.8 avg risk, 63.0% approval rate).**\n\n| Segment | Applications | Approval % | Decline % | Avg Risk | Avg Reserve % Booked |\n|---------|--------------|------------|-----------|----------|---------------------|\n| A-Prime | 27 | 63.0 | 0.0 | 33.8 | 2.58 |\n| B-NearPrime | 39 | 46.2 | 2.6 | 40.7 | 3.26 |\n| C-Subprime | 27 | 25.9 | 0.0 | 48.4 | 4.42 |\n| D-HighRisk | 27 | 7.4 | 14.8 | 57.6 | 5.29 |\n| **Total** | **120** | **36.7** | **4.2** | **44.7** | **3.78** |\n\n- **Period comparison:** A-Prime improved from 38.6 to 30.8 avg risk score (first_6m to last_6m), while D-HighRisk deteriorated significantly from 50.5 to 59.6; B-NearPrime and C-Subprime remained stable at 40.4→41.8 and 48.7→48.1 respectively.\n\n- **Decline reasons:** All 5 declines attributed to high chargeback history.\n\n- **CFPB backdrop:** Industry payment complaints increased from 10473 to 11739 avg monthly (first_6m to last_6m), with monetary relief rising from 26.33% to 28.67%, reflecting broader sector payment friction during this processor's underwriting window.\n\n## Data Coverage\n2024-07-31 to 2026-06-30; 120 Food & Beverage Stores applications across 4 risk segments.",
+   "status": "verified",
+   "edits": [],
+   "residual_hedges": 0,
+   "fact_pack": {
+    "scope": "Food & Beverage Stores",
+    "window": "2024-07-31 to 2026-06-30",
+    "segments": [
+     {
+      "segment": "A-Prime",
+      "applications": 27,
+      "approval_rate_pct": 63.0,
+      "refer_rate_pct": 37.0,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 33.8,
+      "avg_reserve_pct_booked": 2.58
+     },
+     {
+      "segment": "B-NearPrime",
+      "applications": 39,
+      "approval_rate_pct": 46.2,
+      "refer_rate_pct": 51.3,
+      "decline_rate_pct": 2.6,
+      "avg_risk_score": 40.7,
+      "avg_reserve_pct_booked": 3.26
+     },
+     {
+      "segment": "C-Subprime",
+      "applications": 27,
+      "approval_rate_pct": 25.9,
+      "refer_rate_pct": 74.1,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 48.4,
+      "avg_reserve_pct_booked": 4.42
+     },
+     {
+      "segment": "D-HighRisk",
+      "applications": 27,
+      "approval_rate_pct": 7.4,
+      "refer_rate_pct": 77.8,
+      "decline_rate_pct": 14.8,
+      "avg_risk_score": 57.6,
+      "avg_reserve_pct_booked": 5.29
+     }
+    ],
+    "total": [
+     {
+      "segment": "Total",
+      "applications": 120,
+      "approval_rate_pct": 36.7,
+      "refer_rate_pct": 59.2,
+      "decline_rate_pct": 4.2,
+      "avg_risk_score": 44.7,
+      "avg_reserve_pct_booked": 3.78
+     }
+    ],
+    "periods": [
+     {
+      "segment": "A-Prime",
+      "period": "first_6m",
+      "applications": 5,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 38.6
+     },
+     {
+      "segment": "A-Prime",
+      "period": "last_6m",
+      "applications": 7,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 30.8
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "first_6m",
+      "applications": 11,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 40.4
+     },
+     {
+      "segment": "B-NearPrime",
+      "period": "last_6m",
+      "applications": 12,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 41.8
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "first_6m",
+      "applications": 9,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 48.7
+     },
+     {
+      "segment": "C-Subprime",
+      "period": "last_6m",
+      "applications": 6,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 48.1
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "first_6m",
+      "applications": 5,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 50.5
+     },
+     {
+      "segment": "D-HighRisk",
+      "period": "last_6m",
+      "applications": 5,
+      "decline_rate_pct": 0.0,
+      "avg_risk_score": 59.6
+     }
+    ],
+    "decline_reasons": [
+     {
+      "decline_reason": "High chargeback history",
+      "declines": 5
+     }
+    ],
+    "cfpb_backdrop": [
+     {
+      "period": "first_6m",
+      "avg_monthly_complaints": 10473,
+      "avg_pct_monetary_relief": 26.33
+     },
+     {
+      "period": "last_6m",
+      "avg_monthly_complaints": 11739,
+      "avg_pct_monetary_relief": 28.67
+     }
+    ]
+   },
+   "model": "claude-sonnet-4-5",
+   "latency_ms": 8928
+  }
+ },
+ "ask": {
+  "Which merchant categories have the highest decline rate?": {
+   "text": "Electronics & Appliances and Restaurants & Food Service decline far more applications than any other category. The figures cover July 2024 to June 2026.\n\n- **Electronics & Appliances:** 77.5% (93 of 120 applications declined)\n- **Restaurants & Food Service:** 60.0% (72 of 120)\n- **Furniture & Home Furnishings:** 31.7% (38 of 120)\n- **Clothing & Accessories:** 20.8%\n- **Health & Personal Care:** 15.8%\n- **Food & Beverage Stores:** 4.2%, the lowest\n\nEach category has only 120 applications over the period, so a few decisions can move these rates by several points. Treat them as directional.",
+   "sql": "WITH __mr AS (\n  SELECT\n    category_name,\n    month_end,\n    application_count,\n    declined_count\n  FROM SNOWPACK_MERCHANT_RISK.CORE.MERCHANT_RISK_BENCHMARK\n)\nSELECT\n  category_name,\n  SUM(declined_count) AS declined,\n  SUM(application_count) AS applications,\n  SUM(declined_count) / NULLIF(NULLIF(SUM(application_count), 0), 0) AS decline_rate,\n  MIN(month_end) AS start_month,\n  MAX(month_end) AS end_month\nFROM __mr\nGROUP BY\n  category_name\nORDER BY\n  decline_rate DESC NULLS LAST /* Generated by Cortex */;",
+   "table": {
+    "columns": [
+     "CATEGORY_NAME",
+     "DECLINED",
+     "APPLICATIONS",
+     "DECLINE_RATE",
+     "START_MONTH",
+     "END_MONTH"
+    ],
+    "rows": [
+     [
+      "Electronics & Appliances",
+      "93",
+      "120",
+      "0.775000",
+      "2024-07-31",
+      "2026-06-30"
+     ],
+     [
+      "Restaurants & Food Service",
+      "72",
+      "120",
+      "0.600000",
+      "2024-07-31",
+      "2026-06-30"
+     ],
+     [
+      "Furniture & Home Furnishings",
+      "38",
+      "120",
+      "0.316667",
+      "2024-07-31",
+      "2026-06-30"
+     ],
+     [
+      "Clothing & Accessories",
+      "25",
+      "120",
+      "0.208333",
+      "2024-07-31",
+      "2026-06-30"
+     ],
+     [
+      "Health & Personal Care",
+      "19",
+      "120",
+      "0.158333",
+      "2024-07-31",
+      "2026-06-30"
+     ],
+     [
+      "Food & Beverage Stores",
+      "5",
+      "120",
+      "0.041667",
+      "2024-07-31",
+      "2026-06-30"
+     ]
+    ]
+   },
+   "question": "Which merchant categories have the highest decline rate?",
+   "latency_ms": 26725
+  },
+  "How does the average risk score for C-Subprime compare to A-Prime?": {
+   "text": "C-Subprime applicants score about 14.8 points riskier than A-Prime applicants, on average. That's roughly 30% higher on the 0–100 scale. This covers July 2024 through June 2026.\n\n| Credit tier | Avg risk score | Applications |\n|---|---|---|\n| C-Subprime | 64.7 | 176 |\n| A-Prime | 49.9 | 170 |\n\nBoth tiers have fewer than 200 applications over the two years, so the averages could move noticeably as more applications come in.",
+   "sql": "WITH __mr AS (\n  SELECT\n    credit_tier,\n    month_end,\n    application_count,\n    risk_score_sum\n  FROM SNOWPACK_MERCHANT_RISK.CORE.MERCHANT_RISK_BENCHMARK\n)\nSELECT\n  credit_tier,\n  SUM(risk_score_sum) / NULLIF(NULLIF(SUM(application_count), 0), 0) AS avg_risk_score,\n  SUM(application_count) AS applications,\n  MIN(month_end) AS start_month,\n  MAX(month_end) AS end_month\nFROM __mr\nWHERE\n  credit_tier ILIKE 'A-Prime' OR credit_tier ILIKE 'C-Subprime'\nGROUP BY\n  credit_tier /* Generated by Cortex */;",
+   "table": null,
+   "question": "How does the average risk score for C-Subprime compare to A-Prime?",
+   "latency_ms": 11352
+  },
+  "What was the approval rate by credit tier in the first half of 2026?": {
+   "text": "In the first half of 2026 (January–June), approval rates fell sharply as credit quality got worse:\n\n- **A-Prime:** 25.0% (10 of 40 applications approved)\n- **B-NearPrime:** 11.9% (5 of 42)\n- **C-Subprime:** 1.9% (1 of 54)\n- **D-HighRisk:** 0.0% (0 of 44)\n\n\n\n\n\nEach tier had only 40–54 applications over the six months, so one approval more or less moves a tier's rate by about 2 to 2.5 percentage points. The differences between the lower tiers in particular could easily change from period to period.",
+   "sql": "WITH __mr AS (\n  SELECT\n    credit_tier,\n    month_end,\n    application_count,\n    approved_count\n  FROM SNOWPACK_MERCHANT_RISK.CORE.MERCHANT_RISK_BENCHMARK\n)\nSELECT\n  credit_tier,\n  SUM(approved_count) AS approved,\n  SUM(application_count) AS applications,\n  SUM(approved_count) / NULLIF(NULLIF(SUM(application_count), 0), 0) AS approval_rate,\n  MIN(month_end) AS start_month,\n  MAX(month_end) AS end_month\nFROM __mr\nWHERE\n  month_end >= '2026-01-01' AND month_end < '2026-07-01'\nGROUP BY\n  credit_tier\nORDER BY\n  approval_rate DESC NULLS LAST /* Generated by Cortex */;",
+   "table": {
+    "columns": [
+     "CREDIT_TIER",
+     "APPROVED",
+     "APPLICATIONS",
+     "APPROVAL_RATE",
+     "START_MONTH",
+     "END_MONTH"
+    ],
+    "rows": [
+     [
+      "A-Prime",
+      "10",
+      "40",
+      "0.250000",
+      "2026-01-31",
+      "2026-06-30"
+     ],
+     [
+      "B-NearPrime",
+      "5",
+      "42",
+      "0.119048",
+      "2026-01-31",
+      "2026-06-30"
+     ],
+     [
+      "C-Subprime",
+      "1",
+      "54",
+      "0.018519",
+      "2026-01-31",
+      "2026-06-30"
+     ],
+     [
+      "D-HighRisk",
+      "0",
+      "44",
+      "0.000000",
+      "2026-01-31",
+      "2026-06-30"
+     ]
+    ]
+   },
+   "question": "What was the approval rate by credit tier in the first half of 2026?",
+   "latency_ms": 26088
+  },
+  "Which month had the most declined Electronics & Appliances applications?": {
+   "text": "No single month stands out. Eight months are tied for the most declined Electronics & Appliances applications, with 5 declines each. In every one of those months, all 5 applications were declined, a 100% decline rate.\n\n\n\n\n\nThe most recent of the tied months is June 2026. Monthly counts in this category are small, so a tie is likely.\n\nThis category's numbers are unusual. From July 2024 to June 2026 it had 120 applications in total. 93 were declined (about 78%), 27 were referred, and none were approved. The decline records end in June 2026 and the refer records end in May 2026.",
+   "sql": "WITH __mr AS (\n  SELECT\n    category_name,\n    month_end,\n    application_count,\n    declined_count\n  FROM SNOWPACK_MERCHANT_RISK.CORE.MERCHANT_RISK_BENCHMARK\n)\nSELECT\n  month_end,\n  SUM(declined_count) AS declined_applications,\n  SUM(application_count) AS total_applications\nFROM __mr\nWHERE\n  category_name ILIKE '%Electronics%Appliance%'\nGROUP BY\n  month_end\nQUALIFY\n  RANK() OVER (ORDER BY SUM(declined_count) DESC) = 1\nORDER BY\n  month_end DESC /* Generated by Cortex */;",
+   "table": {
+    "columns": [
+     "MONTH_END",
+     "DECLINED_APPLICATIONS",
+     "TOTAL_APPLICATIONS"
+    ],
+    "rows": [
+     [
+      "2026-06-30",
+      "5",
+      "5"
+     ],
+     [
+      "2026-03-31",
+      "5",
+      "5"
+     ],
+     [
+      "2026-02-28",
+      "5",
+      "5"
+     ],
+     [
+      "2025-09-30",
+      "5",
+      "5"
+     ],
+     [
+      "2025-08-31",
+      "5",
+      "5"
+     ],
+     [
+      "2025-06-30",
+      "5",
+      "5"
+     ],
+     [
+      "2024-12-31",
+      "5",
+      "5"
+     ],
+     [
+      "2024-08-31",
+      "5",
+      "5"
+     ]
+    ]
+   },
+   "question": "Which month had the most declined Electronics & Appliances applications?",
+   "latency_ms": 22125
+  }
+ }
+}
