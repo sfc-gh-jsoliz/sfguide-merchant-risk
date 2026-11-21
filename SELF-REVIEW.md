@@ -1,6 +1,6 @@
 # Self-review (v2 rebuild, 2026-11-21)
 
-Each line of the build standard's "Before you call it done" list, the v2 additions, and every CONTRIBUTING **Must** (plus the Shoulds), marked **pass**, **fail** or **skipped**. All results are from this build session.
+Each item in the Snow Packs v2 self-check and every CONTRIBUTING **Must** (plus the Shoulds), marked **pass**, **fail** or **skipped**, checked on this branch.
 
 ## Before you call it done
 
@@ -13,7 +13,7 @@ Each line of the build standard's "Before you call it done" list, the v2 additio
 | Dark mode | **skipped**: the design is light-only (DESIGN.md); no dark variant was built |
 | Story beats visible in screenshots | **pass**: Electronics drift (Portfolio insight, Segments dumbbell), category and tier spread (Segments heatmap), decline reasons (Portfolio), verified note and agent answer |
 
-## v2 additions
+## v2 requirements
 
 | Check | Result |
 |---|---|
