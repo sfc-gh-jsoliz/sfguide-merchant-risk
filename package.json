@@ -1,0 +1,10 @@
+{
+  "name": "sfguide-merchant-risk",
+  "private": true,
+  "description": "Build helpers for the hosted example. The app itself is Streamlit (app/).",
+  "scripts": {
+    "generate": "python3 data/generate.py",
+    "build:example": "python3 scripts/build_example.py",
+    "serve": "python3 -m http.server 8000 --bind 127.0.0.1 --directory docs"
+  }
+}

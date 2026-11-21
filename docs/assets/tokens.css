@@ -1,0 +1,11 @@
+/* Design tokens from docs/DESIGN.md (shared by the landing page and the hosted example). */
+@font-face{font-family:"Instrument Sans";src:url("../fonts/instrument-sans-latin-400-normal.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url("../fonts/instrument-sans-latin-500-normal.woff2") format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url("../fonts/instrument-sans-latin-600-normal.woff2") format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url("../fonts/instrument-sans-latin-700-normal.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Red Hat Mono";src:url("../fonts/red-hat-mono-latin-400-normal.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Red Hat Mono";src:url("../fonts/red-hat-mono-latin-600-normal.woff2") format("woff2");font-weight:600;font-display:swap}
+:root{--ox900:#3D1019;--ox700:#5A1A28;--ox500:#7D2A3C;--oxSoft:#F4E6E8;--stone:#F3F1EE;--surface:#fff;--surface2:#ECE8E3;--line:#DCD6CF;--grid:#E7E1DA;
+--ink:#1E1A1B;--ink2:#4A4245;--muted:#655C5F;--steel:#36587A;--ap:#1D6B47;--apS:#DDF0E5;--rf:#8A5A00;--rfS:#FBEBCB;--dc:#B02A1E;--dcS:#F9E0DC;
+--apF:#2E8A5F;--rfF:#D49A1F;--dcF:#B02A1E;
+--sans:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"Red Hat Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
